@@ -1,0 +1,21 @@
+{
+  "name": "hydrogen-metafield-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnguyencodes/hydrogen-app-metafield-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/johnnguyencodes/hydrogen-app-metafield-editor/issues"
+  },
+  "homepage": "https://github.com/johnnguyencodes/hydrogen-app-metafield-editor#readme"
+}
