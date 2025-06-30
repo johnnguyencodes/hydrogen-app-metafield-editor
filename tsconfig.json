@@ -1,0 +1,36 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "composite": true,
+    "lib": ["esnext"], // Required for DOM and modern JS features
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    // "noEmit": true,
+    "esModuleInterop": true, // Ensure compatibility with CommonJS modules
+    "module": "node16",
+    "moduleResolution": "node16",
+    "resolveJsonModule": true,
+    "isolatedModules": true, // Ensures module-level isolation, useful for TypeScript + Babel
+    "incremental": true, // Speed up subsequent builds
+    "target": "ESNext",
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "types": ["node"], // Removed Playwright and Vitest typings
+    "paths": {
+      "@/*": ["./src/*"] // Keep your custom paths
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "src/tests/**/*.ts",
+    "src/global.d.ts",
+    "types"
+  ],
+  "exclude": ["node_modules"]
+}
