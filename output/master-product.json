@@ -1,0 +1,644 @@
+{
+  "products": {
+    "edges": [
+      {
+        "node": {
+          "title": "Mammillaria crucigera tlalocii 3",
+          "productType": "plants",
+          "tags": [],
+          "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>\n<p class=\"p1\"><strong>Surface and Spine Irregularities</strong></p>\n<p class=\"p1\">There’s a noticeable irregularity in the arrangement of tubercles across the midsection of the main stem. They are asymmetrically spaced and interspersed with tufts of wool-like trichomes, forming a band of rough, uneven spination.  </p>\n<p class=\"p1\">Along the upper edge of this band is a row of tubercles encircling the entire main stem that lack spines altogether, exposing more of the plant’s deep green epidermis than usual. This contrast sharply with the otherwise even, lace-like coverage of white spines originating from orange areoles that typically defines the species. I suspect the absence of spines along this row may be the result of phenotypic variation rather than physical damage. </p>\n<p class=\"p1\"><strong>Offset Development</strong></p>\n<p class=\"p1\">I’m especially excited to see how the smaller offsets along the stem continue to develop. When I first received this plant nearly six months ago, the offsets were buds that barely protruded outwards from the surface. Now that they are beginning to take shape, I can start speculating about how they might mature.</p>\n<p class=\"p1\">I expect the singular offsets along the main stem will develop the symmetrical, tightly packed tubercle patterns typical of mature specimens—similar to the larger offset at the base. However, there’s one double offset with noticeably wider tubercle spacing, and I’m hopeful it will continue to exhibit irregular traits.</p>\n<p class=\"p1\">-- June 19, 2025</p>",
+          "id": "gid://shopify/Product/9845069447451",
+          "status": "ACTIVE",
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "plant",
+                "key": "purchase-origin",
+                "value": "https://reddit.com/r/cactiexchange ",
+                "type": "single_line_text_field"
+              },
+              {
+                "namespace": "plant",
+                "key": "llifle-link",
+                "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii",
+                "type": "single_line_text_field"
+              },
+              {
+                "namespace": "plant",
+                "key": "journal",
+                "value": [
+                  {
+                    "date": "2024-03-15",
+                    "title": "First Day Home",
+                    "journal-type": "milestone",
+                    "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
+                  },
+                  {
+                    "date": "2024-03-20",
+                    "title": "First Watering",
+                    "journal-type": "entry",
+                    "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
+                  },
+                  {
+                    "date": "2024-03-27",
+                    "title": "New Growth",
+                    "journal-type": "entry",
+                    "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
+                  }
+                ],
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "growth-notes",
+                "value": [
+                  {
+                    "growth": "slow",
+                    "spines": "spikey"
+                  }
+                ],
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "carousel-copy",
+                "value": [
+                  {
+                    "date": "2024-03-15",
+                    "title": "First Day Home",
+                    "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
+                  },
+                  {
+                    "date": "2024-03-20",
+                    "title": "First Watering",
+                    "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
+                  },
+                  {
+                    "date": "2024-03-27",
+                    "title": "New Growth",
+                    "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
+                  }
+                ],
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "care-routine",
+                "value": [
+                  {
+                    "growth": "slow",
+                    "spines": "spikey"
+                  }
+                ],
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "acquired-from",
+                "value": "https://reddit.com/r/cactiexchange",
+                "type": "single_line_text_field"
+              },
+              {
+                "namespace": "plant",
+                "key": "llifle-database-link",
+                "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii",
+                "type": "single_line_text_field"
+              },
+              {
+                "namespace": "plant",
+                "key": "acquisition",
+                "value": {
+                  "method": "purchased",
+                  "supplier": "Cactus exchange community on Reddit",
+                  "date": "2025-01-06"
+                },
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "measurement",
+                "value": [
+                  {
+                    "height": "24 cm",
+                    "width": "24 cm",
+                    "pot": "2.5\" plastic pot",
+                    "date": "2025-01-01"
+                  }
+                ],
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "watering-frequency",
+                "value": "7 days",
+                "type": "single_line_text_field"
+              },
+              {
+                "namespace": "plant",
+                "key": "images",
+                "value": [
+                  {
+                    "alt": "first glamour shot",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--001.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 1
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--002.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 2
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--003.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 3
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--004.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 4
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--005.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 5
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--006.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 6
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--007.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 7
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--008.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 8
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--000.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 0
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--001.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 1
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--002.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 2
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--003.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 3
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--004.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 4
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--005.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 5
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--006.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 6
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--007.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 7
+                    }
+                  }
+                ],
+                "type": "json"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "title": "Mammillaria crucigera tlalocii 3 copy",
+          "productType": "plants",
+          "tags": [],
+          "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>\n<p class=\"p1\"><strong>Surface and Spine Irregularities</strong></p>\n<p class=\"p1\">There’s a noticeable irregularity in the arrangement of tubercles across the midsection of the main stem. They are asymmetrically spaced and interspersed with tufts of wool-like trichomes, forming a band of rough, uneven spination.  </p>\n<p class=\"p1\">Along the upper edge of this band is a row of tubercles encircling the entire main stem that lack spines altogether, exposing more of the plant’s deep green epidermis than usual. This contrast sharply with the otherwise even, lace-like coverage of white spines originating from orange areoles that typically defines the species. I suspect the absence of spines along this row may be the result of phenotypic variation rather than physical damage. </p>\n<p class=\"p1\"><strong>Offset Development</strong></p>\n<p class=\"p1\">I’m especially excited to see how the smaller offsets along the stem continue to develop. When I first received this plant nearly six months ago, the offsets were buds that barely protruded outwards from the surface. Now that they are beginning to take shape, I can start speculating about how they might mature.</p>\n<p class=\"p1\">I expect the singular offsets along the main stem will develop the symmetrical, tightly packed tubercle patterns typical of mature specimens—similar to the larger offset at the base. However, there’s one double offset with noticeably wider tubercle spacing, and I’m hopeful it will continue to exhibit irregular traits.</p>\n<p class=\"p1\">-- June 19, 2025</p>",
+          "id": "gid://shopify/Product/9914992197915",
+          "status": "ACTIVE",
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "plant",
+                "key": "acquired-from",
+                "value": "https://reddit.com/r/cactiexchange",
+                "type": "single_line_text_field"
+              },
+              {
+                "namespace": "plant",
+                "key": "acquisition",
+                "value": {
+                  "method": "purchased",
+                  "supplier": "Cactus exchange community on Reddit",
+                  "date": "2025-01-06"
+                },
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "care-routine",
+                "value": [
+                  {
+                    "growth": "slow",
+                    "spines": "spikey"
+                  }
+                ],
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "carousel-copy",
+                "value": [
+                  {
+                    "date": "2024-03-15",
+                    "title": "First Day Home",
+                    "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
+                  },
+                  {
+                    "date": "2024-03-20",
+                    "title": "First Watering",
+                    "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
+                  },
+                  {
+                    "date": "2024-03-27",
+                    "title": "New Growth",
+                    "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
+                  }
+                ],
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "growth-notes",
+                "value": [
+                  {
+                    "growth": "slow",
+                    "spines": "spikey"
+                  }
+                ],
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "images",
+                "value": [
+                  {
+                    "alt": "first glamour shot",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--001.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 1
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--002.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 2
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--003.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 3
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--004.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 4
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--005.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 5
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--006.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 6
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--007.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 7
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--008.webp"
+                    },
+                    "meta": {
+                      "date": "2025-05-25",
+                      "imageType": "carousel",
+                      "index": 8
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--000.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 0
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--001.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 1
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--002.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 2
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--003.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 3
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--004.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 4
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--005.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 5
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--006.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 6
+                    }
+                  },
+                  {
+                    "alt": "",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--007.webp"
+                    },
+                    "meta": {
+                      "date": "2025-01-12",
+                      "imageType": "carousel",
+                      "index": 7
+                    }
+                  }
+                ],
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "journal",
+                "value": [
+                  {
+                    "date": "2024-03-15",
+                    "title": "First Day Home",
+                    "journal-type": "milestone",
+                    "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
+                  },
+                  {
+                    "date": "2024-03-20",
+                    "title": "First Watering",
+                    "journal-type": "entry",
+                    "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
+                  },
+                  {
+                    "date": "2024-03-27",
+                    "title": "New Growth",
+                    "journal-type": "entry",
+                    "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
+                  }
+                ],
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "llifle-database-link",
+                "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii",
+                "type": "single_line_text_field"
+              },
+              {
+                "namespace": "plant",
+                "key": "llifle-link",
+                "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii",
+                "type": "single_line_text_field"
+              },
+              {
+                "namespace": "plant",
+                "key": "measurement",
+                "value": [
+                  {
+                    "height": "24 cm",
+                    "width": "24 cm",
+                    "pot": "2.5\" plastic pot",
+                    "date": "2025-01-01"
+                  }
+                ],
+                "type": "json"
+              },
+              {
+                "namespace": "plant",
+                "key": "purchase-origin",
+                "value": "https://reddit.com/r/cactiexchange ",
+                "type": "single_line_text_field"
+              },
+              {
+                "namespace": "plant",
+                "key": "watering-frequency",
+                "value": "7 days",
+                "type": "single_line_text_field"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
