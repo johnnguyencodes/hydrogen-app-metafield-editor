@@ -1,22 +1,16 @@
 import type { ProductsResponse } from "types/global";
 import { client } from "./newClientInstance";
 
-export async function fetchProductsAndMetafields(): Promise<
-  Array<{
-    id: string;
-    title: string;
-    metafields: Array<{ namespace: string; key: string; value: string }>;
-  }>
-> {
+export async function fetchProductsAndMetafields(): Promise<ProductsResponse> {
   const query = `{
     products(first: 250) {
       edges { node { 
+        id
         title
+        status
         productType
         tags
         descriptionHtml
-        id
-        status
         metafields(first: 250) {
           nodes {
             namespace
@@ -36,9 +30,7 @@ export async function fetchProductsAndMetafields(): Promise<
       throw new Error("No response data from Shopify");
     }
 
-    const data = response.data;
-
-    return data;
+    return response.data;
   } catch (err: any) {
     console.error("Connection failed:", err.response?.errors || err.message);
     process.exit(1);

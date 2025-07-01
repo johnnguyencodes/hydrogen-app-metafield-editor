@@ -2,12 +2,12 @@ export interface ProductsResponse {
   products: {
     edges: Array<{
       node: {
+        id: string;
         title: string;
+        status: string;
         productType: string;
         tags: string;
         descriptionHtml: string;
-        id: string;
-        status: string;
         metafields: Array<{
           node: { namespace: string; key: string; value: string; type: string };
         }>;
@@ -28,3 +28,10 @@ export interface FilesResponse {
     }>;
   };
 }
+
+export type PlantImage = {
+  alt: string;
+  image: {
+    url: string;
+  };
+};

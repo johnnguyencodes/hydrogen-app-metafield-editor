@@ -1,11 +1,9 @@
-import type { FilesResponse } from "types/global";
+import type { PlantImage, FilesResponse } from "types/global";
 import { client } from "./newClientInstance";
 
-export async function fetchPlantFilesFromAdmin(): Promise<
-  Array<{ alt: string; image: { url: string } }>
-> {
+export async function fetchPlantFilesFromAdmin(): Promise<PlantImage[]> {
   const query = `{
-    files(first: 100) {
+    files(first: 250) {
       edges {
         node {
           ... on MediaImage {
@@ -28,7 +26,7 @@ export async function fetchPlantFilesFromAdmin(): Promise<
 
     const data = response.data;
 
-    const plantImages = data.files.edges
+    const plantImages: PlantImage[] = data.files.edges
       .map((edge) => edge.node)
       .filter((file) => file.image.url.includes("plants--"));
 
