@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "verify": "node --loader ts-node/esm src/script.ts"
+    "script": "node --loader ts-node/esm src/script.ts"
   },
   "repository": {
     "type": "git",

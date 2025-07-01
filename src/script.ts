@@ -3,7 +3,7 @@ import { shopifyApi, LATEST_API_VERSION, Session } from "@shopify/shopify-api";
 import { restResources } from "@shopify/shopify-api/rest/admin/2025-04";
 import dotenv from "dotenv";
 import { MemorySessionStorage } from "@shopify/shopify-app-session-storage-memory";
-import type { ProductsResponse } from "types/global";
+import type { ProductsResponse, FilesResponse } from "types/global";
 
 dotenv.config();
 
@@ -75,6 +75,7 @@ async function verify() {
     const data = response.data;
 
     console.log("✅ Connected! First 3 products:");
+
     console.table(
       data.products.edges.map((e) => ({
         id: e.node.id,
@@ -87,4 +88,43 @@ async function verify() {
   }
 }
 
-verify();
+async function pullFilesFromAdmin() {
+  const query = `{
+    files(first: 100) {
+      edges {
+        node {
+          ... on MediaImage {
+            alt
+            image {
+              url
+            }
+          }
+        }
+      }
+    }
+  }`;
+
+  try {
+    const response = await client.request<FilesResponse>(query);
+
+    if (!response.data) {
+      throw new Error("No response data from Shopify");
+    }
+
+    const data = response.data;
+
+    console.log("✅ Connected! First 100 images");
+
+    console.table(
+      data.files.edges.map(({ node }) => ({
+        alt: node.alt,
+        url: node.image.url,
+      }))
+    );
+  } catch (err: any) {
+    console.error("Connection failed:", err.response?.errors || err.message);
+    process.exit(1);
+  }
+}
+
+pullFilesFromAdmin();
