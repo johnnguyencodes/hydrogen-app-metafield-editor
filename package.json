@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "verify": "node --loader ts-node/esm src/script.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,8 @@
   },
   "homepage": "https://github.com/johnnguyencodes/hydrogen-app-metafield-editor#readme",
   "dependencies": {
+    "@shopify/shopify-api": "^11.13.0",
+    "@shopify/shopify-app-session-storage-memory": "^4.0.18",
     "dotenv": "^17.0.0"
   },
   "devDependencies": {
