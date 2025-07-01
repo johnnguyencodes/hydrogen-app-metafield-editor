@@ -74,7 +74,7 @@ async function verify() {
 
     const data = response.data;
 
-    console.log("✅ Connected! First 3 products:");
+    console.log("Connected! First 3 products:");
 
     console.table(
       data.products.edges.map((e) => ({
@@ -88,7 +88,7 @@ async function verify() {
   }
 }
 
-async function pullFilesFromAdmin() {
+export async function pullFilesFromAdmin() {
   const query = `{
     files(first: 100) {
       edges {
@@ -113,18 +113,14 @@ async function pullFilesFromAdmin() {
 
     const data = response.data;
 
-    console.log("✅ Connected! First 100 images");
+    const plantImages = data.files.edges
+      .map((edge) => edge.node)
+      .filter((file) => file.image.url.includes("plants--"));
 
-    console.table(
-      data.files.edges.map(({ node }) => ({
-        alt: node.alt,
-        url: node.image.url,
-      }))
-    );
+    console.log(`Found ${plantImages.length} plant image files`);
+    return plantImages;
   } catch (err: any) {
     console.error("Connection failed:", err.response?.errors || err.message);
     process.exit(1);
   }
 }
-
-pullFilesFromAdmin();
