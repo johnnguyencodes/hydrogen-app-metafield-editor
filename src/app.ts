@@ -1,11 +1,11 @@
 import { promises as fs } from "node:fs";
 import path from "path";
-import { fetchPlantFilesFromAdmin } from "./lib/fetchPlantFilesFromAdmin";
+import { fetchAdminFiles } from "./lib/fetchAdminFiles";
 import { fetchProductsAndMetafields } from "./lib/fetchProductsAndMetafields";
 
 async function main() {
   try {
-    const response = await fetchPlantFilesFromAdmin();
+    const response = await fetchAdminFiles();
     const data = JSON.stringify(response, null, 2);
 
     const outPath = path.resolve(process.cwd(), "output/master-image.json");
