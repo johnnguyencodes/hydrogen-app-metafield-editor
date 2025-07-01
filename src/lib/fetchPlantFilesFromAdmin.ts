@@ -1,4 +1,6 @@
 import "@shopify/shopify-api/adapters/node";
+import { promises as fs } from "fs";
+import path from "path";
 import { shopifyApi, LATEST_API_VERSION, Session } from "@shopify/shopify-api";
 import { restResources } from "@shopify/shopify-api/rest/admin/2025-04";
 import dotenv from "dotenv";
@@ -88,7 +90,9 @@ async function verify() {
   }
 }
 
-export async function pullFilesFromAdmin() {
+export async function fetchPlantFilesFromAdmin(): Promise<
+  Array<{ alt: string; image: { url: string } }>
+> {
   const query = `{
     files(first: 100) {
       edges {
