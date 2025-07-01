@@ -3,6 +3,7 @@ import { shopifyApi, LATEST_API_VERSION, Session } from "@shopify/shopify-api";
 import { restResources } from "@shopify/shopify-api/rest/admin/2025-04";
 import dotenv from "dotenv";
 import { MemorySessionStorage } from "@shopify/shopify-app-session-storage-memory";
+import type { ProductsResponse } from "types/global";
 
 dotenv.config();
 
@@ -57,12 +58,6 @@ const session = new Session({
 
 const client = new shopify.clients.Graphql({ session });
 
-interface ProductsResponse {
-  products: {
-    edges: Array<{ node: { id: string; title: string } }>;
-  };
-}
-
 async function verify() {
   const query = `{
     products(first: 3) {
@@ -87,7 +82,7 @@ async function verify() {
       }))
     );
   } catch (err: any) {
-    console.error("❌ Connection failed:", err.response?.errors || err.message);
+    console.error("Connection failed:", err.response?.errors || err.message);
     process.exit(1);
   }
 }
