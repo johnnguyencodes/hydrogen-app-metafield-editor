@@ -13,8 +13,8 @@
     "strict": true,
     // "noEmit": true,
     "esModuleInterop": true, // Ensure compatibility with CommonJS modules
-    "module": "node16",
-    "moduleResolution": "node16",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
     "isolatedModules": true, // Ensures module-level isolation, useful for TypeScript + Babel
     "incremental": true, // Speed up subsequent builds
@@ -25,12 +25,19 @@
       "@/*": ["./src/*"] // Keep your custom paths
     }
   },
+  "ts-node": {
+    "experimentalSpecifierResolution": "node",
+    "experimentalResolver": true,
+    "transpileOnly": false,
+    "esm": true,
+    "logError": true
+  },
   "include": [
     "**/*.ts",
-    "**/*.tsx",
+    "src/**/*.ts",
     "src/tests/**/*.ts",
     "src/global.d.ts",
     "types"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "src/**/*.d.ts"]
 }
