@@ -3,18 +3,40 @@ export interface ProductsResponse {
     edges: Array<{
       node: {
         id: string;
+        handle: string;
         title: string;
         status: string;
         productType: string;
         tags: string;
         descriptionHtml: string;
-        metafields: Array<{
-          node: { namespace: string; key: string; value: string; type: string };
-        }>;
+        metafields: {
+          nodes: Array<{
+            namespace: string;
+            key: string;
+            value: string;
+            type: string;
+          }>;
+        };
       };
     }>;
   };
 }
+
+export type ProductData = {
+  id: string;
+  handle: string;
+  title: string;
+  status: string;
+  productType: string;
+  tags: string;
+  descriptionHtml: string;
+  metafields: Array<{
+    namespace: string;
+    key: string;
+    value: string;
+    type: string;
+  }>;
+};
 
 export interface FilesResponse {
   files: {
@@ -29,7 +51,7 @@ export interface FilesResponse {
   };
 }
 
-export type PlantImage = {
+export type AdminFile = {
   alt: string;
   image: {
     url: string;

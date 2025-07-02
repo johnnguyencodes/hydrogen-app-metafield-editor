@@ -1,7 +1,7 @@
-import type { PlantImage, FilesResponse } from "types/global";
+import type { FilesResponse, AdminFile } from "types/global";
 import { client } from "./newClientInstance";
 
-export async function fetchPlantFilesFromAdmin(): Promise<PlantImage[]> {
+export async function fetchAdminFiles(): Promise<AdminFile[]> {
   const query = `{
     files(first: 250) {
       edges {
@@ -26,12 +26,10 @@ export async function fetchPlantFilesFromAdmin(): Promise<PlantImage[]> {
 
     const data = response.data;
 
-    const plantImages: PlantImage[] = data.files.edges
-      .map((edge) => edge.node)
-      .filter((file) => file.image.url.includes("plants--"));
+    const adminFiles: AdminFile[] = data.files.edges.map((edge) => edge.node);
 
-    console.log(`Found ${plantImages.length} plant image files`);
-    return plantImages;
+    console.log(`Found ${adminFiles.length} files`);
+    return adminFiles;
   } catch (err: any) {
     console.error("Connection failed:", err.response?.errors || err.message);
     process.exit(1);
