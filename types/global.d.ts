@@ -3,6 +3,7 @@ export interface ProductsResponse {
     edges: Array<{
       node: {
         id: string;
+        handle: string;
         title: string;
         status: string;
         productType: string;
@@ -23,6 +24,7 @@ export interface ProductsResponse {
 
 export type ProductData = {
   id: string;
+  handle: string;
   title: string;
   status: string;
   productType: string;

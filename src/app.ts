@@ -39,6 +39,27 @@ async function main() {
     console.error(err);
     process.exit(1);
   }
+
+  try {
+    const masterImagePath = path.resolve(
+      process.cwd(),
+      "output/master-product.json"
+    );
+    const jsonData = await fs.readFile(masterImagePath, "utf-8");
+    const parsedData = JSON.parse(jsonData);
+
+    for (const product of parsedData) {
+      const handle = product.handle;
+      const data = product;
+      const outPath = path.resolve(
+        process.cwd(),
+        `product-data/plants/${handle}.json`
+      );
+      await fs.writeFile(outPath, JSON.stringify(data, null, 2), "utf-8");
+    }
+  } catch (err) {
+    console.error(err);
+  }
 }
 
 main();

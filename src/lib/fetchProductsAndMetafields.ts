@@ -6,6 +6,7 @@ export async function fetchProductsAndMetafields(): Promise<ProductData[]> {
     products(first: 250) {
       edges { node { 
         id
+        handle
         title
         status
         productType
@@ -34,6 +35,7 @@ export async function fetchProductsAndMetafields(): Promise<ProductData[]> {
 
     const productsData: ProductData[] = data.products.edges.map(({ node }) => ({
       id: node.id,
+      handle: node.handle,
       title: node.title,
       status: node.status,
       productType: node.productType,
