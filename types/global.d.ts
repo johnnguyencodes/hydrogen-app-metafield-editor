@@ -7,14 +7,14 @@ export interface ProductsResponse {
         title: string;
         status: string;
         productType: string;
-        tags: string;
+        tags: Array<{ string }>;
         descriptionHtml: string;
         metafields: {
           nodes: Array<{
             namespace: string;
             key: string;
-            value: string;
             type: string;
+            value: string;
           }>;
         };
       };
@@ -28,13 +28,13 @@ export type ProductData = {
   title: string;
   status: string;
   productType: string;
-  tags: string;
+  tags: Array<{ string }>;
   descriptionHtml: string;
   metafields: Array<{
     namespace: string;
     key: string;
-    value: string;
     type: string;
+    value: string;
   }>;
 };
 
