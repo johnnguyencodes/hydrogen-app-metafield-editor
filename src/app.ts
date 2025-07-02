@@ -51,12 +51,14 @@ async function main() {
     for (const product of parsedData) {
       const handle = product.handle;
       const data = product;
+      const productType = product.productType;
       const outPath = path.resolve(
         process.cwd(),
-        `product-data/plants/${handle}.json`
+        `product-data/${productType}/${handle}.json`
       );
       await fs.writeFile(outPath, JSON.stringify(data, null, 2), "utf-8");
     }
+    console.log("product json files written successfully");
   } catch (err) {
     console.error(err);
   }
