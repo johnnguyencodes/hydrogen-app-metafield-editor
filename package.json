@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "app": "node --loader ts-node/esm src/app.ts"
+    "app": "node --loader ts-node/esm src/app.ts",
+    "watch": "node --loader ts-node/esm src/lib/watchForChangesInDirectory.ts"
   },
   "repository": {
     "type": "git",
