@@ -43,17 +43,62 @@ export interface FilesResponse {
     edges: Array<{
       node: {
         alt: string;
-        image: {
+        url?: string;
+        image?: {
           url: string;
+          width: number;
+          height: number;
         };
+        duration?: number;
+        preview?: {
+          status: string;
+          image: {
+            url: string;
+            width: number;
+            height: number;
+          };
+        };
+        originalSource?: {
+          url: string;
+          width: number;
+          height: number;
+          format: string;
+          mimeType: string;
+        };
+        sources?: Array<{
+          url: string;
+          width: number;
+          height: number;
+          format: string;
+          mimeType: string;
+        }>;
       };
     }>;
   };
 }
 
-export type AdminFile = {
+export type AdminFile = FilesResponse["files"]["edges"][number]["node"];
+
+export type AdminImage = {
+  id: string;
   alt: string;
   image: {
     url: string;
   };
+};
+
+export type AdminImageWithMetadata = AdminImage & {
+  meta: {
+    date: Date;
+    imageType: string;
+    index: number;
+  };
+};
+
+export type ProductImageProps = {
+  image: ProductVariantFragment["image"];
+  key: string | number;
+  alt: string;
+  id: string;
+  className?: string;
 };

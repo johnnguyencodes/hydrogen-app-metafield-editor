@@ -4,18 +4,21 @@ import { fetchAdminFiles } from "./lib/fetchAdminFiles";
 import { fetchProductsAndMetafields } from "./lib/fetchProductsAndMetafields";
 
 async function productSync() {
+  // fetch admin files and write them to a json file for later processing
   try {
     const response = await fetchAdminFiles();
+    console.log("response from media:", response);
     const data = JSON.stringify(response, null, 2);
 
-    const outPath = path.resolve(process.cwd(), "output/master-image.json");
+    const outPath = path.resolve(process.cwd(), "output/master-media.json");
     await fs.writeFile(outPath, data, "utf-8");
-    console.log("master-image.json written successfully");
+    console.log("master-media.json written successfully");
   } catch (err) {
     console.error(err);
     process.exit(1);
   }
 
+  // fetching all products and metafields and writing them to a json file for later processing
   try {
     const response = await fetchProductsAndMetafields();
     const text = JSON.stringify(
@@ -40,12 +43,13 @@ async function productSync() {
     process.exit(1);
   }
 
+  // read through the master product json data and chunk it out to individual product json files.
   try {
-    const masterImagePath = path.resolve(
+    const masterProductPath = path.resolve(
       process.cwd(),
       "output/master-product.json"
     );
-    const jsonData = await fs.readFile(masterImagePath, "utf-8");
+    const jsonData = await fs.readFile(masterProductPath, "utf-8");
     const parsedData = JSON.parse(jsonData);
 
     for (const product of parsedData) {

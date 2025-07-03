@@ -6,10 +6,47 @@ export async function fetchAdminFiles(): Promise<AdminFile[]> {
     files(first: 250) {
       edges {
         node {
+          alt
+          ... on Model3d {
+            sources {
+              url
+              format
+              mimeType
+            }
+          }
+          ... on GenericFile {
+            url
+          }
           ... on MediaImage {
-            alt
             image {
               url
+              width
+              height
+            }
+          }
+          ... on Video {
+            duration
+            preview {
+              status
+              image {
+                url
+                width
+                height
+              }
+            }    
+            originalSource {
+              url
+              width
+              height
+              format
+              mimeType
+            }
+            sources {
+              url
+              width
+              height
+              format
+              mimeType
             }
           }
         }
