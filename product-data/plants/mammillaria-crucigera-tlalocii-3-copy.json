@@ -4,7 +4,10 @@
   "title": "Mammillaria crucigera tlalocii 3 copy",
   "status": "ACTIVE",
   "productType": "plants",
-  "tags": ["tag-1", "tag-2"],
+  "tags": [
+    "tag-1",
+    "tag-2"
+  ],
   "descriptionHtml": "<p class=\"p1\">Hello!!!!!!!!!!!! There!!!</p>",
   "metafields": [
     {

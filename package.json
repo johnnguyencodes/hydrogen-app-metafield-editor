@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "app": "node --loader ts-node/esm src/app.ts",
+    "sync": "node --loader ts-node/esm src/productSync.ts",
     "watch": "node --loader ts-node/esm src/watchForChangesInDirectory.ts"
   },
   "repository": {
