@@ -7,7 +7,8 @@
     "test": "jest",
     "build": "tsc",
     "sync": "node --loader ts-node/esm src/productSync.ts",
-    "watch": "node --loader ts-node/esm src/watchForChangesInDirectory.ts"
+    "watch": "node --loader ts-node/esm src/watchForChangesInDirectory.ts",
+    "sort": "node --loader ts-node/esm src/sortAdminFiles.ts"
   },
   "repository": {
     "type": "git",

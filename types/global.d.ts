@@ -67,8 +67,8 @@ export interface FilesResponse {
         };
         sources?: Array<{
           url: string;
-          width: number;
-          height: number;
+          width?: number;
+          height?: number;
           format: string;
           mimeType: string;
         }>;

@@ -2,7 +2,7 @@
   {
     "alt": "",
     "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--001.webp?v=1748282225",
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--001.webp?v=1751573604",
       "width": 2268,
       "height": 2268
     }
@@ -10,7 +10,7 @@
   {
     "alt": "",
     "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--007.webp?v=1748282225",
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--007.webp?v=1751573589",
       "width": 2268,
       "height": 2268
     }
@@ -18,7 +18,7 @@
   {
     "alt": "",
     "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--004.webp?v=1748282225",
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--004.webp?v=1751573571",
       "width": 2268,
       "height": 2268
     }
@@ -26,7 +26,7 @@
   {
     "alt": "",
     "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--005.webp?v=1748282225",
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--005.webp?v=1751573559",
       "width": 2268,
       "height": 2268
     }
@@ -34,7 +34,7 @@
   {
     "alt": "",
     "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--002.webp?v=1748282225",
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--002.webp?v=1751573548",
       "width": 2268,
       "height": 2268
     }
@@ -42,7 +42,7 @@
   {
     "alt": "",
     "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--000.webp?v=1748282225",
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--000.webp?v=1751573535",
       "width": 2268,
       "height": 2268
     }
@@ -50,7 +50,7 @@
   {
     "alt": "",
     "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--006.webp?v=1748282225",
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--006.webp?v=1751573523",
       "width": 2268,
       "height": 2268
     }
@@ -58,7 +58,7 @@
   {
     "alt": "",
     "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--003.webp?v=1748282225",
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--003.webp?v=1751573505",
       "width": 2268,
       "height": 2268
     }
@@ -130,24 +130,39 @@
   {
     "alt": "this is a gif",
     "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/jota.gif?v=1751566065",
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025-07-03--journal--000.gif?v=1751576530",
       "width": 640,
       "height": 640
     }
   },
   {
-    "alt": "This is an mp4 file",
+    "alt": "",
+    "sources": [
+      {
+        "url": "https://cdn.shopify.com/3d/models/o/7dfc40dd9ad0a191/plants--pseudolithos-migiurtinus--2024-12-08--model--000.glb",
+        "format": "glb",
+        "mimeType": "model/gltf-binary"
+      },
+      {
+        "url": "https://cdn.shopify.com/3d/models/o/da6e8f432fc4e7c0/plants--pseudolithos-migiurtinus--2024-12-08--model--000.usdz",
+        "format": "usdz",
+        "mimeType": "model/vnd.usdz+zip"
+      }
+    ]
+  },
+  {
+    "alt": "",
     "duration": 60000,
     "preview": {
       "status": "READY",
       "image": {
-        "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/preview_images/1f74db84d39c4dde908abc73f4b16900.thumbnail.0000000000.jpg?v=1751566299",
+        "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/preview_images/7a7b13c6479141508e33a2f0d29c4457.thumbnail.0000000000.jpg?v=1751583644",
         "width": 640,
         "height": 360
       }
     },
     "originalSource": {
-      "url": "https://cdn.shopify.com/videos/c/o/v/1f74db84d39c4dde908abc73f4b16900.mp4",
+      "url": "https://cdn.shopify.com/videos/c/o/v/7a7b13c6479141508e33a2f0d29c4457.mp4",
       "width": 640,
       "height": 360,
       "format": "mp4",
@@ -155,26 +170,11 @@
     },
     "sources": [
       {
-        "url": "https://cdn.shopify.com/videos/c/vp/1f74db84d39c4dde908abc73f4b16900/1f74db84d39c4dde908abc73f4b16900.SD-480p-0.9Mbps-50521242.mp4",
+        "url": "https://cdn.shopify.com/videos/c/vp/7a7b13c6479141508e33a2f0d29c4457/7a7b13c6479141508e33a2f0d29c4457.SD-480p-0.9Mbps-50540213.mp4",
         "width": 852,
         "height": 480,
         "format": "mp4",
         "mimeType": "video/mp4"
-      }
-    ]
-  },
-  {
-    "alt": "This is a model file",
-    "sources": [
-      {
-        "url": "https://cdn.shopify.com/3d/models/o/d0a7cd6d87648902/12_8_2024.glb",
-        "format": "glb",
-        "mimeType": "model/gltf-binary"
-      },
-      {
-        "url": "https://cdn.shopify.com/3d/models/o/3369e3eae041caa8/12_8_2024.usdz",
-        "format": "usdz",
-        "mimeType": "model/vnd.usdz+zip"
       }
     ]
   }
