@@ -5,7 +5,7 @@
   "status": "ACTIVE",
   "productType": "plants",
   "tags": ["tag-1", "tag-2"],
-  "descriptionHtml": "<p class=\"p1\">Hello!!!!!!!!</p>",
+  "descriptionHtml": "<p class=\"p1\">Hello!!!!!!!!!!!! There!!!</p>",
   "metafields": [
     {
       "namespace": "plant",

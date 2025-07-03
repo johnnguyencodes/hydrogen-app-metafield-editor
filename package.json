@@ -24,6 +24,7 @@
   "dependencies": {
     "@shopify/shopify-api": "^11.13.0",
     "@shopify/shopify-app-session-storage-memory": "^4.0.18",
+    "chokidar": "^4.0.3",
     "dotenv": "^17.0.0"
   },
   "devDependencies": {

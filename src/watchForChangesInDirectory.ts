@@ -1,35 +1,28 @@
-import { watch } from "node:fs";
-import { promises as fs } from "node:fs";
+import chokidar from "chokidar";
 import path from "path";
+import { promises as fs } from "node:fs";
 import { client } from "./lib/newClientInstance";
 import type { ProductData } from "../types/global";
 
 export function watchForChangesInDirectory(destination: string) {
-  try {
-    const directoryToWatch = path.resolve(process.cwd(), destination);
+  const directoryToWatch = path.resolve(process.cwd(), destination);
+  const watcher = chokidar.watch(directoryToWatch, {
+    ignoreInitial: true,
+    awaitWriteFinish: {
+      stabilityThreshold: 200,
+      pollInterval: 100,
+    },
+  });
 
-    watch(directoryToWatch, { recursive: true }, (eventType, filename) => {
-      if (!filename) {
-        console.error("no filename");
-        return;
-      }
-
-      if (eventType !== "change" && eventType !== "rename") return;
-
-      const fullPath = path.join(directoryToWatch, filename.toString());
-
-      console.log("eventType and fullPath:", eventType, fullPath);
-
-      try {
-        pushProductData(fullPath);
-      } catch (err) {
-        console.error(`could not update ${filename} in Shopify store:`, err);
-      }
-    });
-    console.log(`watching for file changes in ${destination}`);
-  } catch (err) {
-    console.error(err);
-  }
+  console.log(`watching for changes at ${directoryToWatch}`);
+  watcher.on("add", (path) => {
+    console.log(`file add detected at ${path}`);
+    pushProductData(path);
+  });
+  watcher.on("change", (path) => {
+    console.log(`file change detected at ${path}`);
+    pushProductData(path);
+  });
 }
 
 watchForChangesInDirectory("product-data");
