@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "app": "node --loader ts-node/esm src/app.ts",
-    "watch": "node --loader ts-node/esm src/lib/watchForChangesInDirectory.ts"
+    "sync": "node --loader ts-node/esm src/productSync.ts",
+    "watch": "node --loader ts-node/esm src/watchForChangesInDirectory.ts"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "dependencies": {
     "@shopify/shopify-api": "^11.13.0",
     "@shopify/shopify-app-session-storage-memory": "^4.0.18",
+    "chokidar": "^4.0.3",
     "dotenv": "^17.0.0"
   },
   "devDependencies": {

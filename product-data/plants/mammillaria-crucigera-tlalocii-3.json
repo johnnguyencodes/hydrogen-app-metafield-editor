@@ -10,18 +10,19 @@
     {
       "namespace": "plant",
       "key": "purchase-origin",
-      "value": "https://reddit.com/r/cactiexchange ",
-      "type": "single_line_text_field"
+      "type": "single_line_text_field",
+      "value": "https://reddit.com/r/cactiexchange "
     },
     {
       "namespace": "plant",
       "key": "llifle-link",
-      "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii",
-      "type": "single_line_text_field"
+      "type": "single_line_text_field",
+      "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii"
     },
     {
       "namespace": "plant",
       "key": "journal",
+      "type": "json",
       "value": [
         {
           "date": "2024-03-15",
@@ -41,23 +42,23 @@
           "journal-type": "entry",
           "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
         }
-      ],
-      "type": "json"
+      ]
     },
     {
       "namespace": "plant",
       "key": "growth-notes",
+      "type": "json",
       "value": [
         {
           "growth": "slow",
           "spines": "spikey"
         }
-      ],
-      "type": "json"
+      ]
     },
     {
       "namespace": "plant",
       "key": "carousel-copy",
+      "type": "json",
       "value": [
         {
           "date": "2024-03-15",
@@ -74,45 +75,45 @@
           "title": "New Growth",
           "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
         }
-      ],
-      "type": "json"
+      ]
     },
     {
       "namespace": "plant",
       "key": "care-routine",
+      "type": "json",
       "value": [
         {
           "growth": "slow",
           "spines": "spikey"
         }
-      ],
-      "type": "json"
+      ]
     },
     {
       "namespace": "plant",
       "key": "acquired-from",
-      "value": "https://reddit.com/r/cactiexchange",
-      "type": "single_line_text_field"
+      "type": "single_line_text_field",
+      "value": "https://reddit.com/r/cactiexchange"
     },
     {
       "namespace": "plant",
       "key": "llifle-database-link",
-      "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii",
-      "type": "single_line_text_field"
+      "type": "single_line_text_field",
+      "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii"
     },
     {
       "namespace": "plant",
       "key": "acquisition",
+      "type": "json",
       "value": {
         "method": "purchased",
         "supplier": "Cactus exchange community on Reddit",
         "date": "2025-01-06"
-      },
-      "type": "json"
+      }
     },
     {
       "namespace": "plant",
       "key": "measurement",
+      "type": "json",
       "value": [
         {
           "height": "24 cm",
@@ -120,18 +121,18 @@
           "pot": "2.5\" plastic pot",
           "date": "2025-01-01"
         }
-      ],
-      "type": "json"
+      ]
     },
     {
       "namespace": "plant",
       "key": "watering-frequency",
-      "value": "7 days",
-      "type": "single_line_text_field"
+      "type": "single_line_text_field",
+      "value": "7 days"
     },
     {
       "namespace": "plant",
       "key": "images",
+      "type": "json",
       "value": [
         {
           "alt": "first glamour shot",
@@ -309,8 +310,7 @@
             "index": 7
           }
         }
-      ],
-      "type": "json"
+      ]
     }
   ]
 }

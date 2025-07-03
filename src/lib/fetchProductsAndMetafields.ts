@@ -16,8 +16,8 @@ export async function fetchProductsAndMetafields(): Promise<ProductData[]> {
           nodes {
             namespace
             key
-            value
             type
+            value
           }
         }  
       }}

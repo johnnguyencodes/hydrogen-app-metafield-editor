@@ -3,7 +3,7 @@ import path from "path";
 import { fetchAdminFiles } from "./lib/fetchAdminFiles";
 import { fetchProductsAndMetafields } from "./lib/fetchProductsAndMetafields";
 
-async function main() {
+async function productSync() {
   try {
     const response = await fetchAdminFiles();
     const data = JSON.stringify(response, null, 2);
@@ -64,4 +64,4 @@ async function main() {
   }
 }
 
-main();
+productSync();
