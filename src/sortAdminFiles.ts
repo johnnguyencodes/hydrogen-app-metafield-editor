@@ -135,18 +135,18 @@ async function run() {
     );
 
     if (mediaMetafield) {
-      mediaMetafield.value = JSON.stringify(nodes);
+      mediaMetafield.value = nodes;
     } else {
       doc.metafields.push({
         namespace: "plant",
         key: "images",
         type: "json",
-        value: JSON.stringify(nodes),
+        value: nodes,
       });
     }
 
     await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
-    console.log(`Injectd ${nodes.length} items into ${targetFile}`);
+    console.log(`Injected ${nodes.length} items into ${targetFile}`);
   }
 }
 
