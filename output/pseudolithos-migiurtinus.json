@@ -5,6 +5,12 @@
       "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025-07-03--journal--000.gif?v=1751576530",
       "width": 640,
       "height": 640
+    },
+    "meta": {
+      "date": "2025-07-03",
+      "category": "journal",
+      "index": "000",
+      "ext": "gif"
     }
   },
   {
@@ -20,6 +26,46 @@
         "format": "usdz",
         "mimeType": "model/vnd.usdz+zip"
       }
-    ]
+    ],
+    "meta": {
+      "date": "2024-12-08",
+      "category": "model",
+      "index": "000",
+      "ext": "glb"
+    }
+  },
+  {
+    "alt": "plants--pseudolithos-migiurtinus--2025-07-03--carousel--000.mp4",
+    "duration": 60000,
+    "preview": {
+      "status": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/preview_images/7a7b13c6479141508e33a2f0d29c4457.thumbnail.0000000000.jpg?v=1751583644",
+        "width": 640,
+        "height": 360
+      }
+    },
+    "originalSource": {
+      "url": "https://cdn.shopify.com/videos/c/o/v/7a7b13c6479141508e33a2f0d29c4457.mp4",
+      "width": 640,
+      "height": 360,
+      "format": "mp4",
+      "mimeType": "video/mp4"
+    },
+    "sources": [
+      {
+        "url": "https://cdn.shopify.com/videos/c/vp/7a7b13c6479141508e33a2f0d29c4457/7a7b13c6479141508e33a2f0d29c4457.SD-480p-0.9Mbps-50540213.mp4",
+        "width": 852,
+        "height": 480,
+        "format": "mp4",
+        "mimeType": "video/mp4"
+      }
+    ],
+    "meta": {
+      "date": "2025-07-03",
+      "category": "carousel",
+      "index": "000",
+      "ext": "mp4"
+    }
   }
 ]

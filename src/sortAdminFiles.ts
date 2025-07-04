@@ -32,25 +32,38 @@ function filenameFromUrl(fullUrl: string): string {
   // extracting only the name of the file with no extension
   const cleanedUrl = fullUrl.split("?")[0];
   const filenameWithExt = cleanedUrl.split("/").pop()!;
-  const fileNameNoExt = filenameWithExt.split(".")[0];
 
-  return fileNameNoExt;
+  return filenameWithExt;
 }
 
 function parseMeta(filename: string) {
-  const [productType, handle, date, category, index] = filename.split("--");
-  return { productType, handle, date, category, index };
+  const [productType, handle, date, category, indexWithExt] =
+    filename.split("--");
+  const index = indexWithExt.split(".")[0];
+  const ext = indexWithExt.split(".").pop()!;
+  return { productType, handle, date, category, index, ext };
 }
 
 async function run() {
   const allMedia = await loadMedia();
+  // Create data structure to hold all unique handles
   const byHandle = new Map<string, any[]>();
 
   for (const node of allMedia) {
     const url = extractUrl(node);
     if (!url) continue;
     const fileName = filenameFromUrl(url);
-    const { handle } = parseMeta(fileName);
+    const { productType, handle, date, category, index, ext } =
+      parseMeta(fileName);
+
+    const meta = {
+      date: date,
+      category: category,
+      index: index,
+      ext: ext,
+    };
+
+    node.meta = meta;
 
     if (!byHandle.has(handle)) {
       byHandle.set(handle, []);
