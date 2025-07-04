@@ -2,6 +2,13 @@ import type { MediaFileWithMetadata } from "types/global";
 import { promises as fs } from "node:fs";
 import path from "path";
 
+// Each media file pulled from Shopify's admin API is a file object. Each object has an image.url that must be named with the following structure
+// `${productType}--${product.handle}--YYYY-MM-DD--${imageType}--${index}.${fileExtension}`
+// For example: plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--001.webp
+// for .mp4 movie files, also include the name of the file in the alt.
+// When a movie file is uploaded to Shopify, the file is renamed in Shopify's server
+// Using alt is the only way to retain a record of the original file name
+
 async function loadMedia(): Promise<any[]> {
   const masterMediaPath = path.resolve(
     process.cwd(),
@@ -12,6 +19,7 @@ async function loadMedia(): Promise<any[]> {
   return JSON.parse(raw);
 }
 
+// getting url of media that contains filename
 function extractUrl(media: any): string | undefined {
   // generic files
   if (typeof media.url === "string") return media.url;
@@ -28,14 +36,15 @@ function extractUrl(media: any): string | undefined {
   return undefined;
 }
 
+// extracting media filename from url
 function filenameFromUrl(fullUrl: string): string {
-  // extracting only the name of the file with no extension
   const cleanedUrl = fullUrl.split("?")[0];
   const filenameWithExt = cleanedUrl.split("/").pop()!;
 
   return filenameWithExt;
 }
 
+// parsing meta data from url
 function parseMeta(filename: string) {
   const [productType, handle, date, category, indexWithExt] =
     filename.split("--");
@@ -44,11 +53,17 @@ function parseMeta(filename: string) {
   return { productType, handle, date, category, index, ext };
 }
 
+// By the time sortMedia is invoked, all metafields have been sorted by their handle
+// Now, they will be sorted by media category, date, and index
 function sortMedia(a: MediaFileWithMetadata, b: MediaFileWithMetadata): number {
-  const { date: aDate, category: aCategory, index: aIndex } = a.meta;
-  const { date: bDate, category: bCategory, index: bIndex } = b.meta;
+  const { category: aCategory, date: aDate, index: aIndex } = a.meta;
+  const { category: bCategory, date: bDate, index: bIndex } = b.meta;
 
-  // 1. Sort by date (most recent first)
+  // 1. Sort by category alphabetically
+  if (aCategory !== bCategory) {
+    return aCategory.localeCompare(bCategory);
+  }
+  // 2. Sort by date (most recent first)
   const aDateObj = new Date(aDate);
   const bDateObj = new Date(bDate);
 
@@ -56,15 +71,11 @@ function sortMedia(a: MediaFileWithMetadata, b: MediaFileWithMetadata): number {
     return bDateObj.getTime() - aDateObj.getTime();
   }
 
-  // 2. Sort by imageType alphabetically
-  if (aCategory !== bCategory) {
-    return aCategory.localeCompare(bCategory);
-  }
-
   // 3. Sort by index from lowest to highest
   return aIndex - bIndex;
 }
 
+// Run the script
 async function run() {
   const allMedia = await loadMedia();
   // Create data structure to hold all unique handles
@@ -88,6 +99,7 @@ async function run() {
 
     node.meta = meta;
 
+    // setting and pushing media data to map by handle
     if (!byHandle.has(handle)) {
       byHandle.set(handle, []);
     }
@@ -99,7 +111,11 @@ async function run() {
     nodes.sort(sortMedia);
   }
 
+  // due to the recursive flag, this ensures the target directory
+  // already exists, by either making the directory or silently exiting
   await fs.mkdir(path.resolve(process.cwd(), "output"), { recursive: true });
+
+  // write the media metafields to their own json file
   for (const [handle, mediaNodes] of byHandle) {
     const outPath = path.resolve(process.cwd(), "output", `${handle}.json`);
     await fs.writeFile(outPath, JSON.stringify(mediaNodes, null, 2), "utf-8");
@@ -111,96 +127,3 @@ run().catch((err) => {
   console.error(err);
   process.exit(1);
 });
-
-// fetching all products and metafields and writing them to a json file for later processing
-// try {
-//   const response = await fetchProductsAndMetafields();
-//   const text = JSON.stringify(
-//     response,
-//     (_key, value) => {
-//       if (value && value.type === "json") {
-//         return {
-//           ...value,
-//           value: JSON.parse(value.value),
-//         };
-//       }
-//       return value;
-//     },
-//     2
-//   );
-
-//   const outPath = path.resolve(process.cwd(), "output/master-product.json");
-//   await fs.writeFile(outPath, text, "utf-8");
-//   console.log("master-product.json written successfully");
-// } catch (err) {
-//   console.error(err);
-//   process.exit(1);
-// }
-
-/**
- * Manipulating data from critical loader to be usable on the page
- */
-
-// const unsortedPlantImages = filterPlantImagesByHandle(
-//   adminImageData,
-//   product.handle,
-// );
-
-// const sortedPlantImages = unsortedPlantImages
-//   .map(addImageMetadata)
-//   .sort(sortImagesWithMetadata);
-
-// console.log('sortedPlantImages:', sortedPlantImages);
-
-// filterPlantImagesByHandle,
-// addImageMetadata,
-// sortImagesWithMetadata,
-
-// Each plant image is a Shopify file object. Each object has a .image.url that must be named with the following structure
-// `plants--${product.handle}--YYYY-MM-DD--${imageType}--${index}.${fileExtension}`
-// For example: plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--001.webp
-// function filterPlantImagesByHandle(
-//   adminImageData: AdminImage[],
-//   productHandle: string
-// ) {
-//   return adminImageData.filter((img) =>
-//     img.image?.url?.includes(`plants--${productHandle}`)
-//   );
-// }
-
-// Since unSortedPlantImages is only concerned about the first two parts of the shopify file object's url,
-// the sorting logic will only be concerned about the latter 3 parts of the url:
-//   - date
-//   - image type
-//   - index
-// where imageType can be either
-//   - carousel
-//   - journal
-//   - milestone
-// fileExtension can be any file type, but in my comments I am assuming all images will be in .webp format.
-// function addImageMetadata(img: AdminImage): AdminImageWithMetadata {
-//   const regex = /--(\d{4}-\d{2}-\d{2})--([a-z]+)--(\d{3})\./;
-//   const match = img.image.url.match(regex);
-
-//   if (!match) {
-//     return {
-//       ...img,
-//       meta: {
-//         date: new Date(0),
-//         imageType: "",
-//         index: 0,
-//       },
-//     };
-//   }
-
-//   const [, dateStr, imageType, indexStr] = match;
-
-//   return {
-//     ...img,
-//     meta: {
-//       date: new Date(dateStr),
-//       imageType,
-//       index: parseInt(indexStr, 10),
-//     },
-//   };
-// }
