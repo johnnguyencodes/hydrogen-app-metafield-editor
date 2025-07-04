@@ -1,4 +1,4 @@
-import type { MediaFileWithMetadata } from "types/global";
+import type { MediaFileWithMetadata, ProductData } from "types/global";
 import { promises as fs } from "node:fs";
 import path from "path";
 
@@ -27,7 +27,7 @@ function extractUrl(media: any): string | undefined {
   if (media.image?.url) return media.image.url;
   // video
   if (media.originalSource?.url) return media.alt;
-  // model
+  // 3d model
   if (Array.isArray(media.sources) && media.sources[0]?.url) {
     return media.sources[0].url;
   }
@@ -79,7 +79,7 @@ function sortMedia(a: MediaFileWithMetadata, b: MediaFileWithMetadata): number {
 async function run() {
   const allMedia = await loadMedia();
   // Create data structure to hold all unique handles
-  const byHandle = new Map<string, any[]>();
+  const byHandle = new Map<string, { productType: string; nodes: any[] }>();
 
   // iterate through each node and push it to map by the handle
   for (const node of allMedia) {
@@ -101,13 +101,13 @@ async function run() {
 
     // setting and pushing media data to map by handle
     if (!byHandle.has(handle)) {
-      byHandle.set(handle, []);
+      byHandle.set(handle, { productType, nodes: [] });
     }
-    byHandle.get(handle)!.push(node);
+    byHandle.get(handle)!.nodes.push(node);
   }
 
   // sorting metafields by category, date, index
-  for (const [_, nodes] of byHandle) {
+  for (const [_handle, { productType: _productType, nodes }] of byHandle) {
     nodes.sort(sortMedia);
   }
 
@@ -116,10 +116,37 @@ async function run() {
   await fs.mkdir(path.resolve(process.cwd(), "output"), { recursive: true });
 
   // write the media metafields to their own json file
-  for (const [handle, mediaNodes] of byHandle) {
-    const outPath = path.resolve(process.cwd(), "output", `${handle}.json`);
-    await fs.writeFile(outPath, JSON.stringify(mediaNodes, null, 2), "utf-8");
-    console.log(`Wrote ${mediaNodes.length} items -> ${handle}.json`);
+  for (const [handle, { productType, nodes }] of byHandle) {
+    const targetFile = path.resolve(
+      process.cwd(),
+      `product-data/${productType}`,
+      `${handle}.json`
+    );
+
+    // read the file
+    const fileText = await fs.readFile(targetFile, "utf-8");
+
+    // parse it into a JS object
+    const doc = JSON.parse(fileText) as ProductData;
+
+    // find the mediaMetafield
+    const mediaMetafield = doc.metafields.find(
+      (metafield) => metafield.key === "images"
+    );
+
+    if (mediaMetafield) {
+      mediaMetafield.value = JSON.stringify(nodes);
+    } else {
+      doc.metafields.push({
+        namespace: "plant",
+        key: "images",
+        type: "json",
+        value: JSON.stringify(nodes),
+      });
+    }
+
+    await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
+    console.log(`Injectd ${nodes.length} items into ${targetFile}`);
   }
 }
 
