@@ -42,30 +42,6 @@ async function productSync() {
     console.error(err);
     process.exit(1);
   }
-
-  // read through the master product json data and chunk it out to individual product json files.
-  try {
-    const masterProductPath = path.resolve(
-      process.cwd(),
-      "output/master-product.json"
-    );
-    const jsonData = await fs.readFile(masterProductPath, "utf-8");
-    const parsedData = JSON.parse(jsonData);
-
-    for (const product of parsedData) {
-      const handle = product.handle;
-      const data = product;
-      const productType = product.productType;
-      const outPath = path.resolve(
-        process.cwd(),
-        `product-data/${productType}/${handle}.json`
-      );
-      await fs.writeFile(outPath, JSON.stringify(data, null, 2), "utf-8");
-    }
-    console.log("product json files written successfully");
-  } catch (err) {
-    console.error(err);
-  }
 }
 
 productSync();

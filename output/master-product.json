@@ -246,92 +246,11 @@
               "index": "008",
               "ext": "webp"
             }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "gid://shopify/Product/9914992197915",
-    "handle": "mammillaria-crucigera-tlalocii-3-copy",
-    "title": "Mammillaria crucigera tlalocii 3 copy",
-    "status": "ACTIVE",
-    "productType": "plants",
-    "tags": [
-      "tag-1",
-      "tag-2"
-    ],
-    "descriptionHtml": "<p class=\"p1\">Hello!!!!!!!!!!!! There!!!</p>",
-    "metafields": [
-      {
-        "namespace": "plant",
-        "key": "acquired-from",
-        "type": "single_line_text_field",
-        "value": "https://reddit.com/r/cactiexchange"
-      },
-      {
-        "namespace": "plant",
-        "key": "acquisition",
-        "type": "json",
-        "value": {
-          "method": "purchased",
-          "supplier": "Cactus exchange community on Reddit",
-          "date": "2025-01-06"
-        }
-      },
-      {
-        "namespace": "plant",
-        "key": "care-routine",
-        "type": "json",
-        "value": [
-          {
-            "growth": "slow",
-            "spines": "spikey"
-          }
-        ]
-      },
-      {
-        "namespace": "plant",
-        "key": "carousel-copy",
-        "type": "json",
-        "value": [
-          {
-            "date": "2024-03-15",
-            "title": "First Day Home",
-            "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
           },
-          {
-            "date": "2024-03-20",
-            "title": "First Watering",
-            "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
-          },
-          {
-            "date": "2024-03-27",
-            "title": "New Growth",
-            "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
-          }
-        ]
-      },
-      {
-        "namespace": "plant",
-        "key": "growth-notes",
-        "type": "json",
-        "value": [
-          {
-            "growth": "slow",
-            "spines": "spikey"
-          }
-        ]
-      },
-      {
-        "namespace": "plant",
-        "key": "images",
-        "type": "json",
-        "value": [
           {
             "alt": "",
             "image": {
-              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--000.webp?v=1751573535",
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--000.webp?v=1751652761",
               "width": 2268,
               "height": 2268
             },
@@ -345,7 +264,7 @@
           {
             "alt": "",
             "image": {
-              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--001.webp?v=1751573604",
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--001.webp?v=1751652838",
               "width": 2268,
               "height": 2268
             },
@@ -359,7 +278,7 @@
           {
             "alt": "",
             "image": {
-              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--002.webp?v=1751573548",
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--002.webp?v=1751652783",
               "width": 2268,
               "height": 2268
             },
@@ -373,7 +292,7 @@
           {
             "alt": "",
             "image": {
-              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--003.webp?v=1751573505",
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--003.webp?v=1751652731",
               "width": 2268,
               "height": 2268
             },
@@ -387,7 +306,7 @@
           {
             "alt": "",
             "image": {
-              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--004.webp?v=1751573571",
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--004.webp?v=1751652812",
               "width": 2268,
               "height": 2268
             },
@@ -401,7 +320,7 @@
           {
             "alt": "",
             "image": {
-              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--005.webp?v=1751573559",
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--005.webp?v=1751652798",
               "width": 2268,
               "height": 2268
             },
@@ -415,7 +334,7 @@
           {
             "alt": "",
             "image": {
-              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--006.webp?v=1751573523",
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--006.webp?v=1751652744",
               "width": 2268,
               "height": 2268
             },
@@ -429,7 +348,7 @@
           {
             "alt": "",
             "image": {
-              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3-copy--2025-01-12--carousel--007.webp?v=1751573589",
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-01-12--carousel--007.webp?v=1751652826",
               "width": 2268,
               "height": 2268
             },
@@ -441,68 +360,6 @@
             }
           }
         ]
-      },
-      {
-        "namespace": "plant",
-        "key": "journal",
-        "type": "json",
-        "value": [
-          {
-            "date": "2024-03-15",
-            "title": "First Day Home",
-            "journal-type": "milestone",
-            "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
-          },
-          {
-            "date": "2024-03-20",
-            "title": "First Watering",
-            "journal-type": "entry",
-            "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
-          },
-          {
-            "date": "2024-03-27",
-            "title": "New Growth",
-            "journal-type": "entry",
-            "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
-          }
-        ]
-      },
-      {
-        "namespace": "plant",
-        "key": "llifle-database-link",
-        "type": "single_line_text_field",
-        "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii"
-      },
-      {
-        "namespace": "plant",
-        "key": "llifle-link",
-        "type": "single_line_text_field",
-        "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii"
-      },
-      {
-        "namespace": "plant",
-        "key": "measurement",
-        "type": "json",
-        "value": [
-          {
-            "height": "24 cm",
-            "width": "24 cm",
-            "pot": "2.5\" plastic pot",
-            "date": "2025-01-01"
-          }
-        ]
-      },
-      {
-        "namespace": "plant",
-        "key": "purchase-origin",
-        "type": "single_line_text_field",
-        "value": "https://reddit.com/r/cactiexchange "
-      },
-      {
-        "namespace": "plant",
-        "key": "watering-frequency",
-        "type": "single_line_text_field",
-        "value": "7 days"
       }
     ]
   }
