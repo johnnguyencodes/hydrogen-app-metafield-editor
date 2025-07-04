@@ -87,11 +87,12 @@ export type AdminImage = {
   };
 };
 
-export type AdminImageWithMetadata = AdminImage & {
+export type MediaFileWithMetadata = AdminFile & {
   meta: {
+    category: string;
     date: Date;
-    imageType: string;
     index: number;
+    ext: string;
   };
 };
 

@@ -7,51 +7,9 @@
       "height": 2716
     },
     "meta": {
-      "date": "2025-05-25",
       "category": "carousel",
+      "date": "2025-05-25",
       "index": "001",
-      "ext": "webp"
-    }
-  },
-  {
-    "alt": "",
-    "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--005.webp?v=1748282238",
-      "width": 3024,
-      "height": 3024
-    },
-    "meta": {
-      "date": "2025-05-25",
-      "category": "carousel",
-      "index": "005",
-      "ext": "webp"
-    }
-  },
-  {
-    "alt": "",
-    "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--008.webp?v=1748282238",
-      "width": 3024,
-      "height": 3024
-    },
-    "meta": {
-      "date": "2025-05-25",
-      "category": "carousel",
-      "index": "008",
-      "ext": "webp"
-    }
-  },
-  {
-    "alt": "",
-    "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--007.webp?v=1748282238",
-      "width": 3024,
-      "height": 3024
-    },
-    "meta": {
-      "date": "2025-05-25",
-      "category": "carousel",
-      "index": "007",
       "ext": "webp"
     }
   },
@@ -63,8 +21,8 @@
       "height": 3024
     },
     "meta": {
-      "date": "2025-05-25",
       "category": "carousel",
+      "date": "2025-05-25",
       "index": "002",
       "ext": "webp"
     }
@@ -77,23 +35,9 @@
       "height": 3024
     },
     "meta": {
-      "date": "2025-05-25",
       "category": "carousel",
+      "date": "2025-05-25",
       "index": "003",
-      "ext": "webp"
-    }
-  },
-  {
-    "alt": "",
-    "image": {
-      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--006.webp?v=1748282238",
-      "width": 3024,
-      "height": 3024
-    },
-    "meta": {
-      "date": "2025-05-25",
-      "category": "carousel",
-      "index": "006",
       "ext": "webp"
     }
   },
@@ -105,9 +49,65 @@
       "height": 3024
     },
     "meta": {
-      "date": "2025-05-25",
       "category": "carousel",
+      "date": "2025-05-25",
       "index": "004",
+      "ext": "webp"
+    }
+  },
+  {
+    "alt": "",
+    "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--005.webp?v=1748282238",
+      "width": 3024,
+      "height": 3024
+    },
+    "meta": {
+      "category": "carousel",
+      "date": "2025-05-25",
+      "index": "005",
+      "ext": "webp"
+    }
+  },
+  {
+    "alt": "",
+    "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--006.webp?v=1748282238",
+      "width": 3024,
+      "height": 3024
+    },
+    "meta": {
+      "category": "carousel",
+      "date": "2025-05-25",
+      "index": "006",
+      "ext": "webp"
+    }
+  },
+  {
+    "alt": "",
+    "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--007.webp?v=1748282238",
+      "width": 3024,
+      "height": 3024
+    },
+    "meta": {
+      "category": "carousel",
+      "date": "2025-05-25",
+      "index": "007",
+      "ext": "webp"
+    }
+  },
+  {
+    "alt": "",
+    "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--008.webp?v=1748282238",
+      "width": 3024,
+      "height": 3024
+    },
+    "meta": {
+      "category": "carousel",
+      "date": "2025-05-25",
+      "index": "008",
       "ext": "webp"
     }
   }

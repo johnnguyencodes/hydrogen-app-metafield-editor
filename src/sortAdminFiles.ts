@@ -1,4 +1,4 @@
-import type { AdminImage, AdminImageWithMetadata } from "types/global";
+import type { MediaFileWithMetadata } from "types/global";
 import { promises as fs } from "node:fs";
 import path from "path";
 
@@ -44,11 +44,33 @@ function parseMeta(filename: string) {
   return { productType, handle, date, category, index, ext };
 }
 
+function sortMedia(a: MediaFileWithMetadata, b: MediaFileWithMetadata): number {
+  const { date: aDate, category: aCategory, index: aIndex } = a.meta;
+  const { date: bDate, category: bCategory, index: bIndex } = b.meta;
+
+  // 1. Sort by date (most recent first)
+  const aDateObj = new Date(aDate);
+  const bDateObj = new Date(bDate);
+
+  if (bDateObj.getTime() !== aDateObj.getTime()) {
+    return bDateObj.getTime() - aDateObj.getTime();
+  }
+
+  // 2. Sort by imageType alphabetically
+  if (aCategory !== bCategory) {
+    return aCategory.localeCompare(bCategory);
+  }
+
+  // 3. Sort by index from lowest to highest
+  return aIndex - bIndex;
+}
+
 async function run() {
   const allMedia = await loadMedia();
   // Create data structure to hold all unique handles
   const byHandle = new Map<string, any[]>();
 
+  // iterate through each node and push it to map by the handle
   for (const node of allMedia) {
     const url = extractUrl(node);
     if (!url) continue;
@@ -56,9 +78,10 @@ async function run() {
     const { productType, handle, date, category, index, ext } =
       parseMeta(fileName);
 
+    // adding metadata to metafield for easier processing in hydrogen app
     const meta = {
-      date: date,
       category: category,
+      date: date,
       index: index,
       ext: ext,
     };
@@ -69,6 +92,11 @@ async function run() {
       byHandle.set(handle, []);
     }
     byHandle.get(handle)!.push(node);
+  }
+
+  // sorting metafields by category, date, index
+  for (const [_, nodes] of byHandle) {
+    nodes.sort(sortMedia);
   }
 
   await fs.mkdir(path.resolve(process.cwd(), "output"), { recursive: true });
@@ -83,48 +111,6 @@ run().catch((err) => {
   console.error(err);
   process.exit(1);
 });
-
-// async function sortMedia() {
-//   // read through the master product json data and chunk it out to individual product json files.
-//   try {
-//     const masterMediaPath = path.resolve(
-//       process.cwd(),
-//       "output/master-media.json"
-//     );
-//     const jsonData = await fs.readFile(masterMediaPath, "utf-8");
-//     const parsedData = JSON.parse(jsonData);
-
-//     function extractUrls
-
-//     for (const media of parsedData) {
-//       console.log("this is the alt:", media.alt);
-
-//       // const url = image.image.url;
-//       // const data = product;
-//       // const productType = product.productType;
-//       // const outPath = path.resolve(
-//       //   process.cwd(),
-//       //   `product-data/${productType}/${handle}.json`
-//       // );
-//       // await fs.writeFile(outPath, JSON.stringify(data, null, 2), "utf-8");
-//     }
-//     console.log("product json files written successfully");
-//   } catch (err) {
-//     console.error(err);
-//   }
-// }
-
-// {
-//   "alt": "first glamour shot",
-//   "image": {
-//     "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--001.webp"
-//   },
-//   "meta": {
-//     "date": "2025-05-25",
-//     "imageType": "carousel",
-//     "index": 1
-//   }
-// },
 
 // fetching all products and metafields and writing them to a json file for later processing
 // try {
@@ -217,28 +203,4 @@ run().catch((err) => {
 //       index: parseInt(indexStr, 10),
 //     },
 //   };
-// }
-
-// function sortImagesWithMetadata(
-//   a: AdminImageWithMetadata,
-//   b: AdminImageWithMetadata
-// ): number {
-//   const { date: aDate, imageType: aImageType, index: aIndex } = a.meta;
-//   const { date: bDate, imageType: bImageType, index: bIndex } = b.meta;
-
-//   // 1. Sort by date (most recent first)
-//   const aDateObj = new Date(aDate);
-//   const bDateObj = new Date(bDate);
-
-//   if (bDateObj.getTime() !== aDateObj.getTime()) {
-//     return bDateObj.getTime() - aDateObj.getTime();
-//   }
-
-//   // 2. Sort by imageType alphabetically
-//   if (aImageType !== bImageType) {
-//     return aImageType.localeCompare(bImageType);
-//   }
-
-//   // 3. Sort by index from lowest to highest
-//   return aIndex - bIndex;
 // }
