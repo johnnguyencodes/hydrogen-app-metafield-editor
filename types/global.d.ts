@@ -22,6 +22,13 @@ export interface ProductsResponse {
   };
 }
 
+export interface MetafieldValue {
+  namespace: string;
+  key: string;
+  type: string;
+  value: string | MediaFileWithMetadata[];
+}
+
 export type ProductData = {
   id: string;
   handle: string;
@@ -30,12 +37,7 @@ export type ProductData = {
   productType: string;
   tags: Array<{ string }>;
   descriptionHtml: string;
-  metafields: Array<{
-    namespace: string;
-    key: string;
-    type: string;
-    value: string;
-  }>;
+  metafields: MetafieldValue[];
 };
 
 export interface FilesResponse {
