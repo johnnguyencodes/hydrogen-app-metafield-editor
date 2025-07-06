@@ -26,22 +26,16 @@
         "type": "json",
         "value": [
           {
-            "date": "2024-03-15",
+            "date": "2025-01-12",
+            "title": "First Photos",
+            "journal-type": "journal",
+            "content": "<p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>"
+          },
+          {
+            "date": "2025-01-06",
             "title": "First Day Home",
             "journal-type": "milestone",
-            "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
-          },
-          {
-            "date": "2024-03-20",
-            "title": "First Watering",
-            "journal-type": "entry",
-            "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
-          },
-          {
-            "date": "2024-03-27",
-            "title": "New Growth",
-            "journal-type": "entry",
-            "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
+            "content": "<p>First day home!  So excited.</p>"
           }
         ]
       },
