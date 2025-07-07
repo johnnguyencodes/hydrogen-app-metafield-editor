@@ -19,6 +19,16 @@ async function loadMedia(): Promise<any[]> {
   return JSON.parse(raw);
 }
 
+async function loadProductData(): Promise<ProductData[]> {
+  const masterProductPath = path.resolve(
+    process.cwd(),
+    "output/master-product.json"
+  );
+
+  const raw = await fs.readFile(masterProductPath, "utf-8");
+  return JSON.parse(raw);
+}
+
 // getting url of media that contains filename
 function extractUrl(media: any): string | undefined {
   // generic files
@@ -78,6 +88,8 @@ function sortMedia(a: MediaFileWithMetadata, b: MediaFileWithMetadata): number {
 // Run the script
 async function run() {
   const allMedia = await loadMedia();
+  const allProductData = await loadProductData();
+
   // Create data structure to hold all unique handles
   const byHandle = new Map<string, { productType: string; nodes: any[] }>();
 
@@ -123,17 +135,39 @@ async function run() {
       `${handle}.json`
     );
 
-    // read the file
-    const fileText = await fs.readFile(targetFile, "utf-8");
+    // container for product data
+    let doc: ProductData;
 
-    // parse it into a JS object
-    const doc = JSON.parse(fileText) as ProductData;
+    try {
+      // if the file already exists, load and parse it
+      const fileText = await fs.readFile(targetFile, "utf-8");
+      doc = JSON.parse(fileText) as ProductData;
+    } catch (err: any) {
+      if (err.code === "ENOENT") {
+        // if the file is missing, find the product in master-data.json by handle:
+        const seed = allProductData.find(
+          (product) => product.handle === handle
+        );
+
+        if (!seed) {
+          throw new Error(
+            `No product with handle ${handle} in output/master-product.json`
+          );
+        }
+
+        // then load the product data into product data container
+        doc = JSON.parse(JSON.stringify(seed));
+      } else {
+        throw err;
+      }
+    }
 
     // find the mediaMetafield
     const mediaMetafield = doc.metafields.find(
       (metafield) => metafield.key === "images"
     );
 
+    // then inject or overwrite the images metafield
     if (mediaMetafield) {
       mediaMetafield.value = nodes;
     } else {
@@ -145,6 +179,7 @@ async function run() {
       });
     }
 
+    // finally, write the doc to the json file
     await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
     console.log(`Injected ${nodes.length} items into ${targetFile}`);
   }

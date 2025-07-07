@@ -356,5 +356,15 @@
         ]
       }
     ]
+  },
+  {
+    "id": "gid://shopify/Product/9920950206747",
+    "handle": "pseudolithos-migiurtinus",
+    "title": "Pseudolithos migiurtinus",
+    "status": "ACTIVE",
+    "productType": "plants",
+    "tags": [],
+    "descriptionHtml": "<p>I love this little bumpy plant!</p>",
+    "metafields": []
   }
 ]

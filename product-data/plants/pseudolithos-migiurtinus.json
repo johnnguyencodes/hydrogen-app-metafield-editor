@@ -1,0 +1,171 @@
+{
+  "id": "gid://shopify/Product/9920950206747",
+  "handle": "pseudolithos-migiurtinus",
+  "title": "Pseudolithos migiurtinus",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p>I love this little bumpy plant!</p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025--07-06--carousel--003.webp?v=1751857045",
+            "width": 2854,
+            "height": 2854
+          },
+          "meta": {
+            "category": "07-06",
+            "date": "2025",
+            "index": "carousel",
+            "ext": "carousel"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025--07-06--carousel--004.webp?v=1751857045",
+            "width": 2688,
+            "height": 2688
+          },
+          "meta": {
+            "category": "07-06",
+            "date": "2025",
+            "index": "carousel",
+            "ext": "carousel"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025--07-06--carousel--002.webp?v=1751857045",
+            "width": 3000,
+            "height": 3000
+          },
+          "meta": {
+            "category": "07-06",
+            "date": "2025",
+            "index": "carousel",
+            "ext": "carousel"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025--07-06--carousel--001.webp?v=1751857045",
+            "width": 2914,
+            "height": 2914
+          },
+          "meta": {
+            "category": "07-06",
+            "date": "2025",
+            "index": "carousel",
+            "ext": "carousel"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025--07-06--carousel--005.webp?v=1751857045",
+            "width": 3014,
+            "height": 3015
+          },
+          "meta": {
+            "category": "07-06",
+            "date": "2025",
+            "index": "carousel",
+            "ext": "carousel"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025--07-06--carousel--000.webp?v=1751857046",
+            "width": 3016,
+            "height": 3016
+          },
+          "meta": {
+            "category": "07-06",
+            "date": "2025",
+            "index": "carousel",
+            "ext": "carousel"
+          }
+        },
+        {
+          "alt": "plants--pseudolithos-migiurtinus--2025-07-03--carousel--000.mp4",
+          "duration": 60000,
+          "preview": {
+            "status": "READY",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/preview_images/7a7b13c6479141508e33a2f0d29c4457.thumbnail.0000000000.jpg?v=1751583644",
+              "width": 640,
+              "height": 360
+            }
+          },
+          "originalSource": {
+            "url": "https://cdn.shopify.com/videos/c/o/v/7a7b13c6479141508e33a2f0d29c4457.mp4",
+            "width": 640,
+            "height": 360,
+            "format": "mp4",
+            "mimeType": "video/mp4"
+          },
+          "sources": [
+            {
+              "url": "https://cdn.shopify.com/videos/c/vp/7a7b13c6479141508e33a2f0d29c4457/7a7b13c6479141508e33a2f0d29c4457.SD-480p-0.9Mbps-50540213.mp4",
+              "width": 852,
+              "height": 480,
+              "format": "mp4",
+              "mimeType": "video/mp4"
+            }
+          ],
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-03",
+            "index": "000",
+            "ext": "mp4"
+          }
+        },
+        {
+          "alt": "this is a gif",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025-07-03--journal--000.gif?v=1751576530",
+            "width": 640,
+            "height": 640
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-07-03",
+            "index": "000",
+            "ext": "gif"
+          }
+        },
+        {
+          "alt": "",
+          "sources": [
+            {
+              "url": "https://cdn.shopify.com/3d/models/o/7dfc40dd9ad0a191/plants--pseudolithos-migiurtinus--2024-12-08--model--000.glb",
+              "format": "glb",
+              "mimeType": "model/gltf-binary"
+            },
+            {
+              "url": "https://cdn.shopify.com/3d/models/o/da6e8f432fc4e7c0/plants--pseudolithos-migiurtinus--2024-12-08--model--000.usdz",
+              "format": "usdz",
+              "mimeType": "model/vnd.usdz+zip"
+            }
+          ],
+          "meta": {
+            "category": "model",
+            "date": "2024-12-08",
+            "index": "000",
+            "ext": "glb"
+          }
+        }
+      ]
+    }
+  ]
+}
