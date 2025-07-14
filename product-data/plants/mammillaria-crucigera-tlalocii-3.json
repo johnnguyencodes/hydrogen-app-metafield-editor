@@ -9,18 +9,6 @@
   "metafields": [
     {
       "namespace": "plant",
-      "key": "purchase-origin",
-      "type": "single_line_text_field",
-      "value": "https://reddit.com/r/cactiexchange "
-    },
-    {
-      "namespace": "plant",
-      "key": "llifle-link",
-      "type": "single_line_text_field",
-      "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii"
-    },
-    {
-      "namespace": "plant",
       "key": "journal",
       "type": "json",
       "value": [
@@ -73,23 +61,6 @@
     },
     {
       "namespace": "plant",
-      "key": "care-routine",
-      "type": "json",
-      "value": [
-        {
-          "growth": "slow",
-          "spines": "spikey"
-        }
-      ]
-    },
-    {
-      "namespace": "plant",
-      "key": "acquired-from",
-      "type": "single_line_text_field",
-      "value": "https://reddit.com/r/cactiexchange"
-    },
-    {
-      "namespace": "plant",
       "key": "llifle-database-link",
       "type": "single_line_text_field",
       "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii"
@@ -100,7 +71,9 @@
       "type": "json",
       "value": {
         "method": "purchased",
-        "supplier": "Cactus exchange community on Reddit",
+        "pText": "A cactus exchange community on Reddit",
+        "aText": "",
+        "aHref": "",
         "date": "2025-01-06"
       }
     },
@@ -138,7 +111,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-05-25",
-            "index": "001",
+            "index": 1,
             "ext": "webp"
           }
         },
@@ -152,7 +125,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-05-25",
-            "index": "002",
+            "index": 2,
             "ext": "webp"
           }
         },
@@ -166,7 +139,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-05-25",
-            "index": "003",
+            "index": 3,
             "ext": "webp"
           }
         },
@@ -180,7 +153,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-05-25",
-            "index": "004",
+            "index": 4,
             "ext": "webp"
           }
         },
@@ -194,7 +167,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-05-25",
-            "index": "005",
+            "index": 5,
             "ext": "webp"
           }
         },
@@ -208,7 +181,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-05-25",
-            "index": "006",
+            "index": 6,
             "ext": "webp"
           }
         },
@@ -222,7 +195,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-05-25",
-            "index": "007",
+            "index": 7,
             "ext": "webp"
           }
         },
@@ -236,7 +209,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-05-25",
-            "index": "008",
+            "index": 8,
             "ext": "webp"
           }
         },
@@ -250,7 +223,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-01-12",
-            "index": "000",
+            "index": 0,
             "ext": "webp"
           }
         },
@@ -264,7 +237,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-01-12",
-            "index": "001",
+            "index": 1,
             "ext": "webp"
           }
         },
@@ -278,7 +251,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-01-12",
-            "index": "002",
+            "index": 2,
             "ext": "webp"
           }
         },
@@ -292,7 +265,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-01-12",
-            "index": "003",
+            "index": 3,
             "ext": "webp"
           }
         },
@@ -306,7 +279,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-01-12",
-            "index": "004",
+            "index": 4,
             "ext": "webp"
           }
         },
@@ -320,7 +293,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-01-12",
-            "index": "005",
+            "index": 5,
             "ext": "webp"
           }
         },
@@ -334,7 +307,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-01-12",
-            "index": "006",
+            "index": 6,
             "ext": "webp"
           }
         },
@@ -348,7 +321,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-01-12",
-            "index": "007",
+            "index": 7,
             "ext": "webp"
           }
         }

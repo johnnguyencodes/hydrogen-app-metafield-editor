@@ -58,7 +58,8 @@ function filenameFromUrl(fullUrl: string): string {
 function parseMeta(filename: string) {
   const [productType, handle, date, category, indexWithExt] =
     filename.split("--");
-  const index = indexWithExt.split(".")[0];
+  const indexString = indexWithExt.split(".")[0];
+  const index = parseInt(indexString, 10);
   const ext = indexWithExt.split(".").pop()!;
   return { productType, handle, date, category, index, ext };
 }
