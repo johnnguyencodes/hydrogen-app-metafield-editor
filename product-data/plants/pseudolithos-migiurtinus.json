@@ -5,8 +5,97 @@
   "status": "ACTIVE",
   "productType": "plants",
   "tags": [],
-  "descriptionHtml": "<p>I love this little bumpy plant!</p>",
+  "descriptionHtml": "<p><strong>Overview</strong></p>\n\n<p>\n  This is one of my favorite plants in my collection. While this cactus exhibits the typical features of \n  <i>Mammillaria crucigera</i> subsp. <i>tlalocii</i>, such as a globular form, branching offsets and pups\n  from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays\n  a few quirks that make it especially delightful to observe up close whenever I water it.\n</p>\n\n<p>\n  <strong>Surface and Spine Irregularities</strong>\n</p>\n\n<p>\n  There’s a noticeable irregularity in the arrangement of tubercles across the midsection of the main stem.\n  They are asymmetrically spaced and interspersed with tufts of wool-like trichomes, forming a band of rough,\n  uneven spination.\n</p>\n\n<p>\n  Along the upper edge of this band is a row of tubercles encircling the entire main stem that lack spines\n  altogether, exposing more of the plant’s deep green epidermis than usual. This contrasts sharply with the\n  otherwise even, lace-like coverage of white spines originating from orange areoles that typically defines\n  the species. I suspect the absence of spines along this row may be the result of phenotypic variation rather\n  than physical damage.\n</p>\n\n<p>\n  <strong>Offset Development</strong>\n</p>\n\n<p>\n  I’m especially excited to see how the smaller offsets along the stem continue to develop. When I first received\n  this plant nearly six months ago, the offsets were buds that barely protruded outwards from the surface. Now\n  that they are beginning to take shape, I can start speculating about how they might mature.\n</p>\n\n<p>\n  I expect the singular offsets along the main stem will develop the symmetrical, tightly packed tubercle patterns\n  typical of mature specimens—similar to the larger offset at the base. However, there’s one double offset with\n  noticeably wider tubercle spacing, and I’m hopeful it will continue to exhibit irregular traits.\n</p>\n\n<p>\n  — June 19, 2025\n</p>",
   "metafields": [
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2025-01-12",
+          "title": "First Photos",
+          "journal-type": "journal",
+          "content": "<p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>"
+        },
+        {
+          "date": "2025-01-06",
+          "title": "First Day Home",
+          "journal-type": "milestone",
+          "content": "<p>First day home!  So excited.</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "growth-notes",
+      "type": "json",
+      "value": [
+        {
+          "growth": "slow",
+          "spines": "spikey"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "carousel-copy",
+      "type": "json",
+      "value": [
+        {
+          "date": "2024-03-15",
+          "title": "First Day Home",
+          "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
+        },
+        {
+          "date": "2024-03-20",
+          "title": "First Watering",
+          "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
+        },
+        {
+          "date": "2024-03-27",
+          "title": "New Growth",
+          "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii"
+    },
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "purchased",
+        "pText": "",
+        "aText": "1am Succulents @ Etsy",
+        "aHref": "https://www.etsy.com/shop/1amSucculents",
+        "date": "2024-10-21"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "24 cm",
+          "width": "24 cm",
+          "pot": "2.5\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "7 days"
+    },
     {
       "namespace": "plant",
       "key": "images",
@@ -15,85 +104,85 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025--07-06--carousel--003.webp?v=1751857045",
-            "width": 2854,
-            "height": 2854
-          },
-          "meta": {
-            "category": "07-06",
-            "date": "2025",
-            "index": "carousel",
-            "ext": "carousel"
-          }
-        },
-        {
-          "alt": "",
-          "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025--07-06--carousel--004.webp?v=1751857045",
-            "width": 2688,
-            "height": 2688
-          },
-          "meta": {
-            "category": "07-06",
-            "date": "2025",
-            "index": "carousel",
-            "ext": "carousel"
-          }
-        },
-        {
-          "alt": "",
-          "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025--07-06--carousel--002.webp?v=1751857045",
-            "width": 3000,
-            "height": 3000
-          },
-          "meta": {
-            "category": "07-06",
-            "date": "2025",
-            "index": "carousel",
-            "ext": "carousel"
-          }
-        },
-        {
-          "alt": "",
-          "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025--07-06--carousel--001.webp?v=1751857045",
-            "width": 2914,
-            "height": 2914
-          },
-          "meta": {
-            "category": "07-06",
-            "date": "2025",
-            "index": "carousel",
-            "ext": "carousel"
-          }
-        },
-        {
-          "alt": "",
-          "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025--07-06--carousel--005.webp?v=1751857045",
-            "width": 3014,
-            "height": 3015
-          },
-          "meta": {
-            "category": "07-06",
-            "date": "2025",
-            "index": "carousel",
-            "ext": "carousel"
-          }
-        },
-        {
-          "alt": "",
-          "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025--07-06--carousel--000.webp?v=1751857046",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025-07-06--carousel--000.webp?v=1752125327",
             "width": 3016,
             "height": 3016
           },
           "meta": {
-            "category": "07-06",
-            "date": "2025",
-            "index": "carousel",
-            "ext": "carousel"
+            "category": "carousel",
+            "date": "2025-07-06",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025-07-06--carousel--001.webp?v=1752125959",
+            "width": 1959,
+            "height": 1959
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-06",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025-07-06--carousel--002.webp?v=1752125327",
+            "width": 2854,
+            "height": 2854
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-06",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025-07-06--carousel--003.webp?v=1752125327",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-06",
+            "index": 3,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025-07-06--carousel--004.webp?v=1752125327",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-06",
+            "index": 4,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025-07-06--carousel--005.webp?v=1752125327",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-06",
+            "index": 5,
+            "ext": "webp"
           }
         },
         {
@@ -126,7 +215,7 @@
           "meta": {
             "category": "carousel",
             "date": "2025-07-03",
-            "index": "000",
+            "index": 0,
             "ext": "mp4"
           }
         },
@@ -140,7 +229,7 @@
           "meta": {
             "category": "journal",
             "date": "2025-07-03",
-            "index": "000",
+            "index": 0,
             "ext": "gif"
           }
         },
@@ -161,7 +250,7 @@
           "meta": {
             "category": "model",
             "date": "2024-12-08",
-            "index": "000",
+            "index": 0,
             "ext": "glb"
           }
         }
