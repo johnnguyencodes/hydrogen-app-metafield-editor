@@ -1,0 +1,241 @@
+{
+  "id": "gid://shopify/Product/9930019668251",
+  "handle": "monsonia-peniculina",
+  "title": "Monsonia Peniculina",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p>Duplicate this plant product<br><br>Examples of the \"plant.acquistion\" metafield:<br><br>      //   {<br>      //     \"method\": \"Seed Grown\",<br>      //     \"pText\": \"Something about acquiring seeds\",<br>      //     \"aText\": \"Text for link if needed\",<br>      //     \"aHref\": \"URL for link if needed\",<br>      //     \"date\": \"YYYY-MM-DD\"<br>      //   }<br>      //<br>      //  OR<br>      //<br>      // {<br>      //   \"method\": \"Purchased from\",<br>      //   \"pText\": \"something about the purchase\",<br>      //   \"aText\": \"Name of store\",<br>      //   \"aHret\": \"https://url.com\",<br>      //   \"date\": \"YYYY-MM-DD\"<br>      // }<br>      //<br>      // OR<br>      //<br>      //   {<br>      //     \"method\": \"Cutting\",<br>      //     \"pText\": \"Something about the cutting\",<br>      //     \"aText\": \"Text for link if needed\",<br>      //     \"aHref\": \"URL for link if needed\",<br>      //     \"date\": \"YYYY-MM-DD\"<br>      //   }<br><br></p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "Purchased from",
+        "pText": "Something about acquisition, if needed",
+        "aText": "CactusCatSucculents @ Etsy",
+        "aHref": "https://www.etsy.com/shop/CactusCatSucculents",
+        "date": "2024-10-24"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "carousel-copy",
+      "type": "json",
+      "value": [
+        {
+          "date": "2024-10-22",
+          "title": "First Day Home",
+          "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
+        },
+        {
+          "date": "2024-03-20",
+          "title": "First Watering",
+          "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
+        },
+        {
+          "date": "2024-03-27",
+          "title": "New Growth",
+          "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "growth-notes",
+      "type": "json",
+      "value": [
+        {
+          "growth": "slow",
+          "spines": "spikey"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--000.webp?v=1752728072",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-16",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--001.webp?v=1752728072",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-16",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--002.webp?v=1752728072",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-16",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--003.webp?v=1752728072",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-16",
+            "index": 3,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--004.webp?v=1752728072",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-16",
+            "index": 4,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2024-10-24--journal--000.webp?v=1752810949",
+            "width": 3794,
+            "height": 3795
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-10-24",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2024-10-24--journal--001.webp?v=1752810949",
+            "width": 3816,
+            "height": 3816
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-10-24",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2024-10-24--journal--002.webp?v=1752810949",
+            "width": 3864,
+            "height": 3865
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-10-24",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2024-10-24--journal--003.webp?v=1752810949",
+            "width": 3976,
+            "height": 3976
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-10-24",
+            "index": 3,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2024-10-24--journal--004.webp?v=1752810949",
+            "width": 3826,
+            "height": 3826
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-10-24",
+            "index": 4,
+            "ext": "webp"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2024-10-24",
+          "title": "First Photos",
+          "journal-type": "journal",
+          "content": "<p>First day home!</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://www.llifle.com/Encyclopedia/"
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "xx cm",
+          "width": "xx cm",
+          "pot": "x.x\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "X days"
+    }
+  ]
+}
