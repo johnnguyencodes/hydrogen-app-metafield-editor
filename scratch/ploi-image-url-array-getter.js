@@ -1,4 +1,4 @@
-// Paste lines 11 - 19 in the console log of ploi.me on a plant details page to get an array of urls
+// Paste lines 11 - 20 in the console log of ploi.me on a plant details page to get an array of urls
 // Open sublime and convert the array into a list of url strings, one string per line. Do not edit URL, it needs to be the full AWS URL with URL parameters
 // Open WFDownloader, click Tasks > Batch download links from clipboard or file
 // Enter plant handle as batch name
