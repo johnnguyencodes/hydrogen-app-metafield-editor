@@ -13,7 +13,7 @@
       "type": "json",
       "value": {
         "method": "Purchased from",
-        "pText": "Something about acquisition, if needed",
+        "pText": "",
         "aText": "CactusCatSucculents @ Etsy",
         "aHref": "https://www.etsy.com/shop/CactusCatSucculents",
         "date": "2024-10-24"
@@ -60,7 +60,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--000.webp?v=1752728072",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--000.webp?v=1753061906",
             "width": 3024,
             "height": 3024
           },
@@ -74,7 +74,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--001.webp?v=1752728072",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--001.webp?v=1753061907",
             "width": 3024,
             "height": 3024
           },
@@ -88,7 +88,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--002.webp?v=1752728072",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--002.webp?v=1753061906",
             "width": 3024,
             "height": 3024
           },
@@ -102,7 +102,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--003.webp?v=1752728072",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--003.webp?v=1753061906",
             "width": 3024,
             "height": 3024
           },
@@ -116,7 +116,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--004.webp?v=1752728072",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--004.webp?v=1753061907",
             "width": 3024,
             "height": 3024
           },
@@ -124,6 +124,34 @@
             "category": "carousel",
             "date": "2025-07-16",
             "index": 4,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--005.webp?v=1753061906",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-16",
+            "index": 5,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--006.webp?v=1753061906",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-07-16",
+            "index": 6,
             "ext": "webp"
           }
         },

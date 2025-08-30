@@ -16,7 +16,7 @@
           "date": "2025-01-12",
           "title": "First Photos",
           "journal-type": "journal",
-          "content": "<p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>"
+          "content": "<p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>"
         },
         {
           "date": "2025-01-06",
@@ -70,10 +70,10 @@
       "key": "acquisition",
       "type": "json",
       "value": {
-        "method": "purchased",
-        "pText": "A cactus exchange community on Reddit",
-        "aText": "",
-        "aHref": "",
+        "method": "Purchased from",
+        "pText": "",
+        "aText": "r/cactiexchange",
+        "aHref": "https://reddit.com/r/cactiexchange",
         "date": "2025-01-06"
       }
     },
@@ -102,11 +102,25 @@
       "type": "json",
       "value": [
         {
-          "alt": "first glamour shot",
+          "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--001.webp?v=1748282238",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--000.webp?v=1754775339",
             "width": 2716,
             "height": 2716
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-05-25",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--001.webp?v=1754775339",
+            "width": 3024,
+            "height": 3024
           },
           "meta": {
             "category": "carousel",
@@ -118,7 +132,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--002.webp?v=1748282238",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--002.webp?v=1754775340",
             "width": 3024,
             "height": 3024
           },
@@ -132,7 +146,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--003.webp?v=1748282238",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--003.webp?v=1754775339",
             "width": 3024,
             "height": 3024
           },
@@ -146,7 +160,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--004.webp?v=1748282238",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--004.webp?v=1754775339",
             "width": 3024,
             "height": 3024
           },
@@ -160,7 +174,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--005.webp?v=1748282238",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--005.webp?v=1754775339",
             "width": 3024,
             "height": 3024
           },
@@ -174,7 +188,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--006.webp?v=1748282238",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--006.webp?v=1754775339",
             "width": 3024,
             "height": 3024
           },
@@ -182,34 +196,6 @@
             "category": "carousel",
             "date": "2025-05-25",
             "index": 6,
-            "ext": "webp"
-          }
-        },
-        {
-          "alt": "",
-          "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--007.webp?v=1748282238",
-            "width": 3024,
-            "height": 3024
-          },
-          "meta": {
-            "category": "carousel",
-            "date": "2025-05-25",
-            "index": 7,
-            "ext": "webp"
-          }
-        },
-        {
-          "alt": "",
-          "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--008.webp?v=1748282238",
-            "width": 3024,
-            "height": 3024
-          },
-          "meta": {
-            "category": "carousel",
-            "date": "2025-05-25",
-            "index": 8,
             "ext": "webp"
           }
         },

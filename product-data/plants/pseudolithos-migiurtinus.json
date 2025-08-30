@@ -13,16 +13,22 @@
       "type": "json",
       "value": [
         {
+          "date": "2025-07-20",
+          "title": "Comparison photos",
+          "journal-type": "journal",
+          "content": "<p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>"
+        },
+        {
           "date": "2024-12-21",
           "title": "First two months!",
           "journal-type": "milestone",
-          "content": "<p>Second month home.</p>"
+          "content": "<p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>"
         },
         {
           "date": "2024-10-22",
           "title": "First Photos",
           "journal-type": "journal",
-          "content": "<p>First day home!</p>"
+          "content": "<p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>"
         }
       ]
     },
@@ -217,6 +223,34 @@
             "date": "2025-07-03",
             "index": 0,
             "ext": "mp4"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025-07-20--journal--000.webp?v=1753064043",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-07-20",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--pseudolithos-migiurtinus--2025-07-20--journal--001.webp?v=1753064043",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-07-20",
+            "index": 1,
+            "ext": "webp"
           }
         },
         {
