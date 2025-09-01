@@ -1,0 +1,200 @@
+{
+  "id": "gid://shopify/Product/9966326382875",
+  "handle": "astrophytum-asterias-cv-superkabuto",
+  "title": "Astrophytum asterias cv. Superkabuto",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p>Plant description</p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "Purchased from",
+        "pText": "",
+        "aText": "PlantaSecaUSA @ Etsy",
+        "aHref": "https://www.etsy.com/shop/PlantaSecaUSA",
+        "date": "2024-11-25"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--astrophytum-asterias-cv-superkabuto--2025-08-24--carousel--000.webp?v=1756609958",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--astrophytum-asterias-cv-superkabuto--2025-08-24--carousel--001.webp?v=1756609958",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--astrophytum-asterias-cv-superkabuto--2025-08-24--carousel--002.webp?v=1756609958",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--astrophytum-asterias-cv-superkabuto--2025-08-24--carousel--003.webp?v=1756609958",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 3,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--astrophytum-asterias-cv-superkabuto--2025-08-24--carousel--004.webp?v=1756609958",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 4,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--astrophytum-asterias-cv-superkabuto--2024-12-03--journal--000.webp?v=1756609570",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-03",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--astrophytum-asterias-cv-superkabuto--2024-12-03--journal--001.webp?v=1756609569",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-03",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--astrophytum-asterias-cv-superkabuto--2024-12-03--journal--002.webp?v=1756609570",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-03",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--astrophytum-asterias-cv-superkabuto--2024-08-11--journal--000.webp?v=1756609570",
+            "width": 4032,
+            "height": 3591
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-08-11",
+            "index": 0,
+            "ext": "webp"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2024-12-03",
+          "title": "First pictures home",
+          "journal-type": "milestone",
+          "content": "<p>First pictures home</p>"
+        },
+        {
+          "date": "2024-08-11",
+          "title": "Seller's picture",
+          "journal-type": "milestone",
+          "content": "<p>Seller's picture</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1466/Astrophytum_asterias_cv._Superkabuto"
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "xx cm",
+          "width": "xx cm",
+          "pot": "x.x\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "X days"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "id": "gid://shopify/Product/9966189019419",
+  "handle": "ariocarpus-fissuratus",
+  "title": "Ariocarpus fissuratus",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p>Plant description</p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "Purchased from",
+        "pText": "",
+        "aText": "r/cactiexchange",
+        "aHref": "https://www.reddit.com/r/cactiexchange/",
+        "date": "2025-01-12"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-fissuratus--2025-08-19--carousel--000.webp?v=1756593786",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-19",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-fissuratus--2025-08-19--carousel--001.webp?v=1756592423",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-19",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-fissuratus--2025-08-19--carousel--002.webp?v=1756592423",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-19",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-fissuratus--2025-08-19--carousel--003.webp?v=1756592423",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-19",
+            "index": 3,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-fissuratus--2025-08-19--carousel--004.webp?v=1756592423",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-19",
+            "index": 4,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-fissuratus--2025-01-12--journal--000.webp?v=1756592423",
+            "width": 2268,
+            "height": 2268
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-01-12",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-fissuratus--2025-01-12--journal--001.webp?v=1756592423",
+            "width": 2268,
+            "height": 2268
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-01-12",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-fissuratus--2025-01-12--journal--002.webp?v=1756592423",
+            "width": 2268,
+            "height": 2268
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-01-12",
+            "index": 2,
+            "ext": "webp"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2025-01-12",
+          "title": "First Photos",
+          "journal-type": "journal",
+          "content": "<p>First photos</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/2114/Ariocarpus_fissuratus#:~:text=Description%3A%20Ariocarpus%20fissuratusSN%7C2073%5D%5D,flat%20on%20the%20soil%20surface."
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "xx cm",
+          "width": "xx cm",
+          "pot": "x.x\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "X days"
+    }
+  ]
+}

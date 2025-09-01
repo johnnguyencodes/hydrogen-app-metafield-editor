@@ -1,0 +1,172 @@
+{
+  "id": "gid://shopify/Product/9966799126811",
+  "handle": "dioscorea-elephantipes",
+  "title": "Dioscorea elephantipes",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p>Plant description</p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "Purchased from",
+        "pText": "",
+        "aText": "ShopCactism @ Etsy",
+        "aHref": "https://www.etsy.com/shop/ShopCactism",
+        "date": "2024-10-21"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dioscorea-elephantipes--2025-08-23--carousel--000.webp?v=1756695299",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-23",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dioscorea-elephantipes--2024-11-04--journal--000.webp?v=1756695299",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-11-04",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dioscorea-elephantipes--2024-11-04--journal--001.webp?v=1756695299",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-11-04",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dioscorea-elephantipes--2024-11-04--journal--002.webp?v=1756695299",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-11-04",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dioscorea-elephantipes--2024-10-21--journal--000.webp?v=1756695299",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-10-21",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dioscorea-elephantipes--2024-10-21--journal--001.webp?v=1756695299",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-10-21",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dioscorea-elephantipes--2024-10-21--journal--002.webp?v=1756695299",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-10-21",
+            "index": 2,
+            "ext": "webp"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2024-11-04",
+          "title": "Second photos",
+          "journal-type": "journal",
+          "content": "<p>Second photos</p>"
+        },
+        {
+          "date": "2024-10-21",
+          "title": "First Photos",
+          "journal-type": "journal",
+          "content": "<p>First day home!</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://www.llifle.com/Encyclopedia/SUCCULENTS/Family/Dioscoreaceae/17507/Dioscorea_elephantipes"
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "xx cm",
+          "width": "xx cm",
+          "pot": "x.x\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "X days"
+    }
+  ]
+}

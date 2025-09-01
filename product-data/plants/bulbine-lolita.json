@@ -1,0 +1,296 @@
+{
+  "id": "gid://shopify/Product/9966710358299",
+  "handle": "bulbine-lolita",
+  "title": "Bulbine lolita",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p>Plant description</p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "Purchased from",
+        "pText": "",
+        "aText": "WalawalaPlants @ Etsy",
+        "aHref": "https://www.etsy.com/shop/WalawalaPlants",
+        "date": "2024-12-21"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2025-08-24--carousel--000.webp?v=1756681059",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2025-08-24--carousel--001.webp?v=1756681059",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2025-08-24--carousel--002.webp?v=1756681059",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2025-08-24--carousel--003.webp?v=1756681059",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 3,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2025-08-24--carousel--004.webp?v=1756681058",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 4,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2025-07-30--journal--000.webp?v=1756681058",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-07-30",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2025-07-30--journal--001.webp?v=1756681058",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-07-30",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2025-07-30--journal--002.webp?v=1756681059",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-07-30",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2025-07-30--journal--003.webp?v=1756681059",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-07-30",
+            "index": 3,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2025-01-01--journal--000.webp?v=1756681059",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-01-01",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2025-01-01--journal--001.webp?v=1756681059",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-01-01",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2025-01-01--journal--002.webp?v=1756681059",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-01-01",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2024-12-24--journal--000.webp?v=1756681059",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-24",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2024-12-23--journal--000.webp?v=1756681059",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-23",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--bulbine-lolita--2024-12-21--journal--000.webp?v=1756681060",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-21",
+            "index": 0,
+            "ext": "webp"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2025-01-01",
+          "title": "Fourth",
+          "journal-type": "milestone",
+          "content": "<p>Fourth</p>"
+        },
+        {
+          "date": "2024-12-24",
+          "title": "Third photo",
+          "journal-type": "milestone",
+          "content": "<p>Third</p>"
+        },
+        {
+          "date": "2024-12-23",
+          "title": "Second photo",
+          "journal-type": "milestone",
+          "content": "<p>Second</p>"
+        },
+        {
+          "date": "2024-12-21",
+          "title": "First photo",
+          "journal-type": "milestone",
+          "content": "<p>First</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://www.llifle.com/Encyclopedia/"
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "xx cm",
+          "width": "xx cm",
+          "pot": "x.x\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "X days"
+    }
+  ]
+}

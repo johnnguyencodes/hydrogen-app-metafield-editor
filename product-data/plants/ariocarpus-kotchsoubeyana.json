@@ -1,0 +1,130 @@
+{
+  "id": "gid://shopify/Product/9966272282907",
+  "handle": "ariocarpus-kotchsoubeyana",
+  "title": "Ariocarpus kotchsoubeyana",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p>Plant description</p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "Purchased from",
+        "pText": "",
+        "aText": "PlantaSecaUSA @ Etsy",
+        "aHref": "https://www.etsy.com/shop/PlantaSecaUSA",
+        "date": "2025-02-18"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-kotchsoubeyana--2025-08-23--carousel--000.webp?v=1756599650",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-23",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-kotchsoubeyana--2025-03-04--journal--000.webp?v=1756599650",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-03-04",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-kotchsoubeyana--2025-03-04--journal--001.webp?v=1756599650",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-03-04",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-kotchsoubeyana--2025-02-03--journal--000.webp?v=1756599650",
+            "width": 3833,
+            "height": 3833
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-02-03",
+            "index": 0,
+            "ext": "webp"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2025-03-04",
+          "title": "First pictures at home",
+          "journal-type": "milestone",
+          "content": "<p>Pictures</p>"
+        },
+        {
+          "date": "2025-02-03",
+          "title": "Picture from seller",
+          "journal-type": "milestone",
+          "content": "<p>Picture from seller</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/2127/Ariocarpus_kotschoubeyanus"
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "xx cm",
+          "width": "xx cm",
+          "pot": "x.x\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "X days"
+    }
+  ]
+}

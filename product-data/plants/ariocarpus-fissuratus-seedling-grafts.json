@@ -1,0 +1,110 @@
+{
+  "id": "gid://shopify/Product/9966252163355",
+  "handle": "ariocarpus-fissuratus-seedling-grafts",
+  "title": "Ariocarpus fissuratus seedling grafts",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p>Plant description</p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "Seed Grown",
+        "pText": "Germinated seeds purchased from",
+        "aText": "Uglyplantation @ Etsy",
+        "aHref": "https://www.etsy.com/shop/Uglyplantation",
+        "date": "2024-11-24"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-fissuratus-seedling-grafts--2025-08-23--carousel--000.webp?v=1756594570",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-23",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-fissuratus-seedling-grafts--2025-03-04--journal--000.webp?v=1756594570",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-03-04",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-fissuratus-seedling-grafts--2025-03-04--journal--001.webp?v=1756594570",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-03-04",
+            "index": 1,
+            "ext": "webp"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2025-03-04",
+          "title": "A little over 3 months after germination",
+          "journal-type": "milestone",
+          "content": "<p>Journal entry</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/2114/Ariocarpus_fissuratus#:~:text=Description%3A%20Ariocarpus%20fissuratusSN%7C2073%5D%5D,flat%20on%20the%20soil%20surface."
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "xx cm",
+          "width": "xx cm",
+          "pot": "x.x\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "X days"
+    }
+  ]
+}

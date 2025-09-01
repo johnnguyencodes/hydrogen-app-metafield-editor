@@ -1,0 +1,116 @@
+{
+  "id": "gid://shopify/Product/9966793851163",
+  "handle": "conophytum-seedlings-1",
+  "title": "Conophytum seedlings 1",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p>Plant description</p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "Seed Grown",
+        "pText": "Germinated seeds purchased from",
+        "aText": "yongquanLITHOPS @ Etsy",
+        "aHref": "https://www.etsy.com/shop/yongquanLITHOPS",
+        "date": "2024-10-12"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--conophytum-seedlings-1--2025-08-16--carousel--000.webp?v=1756692490",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-16",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--conophytum-seedlings-1--2024-12-22--journal--000.webp?v=1756692491",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-22",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--conophytum-seedlings-1--2024-12-03--journal--000.webp?v=1756692490",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-03",
+            "index": 0,
+            "ext": "webp"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2024-12-22",
+          "title": "Second photos",
+          "journal-type": "milestone",
+          "content": "<p>Second photos</p>"
+        },
+        {
+          "date": "2024-12-03",
+          "title": "First photos after sowing",
+          "journal-type": "journal",
+          "content": "<p>First photos</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://en.wikipedia.org/wiki/Conophytum"
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "xx cm",
+          "width": "xx cm",
+          "pot": "x.x\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "X days"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "gid://shopify/Product/9966797029659",
+  "handle": "dendrosicyos-socotrana",
+  "title": "Dendrosicyos socotrana",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p>Plant description</p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "Purchased from",
+        "pText": "",
+        "aText": "Radiant Cactus @ Etsy",
+        "aHref": "https://www.etsy.com/shop/RadiantCactus",
+        "date": "2025-01-16"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dendrosicyos-socotrana--2025-08-19--carousel--000.webp?v=1756694432",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-19",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dendrosicyos-socotrana--2025-01-24--journal--000.webp?v=1756694432",
+            "width": 2268,
+            "height": 2268
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-01-24",
+            "index": 0,
+            "ext": "webp"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2025-01-24",
+          "title": "First picture",
+          "journal-type": "milestone",
+          "content": "<p>First picture</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://llifle.com/Encyclopedia/TREES/Family/Cucurbitaceae/33367/Dendrosicyos_socotrana"
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "xx cm",
+          "width": "xx cm",
+          "pot": "x.x\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "X days"
+    }
+  ]
+}

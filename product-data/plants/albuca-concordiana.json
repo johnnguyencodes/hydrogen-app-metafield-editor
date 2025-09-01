@@ -1,0 +1,186 @@
+{
+  "id": "gid://shopify/Product/9966067384603",
+  "handle": "albuca-concordiana",
+  "title": "Albuca concordiana",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p>Plant description later</p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "Purchased from",
+        "pText": "",
+        "aText": "yongquanLITHOPS @ Etsy",
+        "aHref": "https://www.etsy.com/shop/yongquanLITHOPS",
+        "date": "2024-02-04"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--albuca-concordiana--2025-08-19--carousel--000.webp?v=1756590218",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-19",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--albuca-concordiana--2025-08-19--carousel--001.webp?v=1756590189",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-19",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--albuca-concordiana--2025-02-06--journal--000.webp?v=1756590220",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-02-06",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--albuca-concordiana--2025-02-06--journal--001.webp?v=1756590220",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-02-06",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--albuca-concordiana--2025-02-06--journal--002.webp?v=1756590219",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-02-06",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--albuca-concordiana--2024-12-02--journal--000.webp?v=1756590219",
+            "width": 4032,
+            "height": 3601
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-02",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--albuca-concordiana--2024-12-02--journal--001.webp?v=1756590219",
+            "width": 4032,
+            "height": 3419
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-02",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--albuca-concordiana--2024-12-02--journal--002.webp?v=1756590219",
+            "width": 4032,
+            "height": 3263
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-02",
+            "index": 2,
+            "ext": "webp"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2025-02-06",
+          "title": "First pictures",
+          "journal-type": "milestone",
+          "content": "<p>First pictures</p>"
+        },
+        {
+          "date": "2024-12-02",
+          "title": "Pictures from owner",
+          "journal-type": "milestone",
+          "content": "<p>Pictures from owner</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://llifle.com/Encyclopedia/BULBS/Family/Hyacinthaceae/33635/Albuca_concordiana"
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "xx cm",
+          "width": "xx cm",
+          "pot": "x.x\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "8 days"
+    }
+  ]
+}
