@@ -77,7 +77,7 @@ export async function fetchAdminFiles(): Promise<AdminFile[]> {
       }
 
       const data = response.data;
-      const adminFiles = data.files.edges.map((edge) => edge.node);
+      const adminFiles: AdminFile[] = data.files.edges.map((edge) => edge.node);
 
       allFiles.push(...adminFiles);
 

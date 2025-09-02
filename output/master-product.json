@@ -701,7 +701,7 @@
     "status": "DRAFT",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Duplicate this plant product<br><br>Examples of the \"plant.acquistion\" metafield:<br><br>      //   {<br>      //     \"method\": \"Seed Grown\",<br>      //     \"pText\": \"Something about acquiring seeds\",<br>      //     \"aText\": \"Text for link if needed\",<br>      //     \"aHref\": \"URL for link if needed\",<br>      //     \"date\": \"YYYY-MM-DD\"<br>      //   }<br>      //<br>      //  OR<br>      //<br>      // {<br>      //   \"method\": \"Purchased from\",<br>      //   \"pText\": \"something about the purchase\",<br>      //   \"aText\": \"Name of store\",<br>      //   \"aHret\": \"https://url.com\",<br>      //   \"date\": \"YYYY-MM-DD\"<br>      // }<br>      //<br>      // OR<br>      //<br>      //   {<br>      //     \"method\": \"Cutting\",<br>      //     \"pText\": \"Something about the cutting\",<br>      //     \"aText\": \"Text for link if needed\",<br>      //     \"aHref\": \"URL for link if needed\",<br>      //     \"date\": \"YYYY-MM-DD\"<br>      //   }<br><br></p>",
+    "descriptionHtml": "<p>Duplicate this plant product <br><br>Examples of the \"plant.acquistion\" metafield:<br><br>      //   {<br>      //     \"method\": \"Seed Grown\",<br>      //     \"pText\": \"Something about acquiring seeds\",<br>      //     \"aText\": \"Text for link if needed\",<br>      //     \"aHref\": \"URL for link if needed\",<br>      //     \"date\": \"YYYY-MM-DD\"<br>      //   }<br>      //<br>      //  OR<br>      //<br>      // {<br>      //   \"method\": \"Purchased from\",<br>      //   \"pText\": \"something about the purchase\",<br>      //   \"aText\": \"Name of store\",<br>      //   \"aHret\": \"https://url.com\",<br>      //   \"date\": \"YYYY-MM-DD\"<br>      // }<br>      //<br>      // OR<br>      //<br>      //   {<br>      //     \"method\": \"Cutting\",<br>      //     \"pText\": \"Something about the cutting\",<br>      //     \"aText\": \"Text for link if needed\",<br>      //     \"aHref\": \"URL for link if needed\",<br>      //     \"date\": \"YYYY-MM-DD\"<br>      //   }<br><br></p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -6377,6 +6377,76 @@
               "index": 0,
               "ext": "webp"
             }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia-x-susannae--2025-01-05--journal--000.webp?v=1756774928",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2025-01-05",
+              "index": 0,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia-x-susannae--2025-01-05--journal--001.webp?v=1756774928",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2025-01-05",
+              "index": 1,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia-x-susannae--2024-12-13--journal--000.webp?v=1756774929",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-12-13",
+              "index": 0,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia-x-susannae--2024-12-13--journal--001.webp?v=1756774928",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-12-13",
+              "index": 1,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia-x-susannae--2024-11-07--journal--000.webp?v=1756774928",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-11-07",
+              "index": 0,
+              "ext": "webp"
+            }
           }
         ]
       },
@@ -6410,6 +6480,355 @@
         "key": "llifle-database-link",
         "type": "single_line_text_field",
         "value": "https://greg.app/plant-care/euphorbia-suzannae-x-bupleurifolia"
+      },
+      {
+        "namespace": "plant",
+        "key": "measurement",
+        "type": "json",
+        "value": [
+          {
+            "height": "xx cm",
+            "width": "xx cm",
+            "pot": "x.x\" plastic pot",
+            "date": "2025-01-01"
+          }
+        ]
+      },
+      {
+        "namespace": "plant",
+        "key": "watering-frequency",
+        "type": "single_line_text_field",
+        "value": "X days"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/9967753560347",
+    "handle": "euphorbia-obesa",
+    "title": "Euphorbia obesa",
+    "status": "ACTIVE",
+    "productType": "plants",
+    "tags": [],
+    "descriptionHtml": "<p>Plant description</p>",
+    "metafields": [
+      {
+        "namespace": "plant",
+        "key": "acquisition",
+        "type": "json",
+        "value": {
+          "method": "Purchased from",
+          "pText": "",
+          "aText": "ShopCactism @ Etsy",
+          "aHref": "https://www.etsy.com/shop/ShopCactism?ref=yr_purchases",
+          "date": "2024-10-13"
+        }
+      },
+      {
+        "namespace": "plant",
+        "key": "images",
+        "type": "json",
+        "value": [
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2025-08-24--carousel--000.webp?v=1756780120",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 0,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2025-08-24--carousel--001.webp?v=1756780119",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 1,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2025-08-24--carousel--002.webp?v=1756780119",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 2,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2025-08-24--carousel--003.webp?v=1756780119",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 3,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2025-08-24--carousel--004.webp?v=1756780119",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 4,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2024-12-25--journal--000.webp?v=1756780120",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-12-25",
+              "index": 0,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2024-12-25--journal--001.webp?v=1756780120",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-12-25",
+              "index": 1,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2024-12-25--journal--002.webp?v=1756780120",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-12-25",
+              "index": 2,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2024-11-04--journal--000.webp?v=1756780120",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-11-04",
+              "index": 0,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2024-11-04--journal--001.webp?v=1756780120",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-11-04",
+              "index": 1,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2024-11-04--journal--002.webp?v=1756780120",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-11-04",
+              "index": 2,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2024-10-20--journal--000.webp?v=1756780120",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-10-20",
+              "index": 0,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2024-10-20--journal--001.webp?v=1756780119",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-10-20",
+              "index": 1,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-obesa--2024-10-20--journal--002.webp?v=1756780119",
+              "width": 2268,
+              "height": 2268
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-10-20",
+              "index": 2,
+              "ext": "webp"
+            }
+          }
+        ]
+      },
+      {
+        "namespace": "plant",
+        "key": "journal",
+        "type": "json",
+        "value": [
+          {
+            "date": "2024-12-25",
+            "title": "Second photos",
+            "journal-type": "milestone",
+            "content": "<p>Third photos</p>"
+          },
+          {
+            "date": "2024-11-04",
+            "title": "Second photos",
+            "journal-type": "milestone",
+            "content": "<p>Second photos</p>"
+          },
+          {
+            "date": "2024-10-20",
+            "title": "First Photos",
+            "journal-type": "journal",
+            "content": "<p>First photos</p>"
+          }
+        ]
+      },
+      {
+        "namespace": "plant",
+        "key": "llifle-database-link",
+        "type": "single_line_text_field",
+        "value": "https://www.llifle.com/Encyclopedia/"
+      },
+      {
+        "namespace": "plant",
+        "key": "measurement",
+        "type": "json",
+        "value": [
+          {
+            "height": "xx cm",
+            "width": "xx cm",
+            "pot": "x.x\" plastic pot",
+            "date": "2025-01-01"
+          }
+        ]
+      },
+      {
+        "namespace": "plant",
+        "key": "watering-frequency",
+        "type": "single_line_text_field",
+        "value": "X days"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/9967757132059",
+    "handle": "frailea-castanea-v-nitens",
+    "title": "Frailea castanea v. nitens",
+    "status": "ACTIVE",
+    "productType": "plants",
+    "tags": [],
+    "descriptionHtml": "<p>Plant description</p>",
+    "metafields": [
+      {
+        "namespace": "plant",
+        "key": "acquisition",
+        "type": "json",
+        "value": {
+          "method": "Purchased from",
+          "pText": "Something about acquisition, if needed",
+          "aText": "anchor text",
+          "aHref": "https://www.url.com/",
+          "date": "2025-01-01"
+        }
+      },
+      {
+        "namespace": "plant",
+        "key": "images",
+        "type": "json",
+        "value": []
+      },
+      {
+        "namespace": "plant",
+        "key": "journal",
+        "type": "json",
+        "value": [
+          {
+            "date": "2024-12-21",
+            "title": "First two months!",
+            "journal-type": "milestone",
+            "content": "<p>Second month home.</p>"
+          },
+          {
+            "date": "2024-10-22",
+            "title": "First Photos",
+            "journal-type": "journal",
+            "content": "<p>First day home!</p>"
+          }
+        ]
+      },
+      {
+        "namespace": "plant",
+        "key": "llifle-database-link",
+        "type": "single_line_text_field",
+        "value": "https://www.llifle.com/Encyclopedia/"
       },
       {
         "namespace": "plant",
