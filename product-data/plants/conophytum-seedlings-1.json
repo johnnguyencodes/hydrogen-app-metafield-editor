@@ -75,15 +75,15 @@
       "value": [
         {
           "date": "2024-12-22",
-          "title": "Second photos",
-          "journal-type": "milestone",
-          "content": "<p>Second photos</p>"
+          "title": "Lorem ipsum dolor sit amet",
+          "journal-type": "journal",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
         },
         {
           "date": "2024-12-03",
-          "title": "First photos after sowing",
+          "title": "Lorem ipsum dolor sit amet",
           "journal-type": "journal",
-          "content": "<p>First photos</p>"
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
         }
       ]
     },
@@ -113,5 +113,4 @@
       "value": "X days"
     }
   ]
-}
 }

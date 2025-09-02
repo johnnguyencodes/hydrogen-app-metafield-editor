@@ -61,9 +61,9 @@
       "value": [
         {
           "date": "2025-01-24",
-          "title": "First picture",
-          "journal-type": "milestone",
-          "content": "<p>First picture</p>"
+          "title": "Lorem ipsum dolor sit amet",
+          "journal-type": "journal",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
         }
       ]
     },

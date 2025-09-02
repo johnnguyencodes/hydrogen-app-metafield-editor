@@ -243,27 +243,27 @@
       "value": [
         {
           "date": "2025-01-01",
-          "title": "Fourth",
-          "journal-type": "milestone",
-          "content": "<p>Fourth</p>"
+          "title": "Lorem ipsum dolor sit amet",
+          "journal-type": "journal",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
         },
         {
           "date": "2024-12-24",
-          "title": "Third photo",
-          "journal-type": "milestone",
-          "content": "<p>Third</p>"
+          "title": "Lorem ipsum dolor sit amet",
+          "journal-type": "journal",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
         },
         {
           "date": "2024-12-23",
-          "title": "Second photo",
-          "journal-type": "milestone",
-          "content": "<p>Second</p>"
+          "title": "Lorem ipsum dolor sit amet",
+          "journal-type": "journal",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
         },
         {
           "date": "2024-12-21",
-          "title": "First photo",
-          "journal-type": "milestone",
-          "content": "<p>First</p>"
+          "title": "Lorem ipsum dolor sit amet",
+          "journal-type": "journal",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
         }
       ]
     },

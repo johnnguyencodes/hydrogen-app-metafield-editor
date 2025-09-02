@@ -145,15 +145,15 @@
       "value": [
         {
           "date": "2025-02-06",
-          "title": "First pictures",
-          "journal-type": "milestone",
-          "content": "<p>First pictures</p>"
+          "title": "Lorem ipsum dolor sit amet",
+          "journal-type": "journal",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
         },
         {
           "date": "2024-12-02",
-          "title": "Pictures from owner",
-          "journal-type": "milestone",
-          "content": "<p>Pictures from owner</p>"
+          "title": "Lorem ipsum dolor sit amet",
+          "journal-type": "journal",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
         }
       ]
     },
