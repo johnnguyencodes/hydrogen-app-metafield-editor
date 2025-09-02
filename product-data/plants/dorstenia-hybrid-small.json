@@ -1,7 +1,7 @@
 {
-  "id": "gid://shopify/Product/9966848213275",
-  "handle": "dorstenia-hybrid-big",
-  "title": "Dorstenia hybrid big",
+  "id": "gid://shopify/Product/9966851162395",
+  "handle": "dorstenia-hybrid-small",
+  "title": "Dorstenia hybrid small",
   "status": "ACTIVE",
   "productType": "plants",
   "tags": [],
@@ -27,13 +27,13 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dorstenia-hybrid-big--2025-08-19--carousel--000.webp?v=1756700651",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dorstenia-hybrid-small--2025-08-23--carousel--000.webp?v=1756701122",
             "width": 3024,
             "height": 3024
           },
           "meta": {
             "category": "carousel",
-            "date": "2025-08-19",
+            "date": "2025-08-23",
             "index": 0,
             "ext": "webp"
           }
@@ -41,7 +41,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dorstenia-hybrid-big--2024-12-21--journal--000.webp?v=1756700651",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dorstenia-hybrid-small--2024-12-21--journal--000.webp?v=1756701123",
             "width": 4032,
             "height": 4032
           },
@@ -55,7 +55,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dorstenia-hybrid-big--2024-12-21--journal--001.webp?v=1756700651",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dorstenia-hybrid-small--2024-12-21--journal--001.webp?v=1756701123",
             "width": 4032,
             "height": 4032
           },
@@ -69,7 +69,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dorstenia-hybrid-big--2024-12-21--journal--002.webp?v=1756700651",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dorstenia-hybrid-small--2024-12-21--journal--002.webp?v=1756701123",
             "width": 4032,
             "height": 4032
           },

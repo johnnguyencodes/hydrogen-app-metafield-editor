@@ -1,0 +1,164 @@
+{
+  "id": "gid://shopify/Product/9967731736859",
+  "handle": "euphorbia-bupleurifolia-x-susannae",
+  "title": "Euphorbia bupleurifolia x susannae",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p>Plant description</p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "Purchased from",
+        "pText": "",
+        "aText": "KongerGarden @ Etsy",
+        "aHref": "https://www.etsy.com/shop/KongerGarden",
+        "date": "2024-11-06"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia-x-susannae--2025-08-16--carousel--000.webp?v=1756774928",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-16",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia-x-susannae--2025-01-05--journal--000.webp?v=1756774928",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-01-05",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia-x-susannae--2025-01-05--journal--001.webp?v=1756774928",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2025-01-05",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia-x-susannae--2024-12-13--journal--000.webp?v=1756774929",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-13",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia-x-susannae--2024-12-13--journal--001.webp?v=1756774928",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-13",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia-x-susannae--2024-11-07--journal--000.webp?v=1756774928",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-11-07",
+            "index": 0,
+            "ext": "webp"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2025-01-05",
+          "title": "Second month",
+          "journal-type": "milestone",
+          "content": "<p>Second month</p>"
+        },
+        {
+          "date": "2024-12-13",
+          "title": "First month",
+          "journal-type": "milestone",
+          "content": "<p>First month</p>"
+        },
+        {
+          "date": "2024-11-07",
+          "title": "First Photos",
+          "journal-type": "journal",
+          "content": "<p>First day home!!</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://greg.app/plant-care/euphorbia-suzannae-x-bupleurifolia"
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "xx cm",
+          "width": "xx cm",
+          "pot": "x.x\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "X days"
+    }
+  ]
+}

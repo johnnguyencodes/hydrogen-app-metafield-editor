@@ -105,3 +105,10 @@ export type ProductImageProps = {
   id: string;
   className?: string;
 };
+
+export type FilesQueryResult = {
+  files: {
+    edges: { cursor: string; node: AdminFile }[];
+    pageInfo: { hasNextPage: boolean; endCursor: string | null };
+  };
+};

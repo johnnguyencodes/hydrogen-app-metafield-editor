@@ -1,7 +1,7 @@
 {
-  "id": "gid://shopify/Product/9966848213275",
-  "handle": "dorstenia-hybrid-big",
-  "title": "Dorstenia hybrid big",
+  "id": "gid://shopify/Product/9967720005915",
+  "handle": "euphorbia-bupleurifolia",
+  "title": "Euphorbia bupleurifolia",
   "status": "ACTIVE",
   "productType": "plants",
   "tags": [],
@@ -14,9 +14,9 @@
       "value": {
         "method": "Purchased from",
         "pText": "",
-        "aText": "BotanicaEraviscii @ Etsy",
-        "aHref": "https://www.etsy.com/shop/BotanicaEraviscii",
-        "date": "2024-12-19"
+        "aText": "MeDeeCo @ Etsy",
+        "aHref": "https://www.etsy.com/shop/MeDeeCo",
+        "date": "2025-02-05"
       }
     },
     {
@@ -27,7 +27,7 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dorstenia-hybrid-big--2025-08-19--carousel--000.webp?v=1756700651",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia--2025-08-19--carousel--000.webp?v=1756769133",
             "width": 3024,
             "height": 3024
           },
@@ -41,13 +41,13 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dorstenia-hybrid-big--2024-12-21--journal--000.webp?v=1756700651",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia--2025-02-06--journal--000.webp?v=1756769134",
             "width": 4032,
             "height": 4032
           },
           "meta": {
             "category": "journal",
-            "date": "2024-12-21",
+            "date": "2025-02-06",
             "index": 0,
             "ext": "webp"
           }
@@ -55,13 +55,13 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dorstenia-hybrid-big--2024-12-21--journal--001.webp?v=1756700651",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia--2025-02-06--journal--001.webp?v=1756769134",
             "width": 4032,
             "height": 4032
           },
           "meta": {
             "category": "journal",
-            "date": "2024-12-21",
+            "date": "2025-02-06",
             "index": 1,
             "ext": "webp"
           }
@@ -69,13 +69,13 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--dorstenia-hybrid-big--2024-12-21--journal--002.webp?v=1756700651",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--euphorbia-bupleurifolia--2025-02-06--journal--002.webp?v=1756769134",
             "width": 4032,
             "height": 4032
           },
           "meta": {
             "category": "journal",
-            "date": "2024-12-21",
+            "date": "2025-02-06",
             "index": 2,
             "ext": "webp"
           }
@@ -88,7 +88,7 @@
       "type": "json",
       "value": [
         {
-          "date": "2024-12-21",
+          "date": "2025-02-06",
           "title": "First Photos",
           "journal-type": "journal",
           "content": "<p>First day home!</p>"
@@ -99,7 +99,7 @@
       "namespace": "plant",
       "key": "llifle-database-link",
       "type": "single_line_text_field",
-      "value": "https://www.llifle.com/Encyclopedia/SUCCULENTS/Family/Moraceae/11246/Dorstenia_sp."
+      "value": "https://www.llifle.com/Encyclopedia/SUCCULENTS/Family/Euphorbiaceae/17510/Euphorbia_bupleurifolia#:~:text=Description%3A%20Euphorbia%20bupleurifoliaSN%7C17510%5D%5D,plant%20abounds%20with%20milky%20juice."
     },
     {
       "namespace": "plant",
