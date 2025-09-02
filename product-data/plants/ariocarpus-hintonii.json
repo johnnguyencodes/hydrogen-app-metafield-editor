@@ -1,7 +1,7 @@
 {
-  "id": "gid://shopify/Product/9930019668251",
-  "handle": "monsonia-peniculina",
-  "title": "Monsonia Peniculina",
+  "id": "gid://shopify/Product/9966268088603",
+  "handle": "ariocarpus-hintonii",
+  "title": "Ariocarpus hintonii",
   "status": "ACTIVE",
   "productType": "plants",
   "tags": [],
@@ -14,43 +14,10 @@
       "value": {
         "method": "Purchased from",
         "pText": "",
-        "aText": "CactusCatSucculents @ Etsy",
-        "aHref": "https://www.etsy.com/shop/CactusCatSucculents",
-        "date": "2024-10-24"
+        "aText": "PlantaSecaUSA @ Etsy",
+        "aHref": "https://www.etsy.com/shop/PlantaSecaUSA",
+        "date": "2024-11-19"
       }
-    },
-    {
-      "namespace": "plant",
-      "key": "carousel-copy",
-      "type": "json",
-      "value": [
-        {
-          "date": "2024-10-22",
-          "title": "First Day Home",
-          "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
-        },
-        {
-          "date": "2024-03-20",
-          "title": "First Watering",
-          "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
-        },
-        {
-          "date": "2024-03-27",
-          "title": "New Growth",
-          "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
-        }
-      ]
-    },
-    {
-      "namespace": "plant",
-      "key": "growth-notes",
-      "type": "json",
-      "value": [
-        {
-          "growth": "slow",
-          "spines": "spikey"
-        }
-      ]
     },
     {
       "namespace": "plant",
@@ -60,13 +27,13 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--000.webp?v=1753061906",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-hintonii--2025-08-19--carousel--000.webp?v=1756598486",
             "width": 3024,
             "height": 3024
           },
           "meta": {
             "category": "carousel",
-            "date": "2025-07-16",
+            "date": "2025-08-19",
             "index": 0,
             "ext": "webp"
           }
@@ -74,13 +41,13 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--001.webp?v=1753061907",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-hintonii--2025-08-19--carousel--001.webp?v=1756598486",
             "width": 3024,
             "height": 3024
           },
           "meta": {
             "category": "carousel",
-            "date": "2025-07-16",
+            "date": "2025-08-19",
             "index": 1,
             "ext": "webp"
           }
@@ -88,13 +55,13 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--002.webp?v=1753061906",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-hintonii--2025-08-19--carousel--002.webp?v=1756598485",
             "width": 3024,
             "height": 3024
           },
           "meta": {
             "category": "carousel",
-            "date": "2025-07-16",
+            "date": "2025-08-19",
             "index": 2,
             "ext": "webp"
           }
@@ -102,13 +69,13 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--003.webp?v=1753061906",
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-hintonii--2025-08-19--carousel--003.webp?v=1756598485",
             "width": 3024,
             "height": 3024
           },
           "meta": {
             "category": "carousel",
-            "date": "2025-07-16",
+            "date": "2025-08-19",
             "index": 3,
             "ext": "webp"
           }
@@ -116,55 +83,13 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--004.webp?v=1753061907",
-            "width": 3024,
-            "height": 3024
-          },
-          "meta": {
-            "category": "carousel",
-            "date": "2025-07-16",
-            "index": 4,
-            "ext": "webp"
-          }
-        },
-        {
-          "alt": "",
-          "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--005.webp?v=1753061906",
-            "width": 3024,
-            "height": 3024
-          },
-          "meta": {
-            "category": "carousel",
-            "date": "2025-07-16",
-            "index": 5,
-            "ext": "webp"
-          }
-        },
-        {
-          "alt": "",
-          "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2025-07-16--carousel--006.webp?v=1753061906",
-            "width": 3024,
-            "height": 3024
-          },
-          "meta": {
-            "category": "carousel",
-            "date": "2025-07-16",
-            "index": 6,
-            "ext": "webp"
-          }
-        },
-        {
-          "alt": "",
-          "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2024-10-24--journal--000.webp?v=1752810949",
-            "width": 3794,
-            "height": 3795
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-hintonii--2024-12-22--journal--000.webp?v=1756598034",
+            "width": 4032,
+            "height": 4032
           },
           "meta": {
             "category": "journal",
-            "date": "2024-10-24",
+            "date": "2024-12-22",
             "index": 0,
             "ext": "webp"
           }
@@ -172,13 +97,13 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2024-10-24--journal--001.webp?v=1752810949",
-            "width": 3816,
-            "height": 3816
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-hintonii--2024-12-22--journal--001.webp?v=1756598033",
+            "width": 4032,
+            "height": 4032
           },
           "meta": {
             "category": "journal",
-            "date": "2024-10-24",
+            "date": "2024-12-22",
             "index": 1,
             "ext": "webp"
           }
@@ -186,13 +111,13 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2024-10-24--journal--002.webp?v=1752810949",
-            "width": 3864,
-            "height": 3865
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-hintonii--2024-12-22--journal--002.webp?v=1756598033",
+            "width": 4032,
+            "height": 4032
           },
           "meta": {
             "category": "journal",
-            "date": "2024-10-24",
+            "date": "2024-12-22",
             "index": 2,
             "ext": "webp"
           }
@@ -200,28 +125,56 @@
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2024-10-24--journal--003.webp?v=1752810949",
-            "width": 3976,
-            "height": 3976
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-hintonii--2024-12-03--journal--000.webp?v=1756598033",
+            "width": 4032,
+            "height": 4032
           },
           "meta": {
             "category": "journal",
-            "date": "2024-10-24",
-            "index": 3,
+            "date": "2024-12-03",
+            "index": 0,
             "ext": "webp"
           }
         },
         {
           "alt": "",
           "image": {
-            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--monsonia-peniculina--2024-10-24--journal--004.webp?v=1752810949",
-            "width": 3826,
-            "height": 3826
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-hintonii--2024-12-03--journal--001.webp?v=1756598033",
+            "width": 4032,
+            "height": 4032
           },
           "meta": {
             "category": "journal",
-            "date": "2024-10-24",
-            "index": 4,
+            "date": "2024-12-03",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-hintonii--2024-12-03--journal--002.webp?v=1756598033",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-03",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--ariocarpus-hintonii--2024-08-17--journal--000.webp?v=1756598033",
+            "width": 3590,
+            "height": 3590
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-08-17",
+            "index": 0,
             "ext": "webp"
           }
         }
@@ -233,7 +186,19 @@
       "type": "json",
       "value": [
         {
-          "date": "2024-10-24",
+          "date": "2024-12-22",
+          "title": "Lorem ipsum dolor sit amet",
+          "journal-type": "journal",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
+        },
+        {
+          "date": "2024-12-03",
+          "title": "Lorem ipsum dolor sit amet",
+          "journal-type": "journal",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
+        },
+        {
+          "date": "2024-08-17",
           "title": "Lorem ipsum dolor sit amet",
           "journal-type": "journal",
           "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
