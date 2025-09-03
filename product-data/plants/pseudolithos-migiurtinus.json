@@ -34,17 +34,6 @@
     },
     {
       "namespace": "plant",
-      "key": "growth-notes",
-      "type": "json",
-      "value": [
-        {
-          "growth": "slow",
-          "spines": "spikey"
-        }
-      ]
-    },
-    {
-      "namespace": "plant",
       "key": "carousel-copy",
       "type": "json",
       "value": [

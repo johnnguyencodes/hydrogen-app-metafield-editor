@@ -15,48 +15,9 @@
         "value": [
           {
             "date": "2025-01-12",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>"
-          },
-          {
-            "date": "2025-01-06",
-            "title": "First Day Home",
-            "journal-type": "milestone",
-            "content": "<p>First day home!  So excited.</p>"
-          }
-        ]
-      },
-      {
-        "namespace": "plant",
-        "key": "growth-notes",
-        "type": "json",
-        "value": [
-          {
-            "growth": "slow",
-            "spines": "spikey"
-          }
-        ]
-      },
-      {
-        "namespace": "plant",
-        "key": "carousel-copy",
-        "type": "json",
-        "value": [
-          {
-            "date": "2024-03-15",
-            "title": "First Day Home",
-            "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
-          },
-          {
-            "date": "2024-03-20",
-            "title": "First Watering",
-            "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
-          },
-          {
-            "date": "2024-03-27",
-            "title": "New Growth",
-            "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -332,54 +293,21 @@
         "value": [
           {
             "date": "2025-07-20",
-            "title": "Comparison photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-12-21",
-            "title": "First two months!",
-            "journal-type": "milestone",
-            "content": "<p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p><p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>"
-          },
-          {
-            "date": "2024-10-22",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>This is one of my favorite plants in my collection. While this cactus exhibits the typical features of <i>Mammillaria crucigera</i> subsp. <i>tlalocii, </i>such as a globular form, branching offsets and pups from the main stem, and small white radial spines emerging from orange-tinged areoles, it also displays a few quirks that make it especially delightful to observe up close whenever I water it.</p>"
-          }
-        ]
-      },
-      {
-        "namespace": "plant",
-        "key": "growth-notes",
-        "type": "json",
-        "value": [
-          {
-            "growth": "slow",
-            "spines": "spikey"
-          }
-        ]
-      },
-      {
-        "namespace": "plant",
-        "key": "carousel-copy",
-        "type": "json",
-        "value": [
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
+          },
           {
             "date": "2024-10-22",
-            "title": "First Day Home",
-            "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
-          },
-          {
-            "date": "2024-03-20",
-            "title": "First Watering",
-            "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
-          },
-          {
-            "date": "2024-03-27",
-            "title": "New Growth",
-            "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -774,7 +702,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Duplicate this plant product<br><br>Examples of the \"plant.acquistion\" metafield:<br><br>      //   {<br>      //     \"method\": \"Seed Grown\",<br>      //     \"pText\": \"Something about acquiring seeds\",<br>      //     \"aText\": \"Text for link if needed\",<br>      //     \"aHref\": \"URL for link if needed\",<br>      //     \"date\": \"YYYY-MM-DD\"<br>      //   }<br>      //<br>      //  OR<br>      //<br>      // {<br>      //   \"method\": \"Purchased from\",<br>      //   \"pText\": \"something about the purchase\",<br>      //   \"aText\": \"Name of store\",<br>      //   \"aHret\": \"https://url.com\",<br>      //   \"date\": \"YYYY-MM-DD\"<br>      // }<br>      //<br>      // OR<br>      //<br>      //   {<br>      //     \"method\": \"Cutting\",<br>      //     \"pText\": \"Something about the cutting\",<br>      //     \"aText\": \"Text for link if needed\",<br>      //     \"aHref\": \"URL for link if needed\",<br>      //     \"date\": \"YYYY-MM-DD\"<br>      //   }<br><br></p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -807,17 +735,6 @@
             "date": "2024-03-27",
             "title": "New Growth",
             "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
-          }
-        ]
-      },
-      {
-        "namespace": "plant",
-        "key": "growth-notes",
-        "type": "json",
-        "value": [
-          {
-            "growth": "slow",
-            "spines": "spikey"
           }
         ]
       },
@@ -1003,9 +920,9 @@
         "value": [
           {
             "date": "2024-10-24",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -1043,7 +960,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Duplicate this plant product<br><br>Examples of the \"plant.acquistion\" metafield:<br><br>      //   {<br>      //     \"method\": \"Seed Grown\",<br>      //     \"pText\": \"Something about acquiring seeds\",<br>      //     \"aText\": \"Text for link if needed\",<br>      //     \"aHref\": \"URL for link if needed\",<br>      //     \"date\": \"YYYY-MM-DD\"<br>      //   }<br>      //<br>      //  OR<br>      //<br>      // {<br>      //   \"method\": \"Purchased from\",<br>      //   \"pText\": \"something about the purchase\",<br>      //   \"aText\": \"Name of store\",<br>      //   \"aHret\": \"https://url.com\",<br>      //   \"date\": \"YYYY-MM-DD\"<br>      // }<br>      //<br>      // OR<br>      //<br>      //   {<br>      //     \"method\": \"Cutting\",<br>      //     \"pText\": \"Something about the cutting\",<br>      //     \"aText\": \"Text for link if needed\",<br>      //     \"aHref\": \"URL for link if needed\",<br>      //     \"date\": \"YYYY-MM-DD\"<br>      //   }<br><br></p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -1169,27 +1086,27 @@
         "value": [
           {
             "date": "2025-01-05",
-            "title": "Journal title",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>Entry content</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-12-31",
-            "title": "Journal title",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>Entry content</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-12-26",
-            "title": "All the leaves fell off",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>All the leaves fell off, and it looks like the tip of this seedling dried out. I'm going to prune the tip off and see if it can start a new growth point.</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-10-15",
-            "title": "Journal title",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>Entry content</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -1227,7 +1144,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Product description later<br><br></p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -1311,9 +1228,9 @@
         "value": [
           {
             "date": "2025-01-24",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First photos</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -1351,7 +1268,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description later</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -1491,15 +1408,15 @@
         "value": [
           {
             "date": "2025-02-06",
-            "title": "First pictures",
-            "journal-type": "milestone",
-            "content": "<p>First pictures</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-12-02",
-            "title": "Pictures from owner",
-            "journal-type": "milestone",
-            "content": "<p>Pictures from owner</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -1537,7 +1454,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -1677,9 +1594,9 @@
         "value": [
           {
             "date": "2025-01-12",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First photos</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -1717,7 +1634,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -1787,9 +1704,9 @@
         "value": [
           {
             "date": "2025-03-04",
-            "title": "A little over 3 months after germination",
-            "journal-type": "milestone",
-            "content": "<p>Journal entry</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -1827,7 +1744,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -1911,9 +1828,9 @@
         "value": [
           {
             "date": "2024-12-31",
-            "title": "First pictures",
-            "journal-type": "milestone",
-            "content": "<p>First pictures</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -1951,7 +1868,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -2133,21 +2050,21 @@
         "value": [
           {
             "date": "2024-12-22",
-            "title": "Pictures",
-            "journal-type": "milestone",
-            "content": "<p>Pictures</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-12-03",
-            "title": "First pictures at home",
-            "journal-type": "milestone",
-            "content": "<p>Pictures</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-08-17",
-            "title": "Picture from seller",
-            "journal-type": "milestone",
-            "content": "<p>Picture from seller</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -2185,7 +2102,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -2269,15 +2186,15 @@
         "value": [
           {
             "date": "2025-03-04",
-            "title": "First pictures at home",
-            "journal-type": "milestone",
-            "content": "<p>Pictures</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2025-02-03",
-            "title": "Picture from seller",
-            "journal-type": "milestone",
-            "content": "<p>Picture from seller</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -2315,7 +2232,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -2469,15 +2386,15 @@
         "value": [
           {
             "date": "2024-12-18",
-            "title": "First pictures home",
-            "journal-type": "milestone",
-            "content": "<p>First pictures home</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-08-20",
-            "title": "Seller's picture",
-            "journal-type": "milestone",
-            "content": "<p>Seller's picture</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -2509,7 +2426,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -2635,9 +2552,9 @@
         "value": [
           {
             "date": "2024-12-18",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -2675,7 +2592,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -2759,9 +2676,9 @@
         "value": [
           {
             "date": "2024-12-18",
-            "title": "First pictures",
-            "journal-type": "milestone",
-            "content": "<p>First pictures</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -2799,7 +2716,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -2953,15 +2870,15 @@
         "value": [
           {
             "date": "2024-12-03",
-            "title": "First pictures home",
-            "journal-type": "milestone",
-            "content": "<p>First pictures home</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-08-11",
-            "title": "Seller's picture",
-            "journal-type": "milestone",
-            "content": "<p>Seller's picture</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -2999,7 +2916,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -3125,15 +3042,15 @@
         "value": [
           {
             "date": "2024-12-23",
-            "title": "Second photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>Second photos</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-10-21",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First photos</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -3171,7 +3088,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -3297,15 +3214,15 @@
         "value": [
           {
             "date": "2024-12-23",
-            "title": "Second photos",
-            "journal-type": "milestone",
-            "content": "<p>Second photos</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-10-21",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -3343,7 +3260,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -3469,15 +3386,15 @@
         "value": [
           {
             "date": "2024-12-23",
-            "title": "Second photos",
-            "journal-type": "milestone",
-            "content": "<p>Second photos</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-10-21",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -3515,7 +3432,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -3753,27 +3670,27 @@
         "value": [
           {
             "date": "2025-01-01",
-            "title": "Fourth",
-            "journal-type": "milestone",
-            "content": "<p>Fourth</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-12-24",
-            "title": "Third photo",
-            "journal-type": "milestone",
-            "content": "<p>Third</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-12-23",
-            "title": "Second photo",
-            "journal-type": "milestone",
-            "content": "<p>Second</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-12-21",
-            "title": "First photo",
-            "journal-type": "milestone",
-            "content": "<p>First</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -3811,7 +3728,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -3881,9 +3798,9 @@
         "value": [
           {
             "date": "2025-03-17",
-            "title": "First day home",
-            "journal-type": "milestone",
-            "content": "<p>First day home</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -3921,7 +3838,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -3963,9 +3880,9 @@
         "value": [
           {
             "date": "2025-01-08",
-            "title": "First day home",
-            "journal-type": "milestone",
-            "content": "<p>First day home</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -4003,7 +3920,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -4143,9 +4060,9 @@
         "value": [
           {
             "date": "2024-12-18",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -4183,7 +4100,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -4323,9 +4240,9 @@
         "value": [
           {
             "date": "2025-03-14",
-            "title": "First pictures",
-            "journal-type": "milestone",
-            "content": "<p>First pictures</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -4363,7 +4280,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -4433,15 +4350,15 @@
         "value": [
           {
             "date": "2024-12-22",
-            "title": "Second photos",
-            "journal-type": "milestone",
-            "content": "<p>Second photos</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-12-03",
-            "title": "First photos after sowing",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First photos</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -4479,7 +4396,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -4549,9 +4466,9 @@
         "value": [
           {
             "date": "2025-01-24",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -4589,7 +4506,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -4645,9 +4562,9 @@
         "value": [
           {
             "date": "2025-01-24",
-            "title": "First picture",
-            "journal-type": "milestone",
-            "content": "<p>First picture</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -4685,7 +4602,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -4811,15 +4728,15 @@
         "value": [
           {
             "date": "2024-11-04",
-            "title": "Second photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>Second photos</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-10-21",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -4857,7 +4774,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -4983,15 +4900,15 @@
         "value": [
           {
             "date": "2024-12-22",
-            "title": "First two months!",
-            "journal-type": "milestone",
-            "content": "<p>Second month home.</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-10-23",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -5029,7 +4946,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -5113,9 +5030,9 @@
         "value": [
           {
             "date": "2024-12-31",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First photos</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -5153,7 +5070,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -5279,15 +5196,15 @@
         "value": [
           {
             "date": "2025-03-04",
-            "title": "First pictures it home",
-            "journal-type": "milestone",
-            "content": "<p>First pictures at home</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2025-02-01",
-            "title": "Pictures from seller",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>Pictures from seller</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -5325,7 +5242,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -5409,9 +5326,9 @@
         "value": [
           {
             "date": "2025-01-12",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -5449,7 +5366,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -5533,9 +5450,9 @@
         "value": [
           {
             "date": "2024-12-21",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -5573,7 +5490,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -5657,9 +5574,9 @@
         "value": [
           {
             "date": "2024-12-21",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -5697,7 +5614,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -5823,15 +5740,15 @@
         "value": [
           {
             "date": "2024-12-22",
-            "title": "First two months!",
-            "journal-type": "milestone",
-            "content": "<p>Second month home.</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-10-29",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -5869,7 +5786,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -5995,9 +5912,9 @@
         "value": [
           {
             "date": "2025-01-05",
-            "title": "First photos!",
-            "journal-type": "milestone",
-            "content": "<p>Second pictures</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -6035,7 +5952,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -6119,9 +6036,9 @@
         "value": [
           {
             "date": "2025-02-06",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -6159,7 +6076,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -6299,15 +6216,15 @@
         "value": [
           {
             "date": "2025-03-04",
-            "title": "First pictures home",
-            "journal-type": "milestone",
-            "content": "<p>First pictures home</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2025-02-10",
-            "title": "Seller's picture",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "Seller's picture"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -6345,7 +6262,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -6457,21 +6374,21 @@
         "value": [
           {
             "date": "2025-01-05",
-            "title": "Second month",
-            "journal-type": "milestone",
-            "content": "<p>Second month</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-12-13",
-            "title": "First month",
-            "journal-type": "milestone",
-            "content": "<p>First month</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-11-07",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -6509,7 +6426,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -6733,21 +6650,21 @@
         "value": [
           {
             "date": "2024-12-25",
-            "title": "Second photos",
-            "journal-type": "milestone",
-            "content": "<p>Third photos</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-11-04",
-            "title": "Second photos",
-            "journal-type": "milestone",
-            "content": "<p>Second photos</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
             "date": "2024-10-20",
-            "title": "First Photos",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First photos</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -6785,7 +6702,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p>Plant description</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -6793,17 +6710,172 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "KongerGarden @ Etsy",
+          "aHref": "https://www.etsy.com/shop/KongerGarden?ref=yr_purchases",
+          "date": "2024-11-06"
         }
       },
       {
         "namespace": "plant",
         "key": "images",
         "type": "json",
-        "value": []
+        "value": [
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--frailea-castanea-v-nitens--2025-08-24--carousel--000.webp?v=1756781508",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 0,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--frailea-castanea-v-nitens--2025-08-24--carousel--001.webp?v=1756781508",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 1,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--frailea-castanea-v-nitens--2025-08-24--carousel--002.webp?v=1756781508",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 2,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--frailea-castanea-v-nitens--2025-08-24--carousel--003.webp?v=1756781508",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 3,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--frailea-castanea-v-nitens--2025-08-24--carousel--004.webp?v=1756781508",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 4,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--frailea-castanea-v-nitens--2024-12-21--journal--000.webp?v=1756781508",
+              "width": 2268,
+              "height": 2268
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-12-21",
+              "index": 0,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--frailea-castanea-v-nitens--2024-12-21--journal--001.webp?v=1756781508",
+              "width": 2268,
+              "height": 2268
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-12-21",
+              "index": 1,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--frailea-castanea-v-nitens--2024-12-21--journal--002.webp?v=1756781508",
+              "width": 2268,
+              "height": 2268
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-12-21",
+              "index": 2,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--frailea-castanea-v-nitens--2024-11-07--journal--000.webp?v=1756781509",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-11-07",
+              "index": 0,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--frailea-castanea-v-nitens--2024-11-07--journal--001.webp?v=1756781509",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-11-07",
+              "index": 1,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--frailea-castanea-v-nitens--2024-11-07--journal--002.webp?v=1756781509",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-11-07",
+              "index": 2,
+              "ext": "webp"
+            }
+          }
+        ]
       },
       {
         "namespace": "plant",
@@ -6812,15 +6884,15 @@
         "value": [
           {
             "date": "2024-12-21",
-            "title": "First two months!",
-            "journal-type": "milestone",
-            "content": "<p>Second month home.</p>"
+            "title": "Lorem ipsum dolor sit amet",
+            "journal-type": "journal",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           },
           {
-            "date": "2024-10-22",
-            "title": "First Photos",
+            "date": "2024-11-07",
+            "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
-            "content": "<p>First day home!</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
           }
         ]
       },
@@ -6828,7 +6900,7 @@
         "namespace": "plant",
         "key": "llifle-database-link",
         "type": "single_line_text_field",
-        "value": "https://www.llifle.com/Encyclopedia/"
+        "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/3524/Frailea_castanea"
       },
       {
         "namespace": "plant",
