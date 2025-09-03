@@ -718,28 +718,6 @@
       },
       {
         "namespace": "plant",
-        "key": "carousel-copy",
-        "type": "json",
-        "value": [
-          {
-            "date": "2024-10-22",
-            "title": "First Day Home",
-            "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
-          },
-          {
-            "date": "2024-03-20",
-            "title": "First Watering",
-            "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
-          },
-          {
-            "date": "2024-03-27",
-            "title": "New Growth",
-            "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
-          }
-        ]
-      },
-      {
-        "namespace": "plant",
         "key": "images",
         "type": "json",
         "value": [

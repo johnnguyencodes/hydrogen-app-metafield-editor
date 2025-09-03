@@ -22,39 +22,6 @@
     },
     {
       "namespace": "plant",
-      "key": "growth-notes",
-      "type": "json",
-      "value": [
-        {
-          "growth": "slow",
-          "spines": "spikey"
-        }
-      ]
-    },
-    {
-      "namespace": "plant",
-      "key": "carousel-copy",
-      "type": "json",
-      "value": [
-        {
-          "date": "2024-03-15",
-          "title": "First Day Home",
-          "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
-        },
-        {
-          "date": "2024-03-20",
-          "title": "First Watering",
-          "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
-        },
-        {
-          "date": "2024-03-27",
-          "title": "New Growth",
-          "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
-        }
-      ]
-    },
-    {
-      "namespace": "plant",
       "key": "llifle-database-link",
       "type": "single_line_text_field",
       "value": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/1840/Mammillaria_tlalocii"
