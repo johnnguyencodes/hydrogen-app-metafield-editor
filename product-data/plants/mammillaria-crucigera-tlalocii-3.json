@@ -17,45 +17,6 @@
           "title": "Lorem ipsum dolor sit amet",
           "journal-type": "journal",
           "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
-        },
-        {
-          "date": "2025-01-06",
-          "title": "Lorem ipsum dolor sit amet",
-          "journal-type": "journal",
-          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
-        }
-      ]
-    },
-    {
-      "namespace": "plant",
-      "key": "growth-notes",
-      "type": "json",
-      "value": [
-        {
-          "growth": "slow",
-          "spines": "spikey"
-        }
-      ]
-    },
-    {
-      "namespace": "plant",
-      "key": "carousel-copy",
-      "type": "json",
-      "value": [
-        {
-          "date": "2024-03-15",
-          "title": "First Day Home",
-          "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
-        },
-        {
-          "date": "2024-03-20",
-          "title": "First Watering",
-          "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
-        },
-        {
-          "date": "2024-03-27",
-          "title": "New Growth",
-          "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
         }
       ]
     },

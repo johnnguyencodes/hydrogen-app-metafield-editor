@@ -1,0 +1,166 @@
+{
+  "id": "gid://shopify/Product/9972506689819",
+  "handle": "gymnocalycium-mihanovichii-f-variegated",
+  "title": "Gymnocalycium mihanovichii f. variegated",
+  "status": "ACTIVE",
+  "productType": "plants",
+  "tags": [],
+  "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
+  "metafields": [
+    {
+      "namespace": "plant",
+      "key": "acquisition",
+      "type": "json",
+      "value": {
+        "method": "Purchased from",
+        "pText": "Something about acquisition, if needed",
+        "aText": "anchor text",
+        "aHref": "https://www.url.com/",
+        "date": "2025-01-01"
+      }
+    },
+    {
+      "namespace": "plant",
+      "key": "images",
+      "type": "json",
+      "value": [
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--gymnocalycium-mihanovichii-f-variegated--2025-08-24--carousel--000.webp?v=1757186785",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--gymnocalycium-mihanovichii-f-variegated--2025-08-24--carousel--001.webp?v=1757186785",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--gymnocalycium-mihanovichii-f-variegated--2025-08-24--carousel--002.webp?v=1757186784",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 2,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--gymnocalycium-mihanovichii-f-variegated--2025-08-24--carousel--003.webp?v=1757186785",
+            "width": 3024,
+            "height": 3024
+          },
+          "meta": {
+            "category": "carousel",
+            "date": "2025-08-24",
+            "index": 3,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--gymnocalycium-mihanovichii-f-variegated--2024-12-31--journal--000.webp?v=1757186785",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-31",
+            "index": 0,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--gymnocalycium-mihanovichii-f-variegated--2024-12-31--journal--001.webp?v=1757186785",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-31",
+            "index": 1,
+            "ext": "webp"
+          }
+        },
+        {
+          "alt": "",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--gymnocalycium-mihanovichii-f-variegated--2024-12-31--journal--002.webp?v=1757186785",
+            "width": 4032,
+            "height": 4032
+          },
+          "meta": {
+            "category": "journal",
+            "date": "2024-12-31",
+            "index": 2,
+            "ext": "webp"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "journal",
+      "type": "json",
+      "value": [
+        {
+          "date": "2024-12-31",
+          "title": "Lorem ipsum dolor sit amet",
+          "journal-type": "journal",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "llifle-database-link",
+      "type": "single_line_text_field",
+      "value": "https://www.llifle.com/Encyclopedia/"
+    },
+    {
+      "namespace": "plant",
+      "key": "measurement",
+      "type": "json",
+      "value": [
+        {
+          "height": "xx cm",
+          "width": "xx cm",
+          "pot": "x.x\" plastic pot",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "namespace": "plant",
+      "key": "watering-frequency",
+      "type": "single_line_text_field",
+      "value": "X days"
+    }
+  ]
+}
