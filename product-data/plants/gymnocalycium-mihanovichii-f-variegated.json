@@ -13,10 +13,10 @@
       "type": "json",
       "value": {
         "method": "Purchased from",
-        "pText": "Something about acquisition, if needed",
-        "aText": "anchor text",
-        "aHref": "https://www.url.com/",
-        "date": "2025-01-01"
+        "pText": "",
+        "aText": "r/cactiexchange",
+        "aHref": "https://www.reddit.com/r/cactiexchange/",
+        "date": "2024-12-30"
       }
     },
     {
