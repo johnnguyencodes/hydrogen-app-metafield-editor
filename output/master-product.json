@@ -14672,7 +14672,92 @@
         "namespace": "plant",
         "key": "images",
         "type": "json",
-        "value": []
+        "value": [
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--wairoa-x-dalton--2025-08-24--carousel--000.webp?v=1757197491",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 0,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--wairoa-x-dalton--2025-08-24--carousel--001.webp?v=1757197491",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 1,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--wairoa-x-dalton--2025-08-24--carousel--002.webp?v=1757197491",
+              "width": 3024,
+              "height": 3024
+            },
+            "meta": {
+              "category": "carousel",
+              "date": "2025-08-24",
+              "index": 2,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--wairoa-x-dalton--2024-12-31--journal--000.webp?v=1757197492",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-12-31",
+              "index": 0,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--wairoa-x-dalton--2024-12-31--journal--001.webp?v=1757197492",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-12-31",
+              "index": 1,
+              "ext": "webp"
+            }
+          },
+          {
+            "alt": "",
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/plants--wairoa-x-dalton--2024-12-31--journal--002.webp?v=1757197492",
+              "width": 4032,
+              "height": 4032
+            },
+            "meta": {
+              "category": "journal",
+              "date": "2024-12-31",
+              "index": 2,
+              "ext": "webp"
+            }
+          }
+        ]
       },
       {
         "namespace": "plant",
@@ -14680,13 +14765,7 @@
         "type": "json",
         "value": [
           {
-            "date": "2024-12-21",
-            "title": "Lorem ipsum dolor sit amet",
-            "journal-type": "journal",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
-          },
-          {
-            "date": "2025-02-06",
+            "date": "2024-12-31",
             "title": "Lorem ipsum dolor sit amet",
             "journal-type": "journal",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <i>ullamcorper dictum</i> subsp. <i>velit viverra,</i> a suscipit sapien, facilisis nulla eget, condimentum urna. Mauris sed augue leo, dignissim sapien non, ultricies ligula. Pellentesque lacinia feugiat leo, at rhoncus tortor viverra nec. Sed nec lectus nec sem varius ullamcorper.</p>"
