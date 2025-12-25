@@ -35,7 +35,7 @@
           "method": "Purchased from",
           "pText": "",
           "aText": "r/cactiexchange",
-          "aHref": "https://reddit.com/r/cactiexchange",
+          "aHref": "https://www.reddit.com/r/cactiexchange/",
           "date": "2025-01-06"
         }
       },
@@ -272,6 +272,39 @@
               "index": 7,
               "ext": "webp"
             }
+          }
+        ]
+      },
+      {
+        "namespace": "plant",
+        "key": "growth-notes",
+        "type": "json",
+        "value": [
+          {
+            "growth": "slow",
+            "spines": "spikey"
+          }
+        ]
+      },
+      {
+        "namespace": "plant",
+        "key": "carousel-copy",
+        "type": "json",
+        "value": [
+          {
+            "date": "2024-03-15",
+            "title": "First Day Home",
+            "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
+          },
+          {
+            "date": "2024-03-20",
+            "title": "First Watering",
+            "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
+          },
+          {
+            "date": "2024-03-27",
+            "title": "New Growth",
+            "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
           }
         ]
       }
@@ -619,6 +652,39 @@
             }
           }
         ]
+      },
+      {
+        "namespace": "plant",
+        "key": "growth-notes",
+        "type": "json",
+        "value": [
+          {
+            "growth": "slow",
+            "spines": "spikey"
+          }
+        ]
+      },
+      {
+        "namespace": "plant",
+        "key": "carousel-copy",
+        "type": "json",
+        "value": [
+          {
+            "date": "2024-10-22",
+            "title": "First Day Home",
+            "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
+          },
+          {
+            "date": "2024-03-20",
+            "title": "First Watering",
+            "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
+          },
+          {
+            "date": "2024-03-27",
+            "title": "New Growth",
+            "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
+          }
+        ]
       }
     ]
   },
@@ -928,6 +994,39 @@
         "key": "watering-frequency",
         "type": "single_line_text_field",
         "value": "X days"
+      },
+      {
+        "namespace": "plant",
+        "key": "carousel-copy",
+        "type": "json",
+        "value": [
+          {
+            "date": "2024-10-22",
+            "title": "First Day Home",
+            "content": "Received the plant in the mail today. Slightly dehydrated but otherwise healthy. Let it rest before watering."
+          },
+          {
+            "date": "2024-03-20",
+            "title": "First Watering",
+            "content": "Watered lightly around the base. Keeping it near a sunny window with bright indirect light."
+          },
+          {
+            "date": "2024-03-27",
+            "title": "New Growth",
+            "content": "Noticed a small new shoot! It’s adapting well. Might repot soon."
+          }
+        ]
+      },
+      {
+        "namespace": "plant",
+        "key": "growth-notes",
+        "type": "json",
+        "value": [
+          {
+            "growth": "slow",
+            "spines": "spikey"
+          }
+        ]
       }
     ]
   },
@@ -2578,10 +2677,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "1amSucculents @ Etsy",
+          "aHref": "https://www.etsy.com/shop/1amSucculents",
+          "date": "2024-12-16"
         }
       },
       {
@@ -6916,10 +7015,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "PCSucculents @ Etsy",
+          "aHref": "https://www.etsy.com/shop/PCSucculents",
+          "date": "2024-12-18"
         }
       },
       {
@@ -7144,10 +7243,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "BotanicaEraviscii @ Etsy",
+          "aHref": "https://www.etsy.com/shop/BotanicaEraviscii",
+          "date": "2025-01-17"
         }
       },
       {
@@ -7268,10 +7367,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "PlantaSecaUSA @ Etsy",
+          "aHref": "https://www.etsy.com/shop/PlantaSecaUSA",
+          "date": "2024-11-25"
         }
       },
       {
@@ -7516,10 +7615,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "HappyStoreALL @ Etsy",
+          "aHref": "https://www.etsy.com/shop/HappyStoreALL",
+          "date": "2025-03-05"
         }
       },
       {
@@ -7696,10 +7795,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "Rareunusalsucculent @ Etsy",
+          "aHref": "https://www.etsy.com/shop/Rareunusualsucculent",
+          "date": "2025-02-04"
         }
       },
       {
@@ -7876,10 +7975,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "Rareunusalsucculent @ Etsy",
+          "aHref": "https://www.etsy.com/shop/Rareunusualsucculent",
+          "date": "2025-02-04"
         }
       },
       {
@@ -8062,10 +8161,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "Rareunusalsucculent @ Etsy",
+          "aHref": "https://www.etsy.com/shop/Rareunusualsucculent",
+          "date": "2025-02-04"
         }
       },
       {
@@ -8248,10 +8347,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "KongerGarden @ Etsy",
+          "aHref": "https://www.etsy.com/shop/KongerGarden",
+          "date": "2024-10-10"
         }
       },
       {
@@ -8510,10 +8609,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "HappyStoreALL @ Etsy",
+          "aHref": "https://www.etsy.com/shop/HappyStoreALL",
+          "date": "2025-03-05"
         }
       },
       {
@@ -8676,10 +8775,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "HappyStoreALL @ Etsy",
+          "aHref": "https://www.etsy.com/shop/HappyStoreALL",
+          "date": "2025-03-05"
         }
       },
       {
@@ -8870,10 +8969,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "Rareunusalsucculent @ Etsy",
+          "aHref": "https://www.etsy.com/shop/Rareunusualsucculent",
+          "date": "2025-02-04"
         }
       },
       {
@@ -9050,10 +9149,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "HappyStoreALL @ Etsy",
+          "aHref": "https://www.etsy.com/shop/HappyStoreALL",
+          "date": "2025-03-05"
         }
       },
       {
@@ -9230,10 +9329,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "Rareunusalsucculent @ Etsy",
+          "aHref": "https://www.etsy.com/shop/Rareunusualsucculent",
+          "date": "2025-02-04"
         }
       },
       {
@@ -9382,10 +9481,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "SucculentsMaster @ Etsy",
+          "aHref": "https://www.etsy.com/shop/SucculentsMaster",
+          "date": "2024-10-02"
         }
       },
       {
@@ -9562,10 +9661,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "KongerGarden @ Etsy",
+          "aHref": "https://www.etsy.com/shop/KongerGarden",
+          "date": "2024-11-06"
         }
       },
       {
@@ -9742,10 +9841,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "HappyStoreALL @ Etsy",
+          "aHref": "https://www.etsy.com/shop/HappyStoreALL",
+          "date": "2025-03-05"
         }
       },
       {
@@ -9894,10 +9993,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "wishlistfoliage @ Etsy",
+          "aHref": "https://www.etsy.com/shop/wishlistfoliageplant",
+          "date": "2024-09-20"
         }
       },
       {
@@ -10112,10 +10211,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "r/cactiexchange",
+          "aHref": "https://www.reddit.com/r/cactiexchange/",
+          "date": "2024-12-30"
         }
       },
       {
@@ -10276,10 +10375,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "r/cactiexchange",
+          "aHref": "https://www.reddit.com/r/cactiexchange/",
+          "date": "2024-10-12"
         }
       },
       {
@@ -10442,10 +10541,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "yongquanLITHOPS @ Etsy",
+          "aHref": "https://www.etsy.com/shop/yongquanLITHOPS",
+          "date": "2025-01-23"
         }
       },
       {
@@ -10572,10 +10671,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "yongquanLITHOPS @ Etsy",
+          "aHref": "https://www.etsy.com/shop/yongquanLITHOPS",
+          "date": "2025-01-23"
         }
       },
       {
@@ -10716,10 +10815,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "PlantaSecaUSA @ Etsy",
+          "aHref": "https://www.etsy.com/shop/PlantaSecaUSA",
+          "date": "2024-12-02"
         }
       },
       {
@@ -10860,10 +10959,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "PlantaSecaUSA @ Etsy",
+          "aHref": "https://www.etsy.com/shop/PlantaSecaUSA",
+          "date": "2024-12-02"
         }
       },
       {
@@ -10984,10 +11083,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "r/cactiexchange",
+          "aHref": "https://www.reddit.com/r/cactiexchange/",
+          "date": "2025-01-06"
         }
       },
       {
@@ -11108,10 +11207,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "r/cactiexchange",
+          "aHref": "https://www.reddit.com/r/cactiexchange/",
+          "date": "2025-01-06"
         }
       },
       {
@@ -11232,10 +11331,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "PlantaSecaUSA @ Etsy",
+          "aHref": "https://www.etsy.com/shop/PlantaSecaUSA",
+          "date": "2025-01-03"
         }
       },
       {
@@ -11376,10 +11475,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "KongerGarden @ Etsy",
+          "aHref": "https://www.etsy.com/shop/KongerGarden",
+          "date": "2024-10-17"
         }
       },
       {
@@ -11686,10 +11785,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "KongerGarden @ Etsy",
+          "aHref": "https://www.etsy.com/shop/KongerGarden",
+          "date": "2024-10-17"
         }
       },
       {
@@ -11810,10 +11909,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "KongerGarden @ Etsy",
+          "aHref": "https://www.etsy.com/shop/KongerGarden",
+          "date": "2024-10-17"
         }
       },
       {
@@ -11934,10 +12033,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "PlantaSecaUSA @ Etsy",
+          "aHref": "https://www.etsy.com/shop/PlantaSecaUSA",
+          "date": "2025-01-10"
         }
       },
       {
@@ -12078,10 +12177,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "r/cactiexchange",
+          "aHref": "https://www.reddit.com/r/cactiexchange/",
+          "date": "2024-12-30"
         }
       },
       {
@@ -12244,10 +12343,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "QueenofSucculents @ Etsy",
+          "aHref": "https://www.etsy.com/shop/QueenofSucculents",
+          "date": "2025-01-17"
         }
       },
       {
@@ -12368,10 +12467,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "ParadiseFoundNursery @ Etsy",
+          "aHref": "https://www.etsy.com/shop/ParadiseFoundNursery",
+          "date": "2024-10-27"
         }
       },
       {
@@ -12554,10 +12653,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "NatureNex @ Etsy",
+          "aHref": "https://www.etsy.com/shop/NatureNex",
+          "date": "2024-12-16"
         }
       },
       {
@@ -12678,10 +12777,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "Planet Desert",
+          "aHref": "https://planetdesert.com/",
+          "date": "2024-12-16"
         }
       },
       {
@@ -12788,10 +12887,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "Fairviewplants @ Etsy",
+          "aHref": "https://www.etsy.com/shop/Fairviewplants",
+          "date": "2024-10-03"
         }
       },
       {
@@ -12988,10 +13087,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "PlantaSecaUSA @ Etsy",
+          "aHref": "https://www.etsy.com/shop/PlantaSecaUSA",
+          "date": "2024-12-26"
         }
       },
       {
@@ -13201,11 +13300,11 @@
         "key": "acquisition",
         "type": "json",
         "value": {
-          "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "method": "Seed Grown",
+          "pText": "Germinated seeds purchased from",
+          "aText": "PlumpandBumpy @ Etsy",
+          "aHref": "https://www.etsy.com/shop/PlumpandBumpy",
+          "date": "2025-02-03"
         }
       },
       {
@@ -13279,7 +13378,7 @@
         "namespace": "plant",
         "key": "watering-frequency",
         "type": "single_line_text_field",
-        "value": "X days"
+        "value": "11 days"
       }
     ]
   },
@@ -13298,10 +13397,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "r/cactiexchange",
+          "aHref": "https://www.reddit.com/r/cactiexchange/",
+          "date": "2024-12-16"
         }
       },
       {
@@ -13450,10 +13549,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "SweetFarmSucculents @ Etsy",
+          "aHref": "https://www.etsy.com/shop/SweetFarmSucculents",
+          "date": "2024-10-02"
         }
       },
       {
@@ -13546,10 +13645,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "PlantaSecaUSA @ Etsy",
+          "aHref": "https://www.etsy.com/shop/PlantaSecaUSA",
+          "date": "2024-12-16"
         }
       },
       {
@@ -13746,10 +13845,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "PlantaSecaUSA @ Etsy",
+          "aHref": "https://www.etsy.com/shop/PlantaSecaUSA",
+          "date": "2024-12-16"
         }
       },
       {
@@ -13938,7 +14037,7 @@
     "status": "ACTIVE",
     "productType": "plants",
     "tags": [],
-    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
+    "descriptionHtml": "<p class=\"p1\"><strong>Overview</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis purus in <i>lacus pretium</i> sed <i>nascetur ridiculus</i>. Suspendisse potenti, ut aliquet tellus risus non arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.    </p>\n<p class=\"p1\"><strong>Surface et Spinae</strong></p>\n<p class=\"p1\">Curabitur congue luctus massa at fringilla. Aenean semper interdum ligula, in varius justo cursus ac. Sed varius vehicula turpis, nec viverra arcu dignissim nec. Morbi blandit suscipit urna, at volutpat arcu posuere vitae. Proin sit amet justo vitae turpis tristique faucibus nec non leo.</p>\n<p class=\"p1\">Aliquam erat volutpat. Integer sodales, ligula vel scelerisque tincidunt, urna mi interdum odio, nec elementum neque neque sed arcu. Mauris nec lectus nec nulla bibendum porta. Nullam imperdiet cursus urna, sit amet luctus neque sagittis nec.</p>\n<p class=\"p1\"><strong>Offset Progressio</strong></p>\n<p class=\"p1\">Donec dictum gravida justo, ut viverra orci posuere id. Sed hendrerit, augue at blandit euismod, justo nulla efficitur nulla, sed pharetra urna augue non ipsum. Aenean vel sapien vel neque feugiat sagittis. Nulla facilisi.</p>\n<p class=\"p1\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare convallis mi, quis luctus lacus. Maecenas aliquam porttitor eros nec congue. Morbi dapibus lacus vel ipsum faucibus, quis sodales augue dictum. Curabitur vitae mi vel dui consequat gravida eget sit amet felis.</p>",
     "metafields": [
       {
         "namespace": "plant",
@@ -13946,10 +14045,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "r/cactiexchange",
+          "aHref": "https://www.reddit.com/r/cactiexchange/",
+          "date": "2025-02-06"
         }
       },
       {
@@ -14070,10 +14169,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "r/cactiexchange",
+          "aHref": "https://www.reddit.com/r/cactiexchange/",
+          "date": "2024-12-31"
         }
       },
       {
@@ -14236,10 +14335,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "ShopCactism @ Etsy",
+          "aHref": "https://www.etsy.com/shop/ShopCactism",
+          "date": "2024-10-02"
         }
       },
       {
@@ -14380,10 +14479,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "CactiMarket @ Etsy",
+          "aHref": "https://www.etsy.com/shop/CactiMarket",
+          "date": "2024-12-26"
         }
       },
       {
@@ -14518,10 +14617,10 @@
         "type": "json",
         "value": {
           "method": "Purchased from",
-          "pText": "Something about acquisition, if needed",
-          "aText": "anchor text",
-          "aHref": "https://www.url.com/",
-          "date": "2025-01-01"
+          "pText": "",
+          "aText": "BigfootCollections",
+          "aHref": "https://www.etsy.com/shop/BigfootCollections",
+          "date": "2020-11-05"
         }
       },
       {
@@ -14795,7 +14894,13 @@
         "namespace": "plant",
         "key": "watering-frequency",
         "type": "single_line_text_field",
-        "value": "X days"
+        "value": "30 days"
+      },
+      {
+        "namespace": "seo",
+        "key": "meta-description",
+        "type": "single_line_text_field",
+        "value": "This is the meta description"
       }
     ]
   }
