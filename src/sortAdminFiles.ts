@@ -99,6 +99,7 @@ async function run() {
     const url = extractUrl(node);
     if (!url) continue;
 
+    // filtering urls to make sure only plant images are being processed
     if (url.indexOf("plants") !== -1) {
       const fileName = filenameFromUrl(url);
       const { productType, handle, date, category, index, ext } =
