@@ -90,7 +90,7 @@
       "namespace": "plant",
       "key": "watering-frequency",
       "type": "single_line_text_field",
-      "value": "X days"
+      "value": "11 days"
     }
   ]
 }
