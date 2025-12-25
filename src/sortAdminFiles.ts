@@ -98,25 +98,28 @@ async function run() {
   for (const node of allMedia) {
     const url = extractUrl(node);
     if (!url) continue;
-    const fileName = filenameFromUrl(url);
-    const { productType, handle, date, category, index, ext } =
-      parseMeta(fileName);
 
-    // adding metadata to metafield for easier processing in hydrogen app
-    const meta = {
-      category: category,
-      date: date,
-      index: index,
-      ext: ext,
-    };
+    if (url.indexOf("plants") !== -1) {
+      const fileName = filenameFromUrl(url);
+      const { productType, handle, date, category, index, ext } =
+        parseMeta(fileName);
 
-    node.meta = meta;
+      // adding metadata to metafield for easier processing in hydrogen app
+      const meta = {
+        category: category,
+        date: date,
+        index: index,
+        ext: ext,
+      };
 
-    // setting and pushing media data to map by handle
-    if (!byHandle.has(handle)) {
-      byHandle.set(handle, { productType, nodes: [] });
+      node.meta = meta;
+
+      // setting and pushing media data to map by handle
+      if (!byHandle.has(handle)) {
+        byHandle.set(handle, { productType, nodes: [] });
+      }
+      byHandle.get(handle)!.nodes.push(node);
     }
-    byHandle.get(handle)!.nodes.push(node);
   }
 
   // sorting metafields by category, date, index
