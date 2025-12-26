@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    {
+      "alt": "",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/photography--2025-10-25--002--full-frame--nikon-d850--nikkor-28mm-f28-ais--45mp--iso-400--f8--1-250s.jpg?v=1766772583",
+        "width": 2048,
+        "height": 1365
+      },
+      "meta": {
+        "fileType": "photography",
+        "date": "2025-10-25",
+        "index": "002",
+        "filmFormat": "full-frame",
+        "cameraBody": "nikon-d850",
+        "lens": "nikkor-28mm-f28-ais",
+        "filmStockBrand": "45mp",
+        "isoNumber": "iso-400",
+        "aperture": "f8",
+        "shutterspeed": "1-250s.jpg"
+      }
+    }
+  ]
+}

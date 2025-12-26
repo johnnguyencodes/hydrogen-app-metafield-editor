@@ -2,6 +2,8 @@ import type {
   PhotographyMediaFileWithMetadata,
   CategoryKey,
   CategoryMap,
+  MediaFileWithMetadata,
+  NodeGroup,
 } from "types/global";
 import { promises as fs } from "node:fs";
 import path from "path";
@@ -176,91 +178,55 @@ async function run() {
         filmStockBrandAndIso = filmStockBrand + "-" + isoNumber;
       }
 
-      pushToCategory(byCategory, "filmFormat", filmFormat, node);
+      // pushing nodes to map by category and subcategory
       pushToCategory(byCategory, "cameraBody", cameraBody, node);
-      pushToCategory(byCategory, "lens", lens, node);
+      pushToCategory(byCategory, "filmFormat", filmFormat, node);
       pushToCategory(byCategory, "filmStock", filmStockBrandAndIso, node);
+      pushToCategory(byCategory, "lens", lens, node);
     }
 
     // sort media files by date and index per subcategory
     sortAllCategories(byCategory);
   }
 
+  // write the nodes of each subCategory to their own JSON file inside their respective category folders
   for (const [category, subMap] of byCategory) {
-    console.group(`Category: ${category}`);
+    const categoryDir = path.resolve(
+      process.cwd(),
+      "product-data/photography",
+      category
+    );
 
+    // ensure category directory exists
+    await fs.mkdir(categoryDir, { recursive: true });
+
+    // iterate through each subKey and inject the image nodes into the subKey's JSON file
     for (const [subKey, { nodes }] of subMap) {
-      console.log(`Subcategory: ${subKey}`, nodes);
+      const targetFile = path.join(categoryDir, `${subKey}.json`);
+
+      let doc: NodeGroup = { nodes: [] };
+
+      // try reading an existing file.  if it doesn't exist, ignore the error
+      try {
+        const fileText = await fs.readFile(targetFile, "utf-8");
+        doc = JSON.parse(fileText) as NodeGroup;
+      } catch (err: any) {
+        if (err.code !== "ENOENT") {
+          throw err;
+        }
+      }
+
+      // Inject / overwrite nodes
+      doc.nodes = nodes;
+
+      // write the doc back to the json file
+      await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
+
+      console.log(
+        `Wrote ${nodes.length} items -> product-data/photography/${category}/${subKey}.json`
+      );
     }
-
-    console.groupEnd();
   }
-
-  // // sorting metafields by category, date, index
-  // for (const [_handle, { productType: _productType, nodes }] of byCategory) {
-  //   nodes.sort(sortMedia);
-  // }
-
-  // // due to the recursive flag, this ensures the target directory
-  // // already exists, by either making the directory or silently exiting
-  // await fs.mkdir(path.resolve(process.cwd(), "output"), { recursive: true });
-
-  // // write the media metafields to their own json file
-  // for (const [handle, { productType, nodes }] of byHandle) {
-  //   const targetFile = path.resolve(
-  //     process.cwd(),
-  //     `product-data/${productType}`,
-  //     `${handle}.json`
-  //   );
-
-  //   // container for product data
-  //   let doc: ProductData;
-
-  //   try {
-  //     // if the file already exists, load and parse it
-  //     const fileText = await fs.readFile(targetFile, "utf-8");
-  //     doc = JSON.parse(fileText) as ProductData;
-  //   } catch (err: any) {
-  //     if (err.code === "ENOENT") {
-  //       // if the file is missing, find the product in master-data.json by handle:
-  //       const seed = allProductData.find(
-  //         (product) => product.handle === handle
-  //       );
-
-  //       if (!seed) {
-  //         throw new Error(
-  //           `No product with handle ${handle} in output/master-product.json`
-  //         );
-  //       }
-
-  //       // then load the product data into product data container
-  //       doc = JSON.parse(JSON.stringify(seed));
-  //     } else {
-  //       throw err;
-  //     }
-  //   }
-
-  //   // find the mediaMetafield
-  //   const mediaMetafield = doc.metafields.find(
-  //     (metafield) => metafield.key === "images"
-  //   );
-
-  //   // then inject or overwrite the images metafield
-  //   if (mediaMetafield) {
-  //     mediaMetafield.value = nodes;
-  //   } else {
-  //     doc.metafields.push({
-  //       namespace: "plant",
-  //       key: "images",
-  //       type: "json",
-  //       value: nodes,
-  //     });
-  //   }
-
-  //   // finally, write the doc to the json file
-  //   await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
-  //   console.log(`Injected ${nodes.length} items into ${targetFile}`);
-  // }
 }
 
 run().catch((err) => {
