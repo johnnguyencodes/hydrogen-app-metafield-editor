@@ -8,7 +8,8 @@
     "build": "tsc",
     "sync": "node --loader ts-node/esm src/productSync.ts",
     "watch": "node --loader ts-node/esm src/watchForChangesInDirectory.ts",
-    "sort": "node --loader ts-node/esm src/sortAdminFiles.ts"
+    "sort-plants": "node --loader ts-node/esm src/sortPlantsFiles.ts",
+    "sort-photography": "node --loader ts-node/esm src/sortPhotographyFiles.ts"
   },
   "repository": {
     "type": "git",

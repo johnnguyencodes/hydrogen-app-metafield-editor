@@ -98,6 +98,21 @@ export type MediaFileWithMetadata = AdminFile & {
   };
 };
 
+export type PhotographyMediaFileWithMetadata = AdminFile & {
+  meta: {
+    filetype: string;
+    date: Date;
+    index: number;
+    filmFormat: string;
+    cameraBody: string;
+    lens: string;
+    filmStockBrand: string;
+    isoNumber: string;
+    aperture: string;
+    shutterspeed: string;
+  };
+};
+
 export type ProductImageProps = {
   image: ProductVariantFragment["image"];
   key: string | number;
@@ -112,3 +127,11 @@ export type FilesQueryResult = {
     pageInfo: { hasNextPage: boolean; endCursor: string | null };
   };
 };
+
+type NodeGroup<T = any> = {
+  nodes: T[];
+};
+
+type CategoryKey = "filmFormat" | "cameraBody" | "lens" | "filmStock";
+
+type CategoryMap<T = any> = Map<CategoryKey, Map<string, NodeGroup<T>>>;
