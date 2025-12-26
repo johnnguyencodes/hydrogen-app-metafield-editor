@@ -6,6 +6,7 @@ import type { ProductData } from "../types/global";
 
 export function watchForChangesInDirectory(destination: string) {
   const directoryToWatch = path.resolve(process.cwd(), destination);
+  console.log("directoryToWatch:", directoryToWatch);
   const watcher = chokidar.watch(directoryToWatch, {
     ignoreInitial: true,
     awaitWriteFinish: {
@@ -25,7 +26,7 @@ export function watchForChangesInDirectory(destination: string) {
   });
 }
 
-watchForChangesInDirectory("product-data");
+watchForChangesInDirectory("product-data/plants");
 
 async function pushProductData(fullPath: string) {
   const raw = await fs.readFile(fullPath, "utf-8");

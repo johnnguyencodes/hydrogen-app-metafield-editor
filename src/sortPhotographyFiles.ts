@@ -90,8 +90,8 @@ function sortMedia(
     return bDateObj.getTime() - aDateObj.getTime();
   }
 
-  // Then, sort by index from lowest to highest
-  return aIndex - bIndex;
+  // Then, sort by index from highest to lowest (highest index is most recent)
+  return bIndex - aIndex;
 }
 
 function pushToCategory<T>(
@@ -107,6 +107,16 @@ function pushToCategory<T>(
   }
 
   categoryMap.get(key)!.nodes.push(node);
+}
+
+function sortAllCategories<T extends PhotographyMediaFileWithMetadata>(
+  map: CategoryMap<T>
+) {
+  for (const [, categoryMap] of map) {
+    for (const [, value] of categoryMap) {
+      value.nodes.sort(sortMedia);
+    }
+  }
 }
 
 // Run the script
@@ -171,9 +181,20 @@ async function run() {
       pushToCategory(byCategory, "lens", lens, node);
       pushToCategory(byCategory, "filmStock", filmStockBrandAndIso, node);
     }
+
+    // sort media files by date and index per subcategory
+    sortAllCategories(byCategory);
   }
 
-  console.log("byCategory:", byCategory);
+  for (const [category, subMap] of byCategory) {
+    console.group(`Category: ${category}`);
+
+    for (const [subKey, { nodes }] of subMap) {
+      console.log(`Subcategory: ${subKey}`, nodes);
+    }
+
+    console.groupEnd();
+  }
 
   // // sorting metafields by category, date, index
   // for (const [_handle, { productType: _productType, nodes }] of byCategory) {

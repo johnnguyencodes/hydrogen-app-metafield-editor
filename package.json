@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "sync": "node --loader ts-node/esm src/productSync.ts",
-    "watch": "node --loader ts-node/esm src/watchForChangesInDirectory.ts",
+    "sync": "node --loader ts-node/esm src/storeSync.ts",
+    "watch-plants": "node --loader ts-node/esm src/watchForChangesInPlantsDirectory.ts",
     "sort-plants": "node --loader ts-node/esm src/sortPlantsFiles.ts",
     "sort-photography": "node --loader ts-node/esm src/sortPhotographyFiles.ts"
   },
