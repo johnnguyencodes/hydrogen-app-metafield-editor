@@ -6,9 +6,11 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "sync": "node --loader ts-node/esm src/productSync.ts",
-    "watch": "node --loader ts-node/esm src/watchForChangesInDirectory.ts",
-    "sort": "node --loader ts-node/esm src/sortAdminFiles.ts"
+    "sync": "node --loader ts-node/esm src/storeSync.ts",
+    "watch-plants": "node --loader ts-node/esm src/watchForChangesInPlantsDirectory.ts",
+    "watch-photography": "node --loader ts-node/esm src/watchForChangesInPhotographyDirectory.ts",
+    "sort-plants": "node --loader ts-node/esm src/sortPlantsFiles.ts",
+    "sort-photography": "node --loader ts-node/esm src/sortPhotographyFiles.ts"
   },
   "repository": {
     "type": "git",

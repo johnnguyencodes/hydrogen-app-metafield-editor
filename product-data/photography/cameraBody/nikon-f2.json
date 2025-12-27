@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "alt": "",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/photography--2025-10-04--007--full-frame--nikon-f2--nikkor-35mm-105mm-f35-f45-ais--kodak-gold--200--unknown--unknown.jpg?v=1766773427",
+        "width": 2048,
+        "height": 1365
+      },
+      "meta": {
+        "fileType": "photography",
+        "date": "2025-10-04",
+        "index": "007",
+        "filmFormat": "full-frame",
+        "cameraBody": "nikon-f2",
+        "lens": "nikkor-35mm-105mm-f35-f45-ais",
+        "filmStockBrand": "kodak-gold",
+        "isoNumber": "200",
+        "aperture": "unknown",
+        "shutterspeed": "unknown"
+      }
+    },
+    {
+      "alt": "",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/photography--2025-10-04--006--full-frame--nikon-f2--nikkor-35mm-105mm-f35-f45-ais--kodak-gold--200--unknown--unknown.jpg?v=1766773426",
+        "width": 1365,
+        "height": 2048
+      },
+      "meta": {
+        "fileType": "photography",
+        "date": "2025-10-04",
+        "index": "006",
+        "filmFormat": "full-frame",
+        "cameraBody": "nikon-f2",
+        "lens": "nikkor-35mm-105mm-f35-f45-ais",
+        "filmStockBrand": "kodak-gold",
+        "isoNumber": "200",
+        "aperture": "unknown",
+        "shutterspeed": "unknown"
+      }
+    },
+    {
+      "alt": "",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/photography--2025-10-04--005--full-frame--nikon-f2--nikkor-35mm-105mm-f35-f45-ais--kodak-gold--200--unknown--unknown.jpg?v=1766773425",
+        "width": 2048,
+        "height": 1365
+      },
+      "meta": {
+        "fileType": "photography",
+        "date": "2025-10-04",
+        "index": "005",
+        "filmFormat": "full-frame",
+        "cameraBody": "nikon-f2",
+        "lens": "nikkor-35mm-105mm-f35-f45-ais",
+        "filmStockBrand": "kodak-gold",
+        "isoNumber": "200",
+        "aperture": "unknown",
+        "shutterspeed": "unknown"
+      }
+    },
+    {
+      "alt": "",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/photography--2025-10-04--004--full-frame--nikon-f2--nikkor-35mm-105mm-f35-f45-ais--kodak-gold--200--unknown--unknown.jpg?v=1766773426",
+        "width": 2048,
+        "height": 1365
+      },
+      "meta": {
+        "fileType": "photography",
+        "date": "2025-10-04",
+        "index": "004",
+        "filmFormat": "full-frame",
+        "cameraBody": "nikon-f2",
+        "lens": "nikkor-35mm-105mm-f35-f45-ais",
+        "filmStockBrand": "kodak-gold",
+        "isoNumber": "200",
+        "aperture": "unknown",
+        "shutterspeed": "unknown"
+      }
+    },
+    {
+      "alt": "",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/photography--2025-10-04--003--full-frame--nikon-f2--nikkor-35mm-105mm-f35-f45-ais--kodak-gold--200--unknown--unknown.jpg?v=1766773425",
+        "width": 1365,
+        "height": 2048
+      },
+      "meta": {
+        "fileType": "photography",
+        "date": "2025-10-04",
+        "index": "003",
+        "filmFormat": "full-frame",
+        "cameraBody": "nikon-f2",
+        "lens": "nikkor-35mm-105mm-f35-f45-ais",
+        "filmStockBrand": "kodak-gold",
+        "isoNumber": "200",
+        "aperture": "unknown",
+        "shutterspeed": "unknown"
+      }
+    },
+    {
+      "alt": "",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/photography--2025-10-04--002--full-frame--nikon-f2--nikkor-35mm-105mm-f35-f45-ais--kodak-gold--200--unknown--unknown.jpg?v=1766773425",
+        "width": 2048,
+        "height": 1365
+      },
+      "meta": {
+        "fileType": "photography",
+        "date": "2025-10-04",
+        "index": "002",
+        "filmFormat": "full-frame",
+        "cameraBody": "nikon-f2",
+        "lens": "nikkor-35mm-105mm-f35-f45-ais",
+        "filmStockBrand": "kodak-gold",
+        "isoNumber": "200",
+        "aperture": "unknown",
+        "shutterspeed": "unknown"
+      }
+    },
+    {
+      "alt": "",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0934/9293/6987/files/photography--2025-10-04--001--full-frame--nikon-f2--nikkor-35mm-105mm-f35-f45-ais--kodak-gold--200--unknown--unknown.jpg?v=1766773425",
+        "width": 2048,
+        "height": 1365
+      },
+      "meta": {
+        "fileType": "photography",
+        "date": "2025-10-04",
+        "index": "001",
+        "filmFormat": "full-frame",
+        "cameraBody": "nikon-f2",
+        "lens": "nikkor-35mm-105mm-f35-f45-ais",
+        "filmStockBrand": "kodak-gold",
+        "isoNumber": "200",
+        "aperture": "unknown",
+        "shutterspeed": "unknown"
+      }
+    }
+  ]
+}

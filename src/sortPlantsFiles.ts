@@ -2,8 +2,8 @@ import type { MediaFileWithMetadata, ProductData } from "types/global";
 import { promises as fs } from "node:fs";
 import path from "path";
 
-// Each media file pulled from Shopify's admin API is a file object. Each object has an image.url that must be named with the following structure
-// `${productType}--${product.handle}--YYYY-MM-DD--${imageType}--${index}.${fileExtension}`
+// Each media file pulled from Shopify's admin API is a file object. Each object has an image.url that must be named with the following structure for plant images
+// `plants--${product.handle}--YYYY-MM-DD--${imageType}--${index}.${fileExtension}`
 // For example: plants--mammillaria-crucigera-tlalocii-3--2025-05-25--carousel--001.webp
 // for .mp4 movie files, also include the name of the file in the alt.
 // When a movie file is uploaded to Shopify, the file is renamed in Shopify's server
@@ -98,25 +98,29 @@ async function run() {
   for (const node of allMedia) {
     const url = extractUrl(node);
     if (!url) continue;
-    const fileName = filenameFromUrl(url);
-    const { productType, handle, date, category, index, ext } =
-      parseMeta(fileName);
 
-    // adding metadata to metafield for easier processing in hydrogen app
-    const meta = {
-      category: category,
-      date: date,
-      index: index,
-      ext: ext,
-    };
+    // filtering urls to make sure only plant images are being processed
+    if (url.indexOf("plants") !== -1) {
+      const fileName = filenameFromUrl(url);
+      const { productType, handle, date, category, index, ext } =
+        parseMeta(fileName);
 
-    node.meta = meta;
+      // adding metadata to metafield for easier processing in hydrogen app
+      const meta = {
+        category: category,
+        date: date,
+        index: index,
+        ext: ext,
+      };
 
-    // setting and pushing media data to map by handle
-    if (!byHandle.has(handle)) {
-      byHandle.set(handle, { productType, nodes: [] });
+      node.meta = meta;
+
+      // setting and pushing media data to map by handle
+      if (!byHandle.has(handle)) {
+        byHandle.set(handle, { productType, nodes: [] });
+      }
+      byHandle.get(handle)!.nodes.push(node);
     }
-    byHandle.get(handle)!.nodes.push(node);
   }
 
   // sorting metafields by category, date, index
