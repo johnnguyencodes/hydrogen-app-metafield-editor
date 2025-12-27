@@ -2,7 +2,6 @@ import type {
   PhotographyMediaFileWithMetadata,
   CategoryKey,
   CategoryMap,
-  MediaFileWithMetadata,
   NodeGroup,
 } from "types/global";
 import { promises as fs } from "node:fs";
