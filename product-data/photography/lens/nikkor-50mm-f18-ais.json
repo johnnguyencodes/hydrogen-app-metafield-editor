@@ -17,7 +17,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-64",
         "aperture": "f4",
-        "shutterspeed": "1-500s.jpg"
+        "shutterspeed": "1-500s"
       }
     },
     {
@@ -37,7 +37,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-64",
         "aperture": "f4",
-        "shutterspeed": "1-800s.jpg"
+        "shutterspeed": "1-800s"
       }
     },
     {
@@ -57,7 +57,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-64",
         "aperture": "f4",
-        "shutterspeed": "1-640s.jpg"
+        "shutterspeed": "1-640s"
       }
     }
   ]

@@ -60,6 +60,7 @@ function parseMeta(filename: string) {
     aperture,
     shutterspeed,
   ] = filename.split("--");
+  const sanitizedShutterspeed = shutterspeed.split(".").slice(0, -1).toString();
   return {
     fileType,
     date,
@@ -70,7 +71,7 @@ function parseMeta(filename: string) {
     filmStockBrand, //
     isoNumber, //
     aperture,
-    shutterspeed,
+    sanitizedShutterspeed,
   };
 }
 
@@ -150,7 +151,7 @@ async function run() {
         filmStockBrand,
         isoNumber,
         aperture,
-        shutterspeed,
+        sanitizedShutterspeed,
       } = parseMeta(fileName);
 
       // adding metadata to metafield for easier processing in hydrogen app
@@ -164,7 +165,7 @@ async function run() {
         filmStockBrand: filmStockBrand,
         isoNumber: isoNumber,
         aperture: aperture,
-        shutterspeed: shutterspeed,
+        shutterspeed: sanitizedShutterspeed,
       };
 
       node.meta = meta;

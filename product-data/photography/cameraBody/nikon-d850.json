@@ -17,7 +17,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-200",
         "aperture": "f56",
-        "shutterspeed": "1-3s.jpg"
+        "shutterspeed": "1-3s"
       }
     },
     {
@@ -37,7 +37,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-64",
         "aperture": "f56",
-        "shutterspeed": "1-3s.jpg"
+        "shutterspeed": "1-3s"
       }
     },
     {
@@ -57,7 +57,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-1000",
         "aperture": "f8",
-        "shutterspeed": "1-250s.jpg"
+        "shutterspeed": "1-250s"
       }
     },
     {
@@ -77,7 +77,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-400",
         "aperture": "f8",
-        "shutterspeed": "1-640s.jpg"
+        "shutterspeed": "1-640s"
       }
     },
     {
@@ -97,7 +97,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-400",
         "aperture": "f8",
-        "shutterspeed": "1-640s.jpg"
+        "shutterspeed": "1-640s"
       }
     },
     {
@@ -117,7 +117,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-200",
         "aperture": "f8",
-        "shutterspeed": "1-400s.jpg"
+        "shutterspeed": "1-400s"
       }
     },
     {
@@ -137,7 +137,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-64",
         "aperture": "f4",
-        "shutterspeed": "1-500s.jpg"
+        "shutterspeed": "1-500s"
       }
     },
     {
@@ -157,7 +157,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-64",
         "aperture": "f4",
-        "shutterspeed": "1-800s.jpg"
+        "shutterspeed": "1-800s"
       }
     },
     {
@@ -177,7 +177,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-64",
         "aperture": "f4",
-        "shutterspeed": "1-640s.jpg"
+        "shutterspeed": "1-640s"
       }
     },
     {
@@ -197,7 +197,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-64",
         "aperture": "f8",
-        "shutterspeed": "1-400s.jpg"
+        "shutterspeed": "1-400s"
       }
     },
     {
@@ -217,7 +217,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-1000",
         "aperture": "f8",
-        "shutterspeed": "1-1600s.jpg"
+        "shutterspeed": "1-1600s"
       }
     },
     {
@@ -237,7 +237,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-200",
         "aperture": "f8",
-        "shutterspeed": "1-100s.jpg"
+        "shutterspeed": "1-100s"
       }
     },
     {
@@ -257,7 +257,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-400",
         "aperture": "f8",
-        "shutterspeed": "1-800s.jpg"
+        "shutterspeed": "1-800s"
       }
     },
     {
@@ -277,7 +277,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-64",
         "aperture": "f8",
-        "shutterspeed": "1-50s.jpg"
+        "shutterspeed": "1-50s"
       }
     },
     {
@@ -297,7 +297,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-64",
         "aperture": "f8",
-        "shutterspeed": "1-30s.jpg"
+        "shutterspeed": "1-30s"
       }
     },
     {
@@ -317,7 +317,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-400",
         "aperture": "f8",
-        "shutterspeed": "1-250s.jpg"
+        "shutterspeed": "1-250s"
       }
     },
     {
@@ -337,7 +337,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-64",
         "aperture": "f8",
-        "shutterspeed": "1-30s.jpg"
+        "shutterspeed": "1-30s"
       }
     }
   ]

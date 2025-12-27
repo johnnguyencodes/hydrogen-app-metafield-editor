@@ -17,7 +17,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-200",
         "aperture": "f56",
-        "shutterspeed": "1-3s.jpg"
+        "shutterspeed": "1-3s"
       }
     },
     {
@@ -37,7 +37,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-64",
         "aperture": "f56",
-        "shutterspeed": "1-3s.jpg"
+        "shutterspeed": "1-3s"
       }
     },
     {
@@ -57,7 +57,7 @@
         "filmStockBrand": "45mp",
         "isoNumber": "iso-1000",
         "aperture": "f8",
-        "shutterspeed": "1-250s.jpg"
+        "shutterspeed": "1-250s"
       }
     },
     {
@@ -77,7 +77,7 @@
         "filmStockBrand": "kodak-gold",
         "isoNumber": "200",
         "aperture": "unknown",
-        "shutterspeed": "unknown.jpg"
+        "shutterspeed": "unknown"
       }
     },
     {
@@ -97,7 +97,7 @@
         "filmStockBrand": "kodak-gold",
         "isoNumber": "200",
         "aperture": "unknown",
-        "shutterspeed": "unknown.jpg"
+        "shutterspeed": "unknown"
       }
     },
     {
@@ -117,7 +117,7 @@
         "filmStockBrand": "kodak-gold",
         "isoNumber": "200",
         "aperture": "unknown",
-        "shutterspeed": "unknown.jpg"
+        "shutterspeed": "unknown"
       }
     },
     {
@@ -137,7 +137,7 @@
         "filmStockBrand": "kodak-gold",
         "isoNumber": "200",
         "aperture": "unknown",
-        "shutterspeed": "unknown.jpg"
+        "shutterspeed": "unknown"
       }
     },
     {
@@ -157,7 +157,7 @@
         "filmStockBrand": "kodak-gold",
         "isoNumber": "200",
         "aperture": "unknown",
-        "shutterspeed": "unknown.jpg"
+        "shutterspeed": "unknown"
       }
     },
     {
@@ -177,7 +177,7 @@
         "filmStockBrand": "kodak-gold",
         "isoNumber": "200",
         "aperture": "unknown",
-        "shutterspeed": "unknown.jpg"
+        "shutterspeed": "unknown"
       }
     },
     {
@@ -197,7 +197,7 @@
         "filmStockBrand": "kodak-gold",
         "isoNumber": "200",
         "aperture": "unknown",
-        "shutterspeed": "unknown.jpg"
+        "shutterspeed": "unknown"
       }
     }
   ]
