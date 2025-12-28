@@ -104,11 +104,13 @@ function pushToCategory<T>(
 ) {
   const categoryMap = map.get(category);
   if (!categoryMap) return;
+
+  // Set the key as a plan empty array
   if (!categoryMap.has(key)) {
-    categoryMap.set(key, { nodes: [] });
+    categoryMap.set(key, []);
   }
 
-  categoryMap.get(key)!.nodes.push(node);
+  categoryMap.get(key)!.push(node);
 }
 
 function sortAllCategories<T extends PhotographyMediaFileWithMetadata>(
@@ -116,9 +118,38 @@ function sortAllCategories<T extends PhotographyMediaFileWithMetadata>(
 ) {
   for (const [, categoryMap] of map) {
     for (const [, value] of categoryMap) {
-      value.nodes.sort(sortMedia);
+      value.sort(sortMedia);
     }
   }
+}
+
+async function writeMapToFile<T extends PhotographyMediaFileWithMetadata>(
+  map: CategoryMap<T>
+) {
+  // define path to write
+  const categoryDir = path.resolve(process.cwd(), "product-data/photography");
+
+  // ensure the directory exists,
+  await fs.mkdir(categoryDir, { recursive: true });
+
+  // Define the targefFile pathe where the byCategory map will be written into a single JSON file
+  const targetFile = path.join(categoryDir, "byCategory.json");
+
+  // Convert the map into a plain Object structure
+  const mapAsObject: Record<string, Record<string, T[]>> = {};
+
+  for (const [category, categoryMap] of map) {
+    // convert the inner map (key -> T[]) into an object
+    mapAsObject[category] = Object.fromEntries(categoryMap);
+  }
+
+  // Prepare the doc
+  const doc = mapAsObject;
+
+  // Write the file
+  await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
+
+  console.log(`Wrote byCategory contents -> ${targetFile}`);
 }
 
 // Run the script
@@ -187,45 +218,9 @@ async function run() {
 
     // sort media files by date and index per subcategory
     sortAllCategories(byCategory);
-  }
 
-  // write the nodes of each subCategory to their own JSON file inside their respective category folders
-  for (const [category, subMap] of byCategory) {
-    const categoryDir = path.resolve(
-      process.cwd(),
-      "product-data/photography",
-      category
-    );
-
-    // ensure category directory exists
-    await fs.mkdir(categoryDir, { recursive: true });
-
-    // iterate through each subKey and inject the image nodes into the subKey's JSON file
-    for (const [subKey, { nodes }] of subMap) {
-      const targetFile = path.join(categoryDir, `${subKey}.json`);
-
-      let doc: NodeGroup = { nodes: [] };
-
-      // try reading an existing file.  if it doesn't exist, ignore the error
-      try {
-        const fileText = await fs.readFile(targetFile, "utf-8");
-        doc = JSON.parse(fileText) as NodeGroup;
-      } catch (err: any) {
-        if (err.code !== "ENOENT") {
-          throw err;
-        }
-      }
-
-      // Inject / overwrite nodes
-      doc.nodes = nodes;
-
-      // write the doc back to the json file
-      await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
-
-      console.log(
-        `Wrote ${nodes.length} items -> product-data/photography/${category}/${subKey}.json`
-      );
-    }
+    // write map to file
+    writeMapToFile(byCategory);
   }
 }
 
