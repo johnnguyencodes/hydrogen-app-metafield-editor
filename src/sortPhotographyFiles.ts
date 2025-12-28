@@ -218,10 +218,9 @@ async function run() {
 
     // sort media files by date and index per subcategory
     sortAllCategories(byCategory);
-
-    // write map to file
-    writeMapToFile(byCategory);
   }
+  // write map to file
+  writeMapToFile(byCategory);
 }
 
 run().catch((err) => {
