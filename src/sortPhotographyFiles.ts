@@ -104,8 +104,6 @@ function pushToCategory<T>(
 ) {
   const categoryMap = map.get(category);
   if (!categoryMap) return;
-
-  // Set the key as a plan empty array
   if (!categoryMap.has(key)) {
     categoryMap.set(key, []);
   }
@@ -126,30 +124,27 @@ function sortAllCategories<T extends PhotographyMediaFileWithMetadata>(
 async function writeMapToFile<T extends PhotographyMediaFileWithMetadata>(
   map: CategoryMap<T>
 ) {
-  // define path to write
-  const categoryDir = path.resolve(process.cwd(), "product-data/photography");
+  // write the nodes of each subCategory to their own JSON file inside their respective category folders
+  for (const [category, subMap] of map) {
+    const categoryDir = path.resolve(
+      process.cwd(),
+      "product-data/photography",
+      category
+    );
 
-  // ensure the directory exists,
-  await fs.mkdir(categoryDir, { recursive: true });
+    // ensure category directory exists
+    await fs.mkdir(categoryDir, { recursive: true });
 
-  // Define the targefFile pathe where the byCategory map will be written into a single JSON file
-  const targetFile = path.join(categoryDir, "byCategory.json");
+    // iterate through each subKey and inject the image nodes into the subKey's JSON file
+    for (const [subKey, nodes] of subMap) {
+      const targetFile = path.join(categoryDir, `${subKey}.json`);
 
-  // Convert the map into a plain Object structure
-  const mapAsObject: Record<string, Record<string, T[]>> = {};
+      let doc: T[] = nodes;
 
-  for (const [category, categoryMap] of map) {
-    // convert the inner map (key -> T[]) into an object
-    mapAsObject[category] = Object.fromEntries(categoryMap);
+      // write the doc back to the json file
+      await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
+    }
   }
-
-  // Prepare the doc
-  const doc = mapAsObject;
-
-  // Write the file
-  await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
-
-  console.log(`Wrote byCategory contents -> ${targetFile}`);
 }
 
 // Run the script
@@ -218,9 +213,11 @@ async function run() {
 
     // sort media files by date and index per subcategory
     sortAllCategories(byCategory);
+
+    // write map to file
+    writeMapToFile(byCategory);
   }
-  // write map to file
-  writeMapToFile(byCategory);
+  console.log("sorted photography images");
 }
 
 run().catch((err) => {

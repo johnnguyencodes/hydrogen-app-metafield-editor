@@ -2,30 +2,11 @@ import chokidar from "chokidar";
 import path from "path";
 import { promises as fs } from "node:fs";
 import { client } from "./lib/newClientInstance";
-import type { NodeGroup } from "../types/global";
 
-let SHOP_ID: string;
-
-async function getShopId() {
-  if (SHOP_ID) return SHOP_ID;
-
-  const response = await client.query({
-    data: {
-      query: `
-        query {
-          shop {
-            id
-          }
-        }
-      `,
-    },
-  });
-
-  SHOP_ID = response.body.data.shop.id;
-  return SHOP_ID;
-}
-
-export function watchForChangesInDirectory(destination: string) {
+export function watchForChangesInDirectory(
+  destination: string,
+  category: string
+) {
   const directoryToWatch = path.resolve(process.cwd(), destination);
 
   console.log("directoryToWatch:", directoryToWatch);
@@ -41,17 +22,19 @@ export function watchForChangesInDirectory(destination: string) {
   console.log(`watching for changes at ${directoryToWatch}`);
   watcher.on("add", (path) => {
     console.log(`file add detected at ${path}`);
-    pushPhotographyData(path);
+    pushPhotographyData(path, category);
   });
   watcher.on("change", (path) => {
     console.log(`file change detected at ${path}`);
-    pushPhotographyData(path);
+    pushPhotographyData(path, category);
   });
 }
 
-async function pushPhotographyData(fullPath: string) {
+async function pushPhotographyData(fullPath: string, category: string) {
   const raw = await fs.readFile(fullPath, "utf-8");
   const photographyData = JSON.parse(raw);
+
+  const fileName = path.parse(fullPath).name;
 
   const mutation = `
     mutation metaobjectUpsert($handle: MetaobjectHandleInput!, $metaobject: MetaobjectUpsertInput!) {
@@ -70,13 +53,13 @@ async function pushPhotographyData(fullPath: string) {
 
   const variables = {
     handle: {
-      type: "photography_images",
-      handle: "global-photography-image-data",
+      type: category,
+      handle: fileName,
     },
     metaobject: {
       fields: [
         {
-          key: "data_json",
+          key: "images",
           value: JSON.stringify(photographyData),
         },
       ],
@@ -95,7 +78,18 @@ async function pushPhotographyData(fullPath: string) {
     },
   });
 
-  console.log("Response:", JSON.stringify(response, null, 2));
+  // color codes
+  const Cyan = "\x1b[36m";
+  const Green = "\x1b[32m";
+  const Reset = "\x1b[0m"; // Always use this to stop the color
+
+  console.log(
+    `${Cyan} Metaobject pushed:${Reset} ${Green}${category} -> ${fileName}${Reset}`,
+    JSON.stringify((response as any)?.body?.data, null, 2)
+  );
 }
 
-watchForChangesInDirectory("product-data/photography/");
+watchForChangesInDirectory("product-data/photography/cameraBody", "cameraBody");
+watchForChangesInDirectory("product-data/photography/filmFormat", "filmFormat");
+watchForChangesInDirectory("product-data/photography/filmStock", "filmStock");
+watchForChangesInDirectory("product-data/photography/lens", "lens");
