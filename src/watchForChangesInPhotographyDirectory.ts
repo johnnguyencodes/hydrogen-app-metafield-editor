@@ -25,10 +25,7 @@ async function getShopId() {
   return SHOP_ID;
 }
 
-export function watchForChangesInDirectory(
-  destination: string,
-  category: string
-) {
+export function watchForChangesInDirectory(destination: string) {
   const directoryToWatch = path.resolve(process.cwd(), destination);
 
   console.log("directoryToWatch:", directoryToWatch);
@@ -44,40 +41,24 @@ export function watchForChangesInDirectory(
   console.log(`watching for changes at ${directoryToWatch}`);
   watcher.on("add", (path) => {
     console.log(`file add detected at ${path}`);
-    pushPhotographyData(path, category);
+    pushPhotographyData(path);
   });
   watcher.on("change", (path) => {
     console.log(`file change detected at ${path}`);
-    pushPhotographyData(path, category);
+    pushPhotographyData(path);
   });
 }
 
-watchForChangesInDirectory("product-data/photography/cameraBody", "cameraBody");
-watchForChangesInDirectory("product-data/photography/filmFormat", "filmFormat");
-watchForChangesInDirectory("product-data/photography/filmStock", "filmStock");
-watchForChangesInDirectory("product-data/photography/lens", "lens");
-
-async function pushPhotographyData(fullPath: string, category: string) {
+async function pushPhotographyData(fullPath: string) {
   const raw = await fs.readFile(fullPath, "utf-8");
-  const photographyData = JSON.parse(raw) as NodeGroup;
-
-  const key = path.basename(fullPath, ".json");
-  const ownerId = await getShopId();
-
-  const metafieldInput = {
-    ownerId,
-    namespace: category,
-    key,
-    type: "json",
-    value: JSON.stringify(photographyData),
-  };
+  const photographyData = JSON.parse(raw);
 
   const mutation = `
-    mutation SetShopMetafields($metafields: [MetafieldsSetInput!]!) {
-      metafieldsSet(metafields: $metafields) {
-        metafields {
-          namespace
-          key
+    mutation metaobjectUpsert($handle: MetaobjectHandleInput!, $metaobject: MetaobjectUpsertInput!) {
+      metaobjectUpsert(handle: $handle, metaobject: $metaobject) {
+        metaobject {
+          handle
+          id
         }
         userErrors {
           field
@@ -87,16 +68,34 @@ async function pushPhotographyData(fullPath: string, category: string) {
     }
   `;
 
-  console.log("Sending to Shopify:", metafieldInput);
+  const variables = {
+    handle: {
+      type: "photography_images",
+      handle: "global-photography-image-data",
+    },
+    metaobject: {
+      fields: [
+        {
+          key: "data_json",
+          value: JSON.stringify(photographyData),
+        },
+      ],
+      capabilities: {
+        publishable: {
+          status: "ACTIVE",
+        },
+      },
+    },
+  };
 
   const response = await client.query({
     data: {
       query: mutation,
-      variables: {
-        metafields: [metafieldInput],
-      },
+      variables: variables,
     },
   });
 
   console.log("Response:", JSON.stringify(response, null, 2));
 }
+
+watchForChangesInDirectory("product-data/photography/");
