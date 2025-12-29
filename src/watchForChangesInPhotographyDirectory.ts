@@ -2,28 +2,6 @@ import chokidar from "chokidar";
 import path from "path";
 import { promises as fs } from "node:fs";
 import { client } from "./lib/newClientInstance";
-import type { NodeGroup } from "../types/global";
-
-let SHOP_ID: string;
-
-async function getShopId() {
-  if (SHOP_ID) return SHOP_ID;
-
-  const response = await client.query({
-    data: {
-      query: `
-        query {
-          shop {
-            id
-          }
-        }
-      `,
-    },
-  });
-
-  SHOP_ID = response.body.data.shop.id;
-  return SHOP_ID;
-}
 
 export function watchForChangesInDirectory(
   destination: string,
@@ -52,32 +30,18 @@ export function watchForChangesInDirectory(
   });
 }
 
-watchForChangesInDirectory("product-data/photography/cameraBody", "cameraBody");
-watchForChangesInDirectory("product-data/photography/filmFormat", "filmFormat");
-watchForChangesInDirectory("product-data/photography/filmStock", "filmStock");
-watchForChangesInDirectory("product-data/photography/lens", "lens");
-
 async function pushPhotographyData(fullPath: string, category: string) {
   const raw = await fs.readFile(fullPath, "utf-8");
-  const photographyData = JSON.parse(raw) as NodeGroup;
+  const photographyData = JSON.parse(raw);
 
-  const key = path.basename(fullPath, ".json");
-  const ownerId = await getShopId();
-
-  const metafieldInput = {
-    ownerId,
-    namespace: category,
-    key,
-    type: "json",
-    value: JSON.stringify(photographyData),
-  };
+  const fileName = path.parse(fullPath).name;
 
   const mutation = `
-    mutation SetShopMetafields($metafields: [MetafieldsSetInput!]!) {
-      metafieldsSet(metafields: $metafields) {
-        metafields {
-          namespace
-          key
+    mutation metaobjectUpsert($handle: MetaobjectHandleInput!, $metaobject: MetaobjectUpsertInput!) {
+      metaobjectUpsert(handle: $handle, metaobject: $metaobject) {
+        metaobject {
+          handle
+          id
         }
         userErrors {
           field
@@ -87,16 +51,45 @@ async function pushPhotographyData(fullPath: string, category: string) {
     }
   `;
 
-  console.log("Sending to Shopify:", metafieldInput);
+  const variables = {
+    handle: {
+      type: category,
+      handle: fileName,
+    },
+    metaobject: {
+      fields: [
+        {
+          key: "images",
+          value: JSON.stringify(photographyData),
+        },
+      ],
+      capabilities: {
+        publishable: {
+          status: "ACTIVE",
+        },
+      },
+    },
+  };
 
   const response = await client.query({
     data: {
       query: mutation,
-      variables: {
-        metafields: [metafieldInput],
-      },
+      variables: variables,
     },
   });
 
-  console.log("Response:", JSON.stringify(response, null, 2));
+  // color codes
+  const Cyan = "\x1b[36m";
+  const Green = "\x1b[32m";
+  const Reset = "\x1b[0m"; // Always use this to stop the color
+
+  console.log(
+    `${Cyan} Metaobject pushed:${Reset} ${Green}${category} -> ${fileName}${Reset}`,
+    JSON.stringify((response as any)?.body?.data, null, 2)
+  );
 }
+
+watchForChangesInDirectory("product-data/photography/cameraBody", "cameraBody");
+watchForChangesInDirectory("product-data/photography/filmFormat", "filmFormat");
+watchForChangesInDirectory("product-data/photography/filmStock", "filmStock");
+watchForChangesInDirectory("product-data/photography/lens", "lens");

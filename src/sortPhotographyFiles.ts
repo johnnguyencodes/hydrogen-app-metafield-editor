@@ -105,10 +105,10 @@ function pushToCategory<T>(
   const categoryMap = map.get(category);
   if (!categoryMap) return;
   if (!categoryMap.has(key)) {
-    categoryMap.set(key, { nodes: [] });
+    categoryMap.set(key, []);
   }
 
-  categoryMap.get(key)!.nodes.push(node);
+  categoryMap.get(key)!.push(node);
 }
 
 function sortAllCategories<T extends PhotographyMediaFileWithMetadata>(
@@ -116,7 +116,33 @@ function sortAllCategories<T extends PhotographyMediaFileWithMetadata>(
 ) {
   for (const [, categoryMap] of map) {
     for (const [, value] of categoryMap) {
-      value.nodes.sort(sortMedia);
+      value.sort(sortMedia);
+    }
+  }
+}
+
+async function writeMapToFile<T extends PhotographyMediaFileWithMetadata>(
+  map: CategoryMap<T>
+) {
+  // write the nodes of each subCategory to their own JSON file inside their respective category folders
+  for (const [category, subMap] of map) {
+    const categoryDir = path.resolve(
+      process.cwd(),
+      "product-data/photography",
+      category
+    );
+
+    // ensure category directory exists
+    await fs.mkdir(categoryDir, { recursive: true });
+
+    // iterate through each subKey and inject the image nodes into the subKey's JSON file
+    for (const [subKey, nodes] of subMap) {
+      const targetFile = path.join(categoryDir, `${subKey}.json`);
+
+      let doc: T[] = nodes;
+
+      // write the doc back to the json file
+      await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
     }
   }
 }
@@ -187,46 +213,11 @@ async function run() {
 
     // sort media files by date and index per subcategory
     sortAllCategories(byCategory);
+
+    // write map to file
+    writeMapToFile(byCategory);
   }
-
-  // write the nodes of each subCategory to their own JSON file inside their respective category folders
-  for (const [category, subMap] of byCategory) {
-    const categoryDir = path.resolve(
-      process.cwd(),
-      "product-data/photography",
-      category
-    );
-
-    // ensure category directory exists
-    await fs.mkdir(categoryDir, { recursive: true });
-
-    // iterate through each subKey and inject the image nodes into the subKey's JSON file
-    for (const [subKey, { nodes }] of subMap) {
-      const targetFile = path.join(categoryDir, `${subKey}.json`);
-
-      let doc: NodeGroup = { nodes: [] };
-
-      // try reading an existing file.  if it doesn't exist, ignore the error
-      try {
-        const fileText = await fs.readFile(targetFile, "utf-8");
-        doc = JSON.parse(fileText) as NodeGroup;
-      } catch (err: any) {
-        if (err.code !== "ENOENT") {
-          throw err;
-        }
-      }
-
-      // Inject / overwrite nodes
-      doc.nodes = nodes;
-
-      // write the doc back to the json file
-      await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
-
-      console.log(
-        `Wrote ${nodes.length} items -> product-data/photography/${category}/${subKey}.json`
-      );
-    }
-  }
+  console.log("sorted photography images");
 }
 
 run().catch((err) => {

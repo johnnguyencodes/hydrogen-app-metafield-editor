@@ -128,9 +128,7 @@ export type FilesQueryResult = {
   };
 };
 
-type NodeGroup<T = any> = {
-  nodes: T[];
-};
+type NodeGroup<T = any> = T[];
 
 type CategoryKey = "filmFormat" | "cameraBody" | "lens" | "filmStock";
 
