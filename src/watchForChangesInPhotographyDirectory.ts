@@ -93,3 +93,4 @@ watchForChangesInDirectory("product-data/photography/cameraBody", "cameraBody");
 watchForChangesInDirectory("product-data/photography/filmFormat", "filmFormat");
 watchForChangesInDirectory("product-data/photography/filmStock", "filmStock");
 watchForChangesInDirectory("product-data/photography/lens", "lens");
+watchForChangesInDirectory("product-data/photography", "allphotos");
