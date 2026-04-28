@@ -121,9 +121,9 @@ function sortAllCategories<T extends PhotographyMediaFileWithMetadata>(
   }
 }
 
-async function writeMapToFile<T extends PhotographyMediaFileWithMetadata>(
-  map: CategoryMap<T>
-) {
+async function writeMapToIndividualFile<
+  T extends PhotographyMediaFileWithMetadata,
+>(map: CategoryMap<T>) {
   // write the nodes of each subCategory to their own JSON file inside their respective category folders
   for (const [category, subMap] of map) {
     const categoryDir = path.resolve(
@@ -145,6 +145,35 @@ async function writeMapToFile<T extends PhotographyMediaFileWithMetadata>(
       await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
     }
   }
+}
+
+async function writeMapToMasterFile<T extends PhotographyMediaFileWithMetadata>(
+  map: CategoryMap<T>
+) {
+  // define path to write
+  const categoryDir = path.resolve(process.cwd(), "product-data/photography");
+
+  // ensure the directory exists,
+  await fs.mkdir(categoryDir, { recursive: true });
+
+  // Define the targefFile pathe where the byCategory map will be written into a single JSON file
+  const targetFile = path.join(categoryDir, "allphotos.json");
+
+  // Convert the map into a plain Object structure
+  const mapAsObject: Record<string, Record<string, T[]>> = {};
+
+  for (const [category, categoryMap] of map) {
+    // convert the inner map (key -> T[]) into an object
+    mapAsObject[category] = Object.fromEntries(categoryMap);
+  }
+
+  // Prepare the doc
+  const doc = mapAsObject;
+
+  // Write the file
+  await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
+
+  console.log(`Wrote byCategory contents -> ${targetFile}`);
 }
 
 // Run the script
@@ -215,7 +244,8 @@ async function run() {
     sortAllCategories(byCategory);
 
     // write map to file
-    writeMapToFile(byCategory);
+    writeMapToIndividualFile(byCategory);
+    writeMapToMasterFile(byCategory);
   }
   console.log("sorted photography images");
 }
