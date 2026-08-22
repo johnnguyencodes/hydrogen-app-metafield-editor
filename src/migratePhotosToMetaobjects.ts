@@ -66,7 +66,6 @@ async function run() {
         handle: { type: "photo", handle },
         metaobject: {
           fields,
-          capabilities: { publishable: { status: "ACTIVE" } },
         },
       };
 

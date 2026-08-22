@@ -75,11 +75,6 @@ async function pushPhoto(fullPath: string) {
     },
     metaobject: {
       fields,
-      capabilities: {
-        publishable: {
-          status: "ACTIVE",
-        },
-      },
     },
   };
 
