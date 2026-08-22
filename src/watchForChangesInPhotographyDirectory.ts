@@ -1,15 +1,30 @@
 import chokidar from "chokidar";
 import path from "path";
 import { promises as fs } from "node:fs";
+import type { PhotographyMediaFileWithMetadata } from "types/global";
 import { client } from "./lib/newClientInstance";
+import {
+  buildPhotoMetaobjectFields,
+  photoHandle,
+  type ReferenceCache,
+} from "./lib/buildPhotoMetaobjectFields";
 
-export function watchForChangesInDirectory(
-  destination: string,
-  category: string
-) {
-  const directoryToWatch = path.resolve(process.cwd(), destination);
+// Watches product-data/photography/photos/ (one file per photo) and upserts
+// each changed photo as its own `photo` metaobject entry, with
+// camera_body/lens/film_stock/film_format resolved to metaobject references
+// via output/photography-refs.json (run `npm run sync-photo-refs` first,
+// and whenever a new camera/lens/film-stock/film-format value is introduced).
 
-  console.log("directoryToWatch:", directoryToWatch);
+const PHOTOS_DIR = "product-data/photography/photos";
+
+async function loadReferenceCache(): Promise<ReferenceCache> {
+  const refsPath = path.resolve(process.cwd(), "output/photography-refs.json");
+  const raw = await fs.readFile(refsPath, "utf-8");
+  return JSON.parse(raw) as ReferenceCache;
+}
+
+export function watchForChangesInPhotographyDirectory() {
+  const directoryToWatch = path.resolve(process.cwd(), PHOTOS_DIR);
 
   const watcher = chokidar.watch(directoryToWatch, {
     ignoreInitial: true,
@@ -20,21 +35,23 @@ export function watchForChangesInDirectory(
   });
 
   console.log(`watching for changes at ${directoryToWatch}`);
-  watcher.on("add", (path) => {
-    console.log(`file add detected at ${path}`);
-    pushPhotographyData(path, category);
+  watcher.on("add", (filePath) => {
+    console.log(`file add detected at ${filePath}`);
+    pushPhoto(filePath);
   });
-  watcher.on("change", (path) => {
-    console.log(`file change detected at ${path}`);
-    pushPhotographyData(path, category);
+  watcher.on("change", (filePath) => {
+    console.log(`file change detected at ${filePath}`);
+    pushPhoto(filePath);
   });
 }
 
-async function pushPhotographyData(fullPath: string, category: string) {
+async function pushPhoto(fullPath: string) {
   const raw = await fs.readFile(fullPath, "utf-8");
-  const photographyData = JSON.parse(raw);
+  const photo = JSON.parse(raw) as PhotographyMediaFileWithMetadata;
 
-  const fileName = path.parse(fullPath).name;
+  const refs = await loadReferenceCache();
+  const fields = buildPhotoMetaobjectFields(photo, refs);
+  const handle = photoHandle(photo);
 
   const mutation = `
     mutation metaobjectUpsert($handle: MetaobjectHandleInput!, $metaobject: MetaobjectUpsertInput!) {
@@ -47,22 +64,17 @@ async function pushPhotographyData(fullPath: string, category: string) {
           field
           message
         }
-      }  
+      }
     }
   `;
 
   const variables = {
     handle: {
-      type: category,
-      handle: fileName,
+      type: "photo",
+      handle,
     },
     metaobject: {
-      fields: [
-        {
-          key: "images",
-          value: JSON.stringify(photographyData),
-        },
-      ],
+      fields,
       capabilities: {
         publishable: {
           status: "ACTIVE",
@@ -72,25 +84,17 @@ async function pushPhotographyData(fullPath: string, category: string) {
   };
 
   const response = await client.query({
-    data: {
-      query: mutation,
-      variables: variables,
-    },
+    data: { query: mutation, variables },
   });
 
-  // color codes
   const Cyan = "\x1b[36m";
   const Green = "\x1b[32m";
-  const Reset = "\x1b[0m"; // Always use this to stop the color
+  const Reset = "\x1b[0m";
 
   console.log(
-    `${Cyan} Metaobject pushed:${Reset} ${Green}${category} -> ${fileName}${Reset}`,
+    `${Cyan}Metaobject pushed:${Reset} ${Green}photo -> ${handle}${Reset}`,
     JSON.stringify((response as any)?.body?.data, null, 2)
   );
 }
 
-watchForChangesInDirectory("product-data/photography/cameraBody", "cameraBody");
-watchForChangesInDirectory("product-data/photography/filmFormat", "filmFormat");
-watchForChangesInDirectory("product-data/photography/filmStock", "filmStock");
-watchForChangesInDirectory("product-data/photography/lens", "lens");
-watchForChangesInDirectory("product-data/photography", "allphotos");
+watchForChangesInPhotographyDirectory();

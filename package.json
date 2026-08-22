@@ -10,7 +10,10 @@
     "watch-plants": "node --loader ts-node/esm src/watchForChangesInPlantsDirectory.ts",
     "watch-photography": "node --loader ts-node/esm src/watchForChangesInPhotographyDirectory.ts",
     "sort-plants": "node --loader ts-node/esm src/sortPlantsFiles.ts",
-    "sort-photography": "node --loader ts-node/esm src/sortPhotographyFiles.ts"
+    "sort-photography": "node --loader ts-node/esm src/sortPhotographyFiles.ts",
+    "sync-photo-refs": "node --loader ts-node/esm src/lib/fetchPhotographyReferenceMetaobjects.ts",
+    "setup-photo-metaobject": "node --loader ts-node/esm src/setupPhotoMetaobjectDefinition.ts",
+    "migrate-photos": "node --loader ts-node/esm src/migratePhotosToMetaobjects.ts"
   },
   "repository": {
     "type": "git",
