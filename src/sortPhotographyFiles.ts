@@ -1,15 +1,14 @@
-import type {
-  PhotographyMediaFileWithMetadata,
-  CategoryKey,
-  CategoryMap,
-  NodeGroup,
-} from "types/global";
+import type { PhotographyMediaFileWithMetadata } from "types/global";
 import { promises as fs } from "node:fs";
 import path from "path";
 
 // Each media file pulled from Shopify's admin API is a file object. Each object has an image.url that must be named with the following structure for photography images
 // `photography--YYYY-MM-DD--${index}--${filmFormat}--${cameraBody}--${lens}--${filmStockBrand}--${isoNumber}--${aperture}--${shutterSpeed}.jpg`
 // For example: /photography--2025-11-13--013--full-frame--nikon-d850--35mm-105mm-zoom-ais--45mp--iso-200--f56--1-3s.jpg
+//
+// Each photo is written to its own file (product-data/photography/photos/{date}-{index}.json)
+// instead of being duplicated into per-camera/lens/film-stock/film-format
+// category files, since a photo's metadata should live in exactly one place.
 
 async function loadMedia(): Promise<any[]> {
   const masterMediaPath = path.resolve(
@@ -75,179 +74,57 @@ function parseMeta(filename: string) {
   };
 }
 
-// By the time sortMedia is invoked, all photography images have been sorted into their categories
-// Now, they will be sorted by date and index
-function sortMedia(
-  a: PhotographyMediaFileWithMetadata,
-  b: PhotographyMediaFileWithMetadata
-): number {
-  const { date: aDate, index: aIndex } = a.meta;
-  const { date: bDate, index: bIndex } = b.meta;
-
-  // sort by date (most recent first)
-  const aDateObj = new Date(aDate);
-  const bDateObj = new Date(bDate);
-
-  if (bDateObj.getTime() !== aDateObj.getTime()) {
-    return bDateObj.getTime() - aDateObj.getTime();
-  }
-
-  // Then, sort by index from highest to lowest (highest index is most recent)
-  return bIndex - aIndex;
-}
-
-function pushToCategory<T>(
-  map: CategoryMap<T>,
-  category: CategoryKey,
-  key: string,
-  node: T
-) {
-  const categoryMap = map.get(category);
-  if (!categoryMap) return;
-  if (!categoryMap.has(key)) {
-    categoryMap.set(key, []);
-  }
-
-  categoryMap.get(key)!.push(node);
-}
-
-function sortAllCategories<T extends PhotographyMediaFileWithMetadata>(
-  map: CategoryMap<T>
-) {
-  for (const [, categoryMap] of map) {
-    for (const [, value] of categoryMap) {
-      value.sort(sortMedia);
-    }
-  }
-}
-
-async function writeMapToIndividualFile<
-  T extends PhotographyMediaFileWithMetadata,
->(map: CategoryMap<T>) {
-  // write the nodes of each subCategory to their own JSON file inside their respective category folders
-  for (const [category, subMap] of map) {
-    const categoryDir = path.resolve(
-      process.cwd(),
-      "product-data/photography",
-      category
-    );
-
-    // ensure category directory exists
-    await fs.mkdir(categoryDir, { recursive: true });
-
-    // iterate through each subKey and inject the image nodes into the subKey's JSON file
-    for (const [subKey, nodes] of subMap) {
-      const targetFile = path.join(categoryDir, `${subKey}.json`);
-
-      let doc: T[] = nodes;
-
-      // write the doc back to the json file
-      await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
-    }
-  }
-}
-
-async function writeMapToMasterFile<T extends PhotographyMediaFileWithMetadata>(
-  map: CategoryMap<T>
-) {
-  // define path to write
-  const categoryDir = path.resolve(process.cwd(), "product-data/photography");
-
-  // ensure the directory exists,
-  await fs.mkdir(categoryDir, { recursive: true });
-
-  // Define the targefFile pathe where the byCategory map will be written into a single JSON file
-  const targetFile = path.join(categoryDir, "allphotos.json");
-
-  // Convert the map into a plain Object structure
-  const mapAsObject: Record<string, Record<string, T[]>> = {};
-
-  for (const [category, categoryMap] of map) {
-    // convert the inner map (key -> T[]) into an object
-    mapAsObject[category] = Object.fromEntries(categoryMap);
-  }
-
-  // Prepare the doc
-  const doc = mapAsObject;
-
-  // Write the file
-  await fs.writeFile(targetFile, JSON.stringify(doc, null, 2), "utf-8");
-
-  console.log(`Wrote byCategory contents -> ${targetFile}`);
-}
-
 // Run the script
 async function run() {
   const allMedia = await loadMedia();
 
-  // Create data structure to hold all photography files
-  const byCategory: CategoryMap = new Map([
-    ["filmFormat", new Map()],
-    ["cameraBody", new Map()],
-    ["lens", new Map()],
-    ["filmStock", new Map()],
-  ]);
+  const photosDir = path.resolve(process.cwd(), "product-data/photography/photos");
+  await fs.mkdir(photosDir, { recursive: true });
 
-  // iterate through each node and push it to map by the handle
+  let count = 0;
+
   for (const node of allMedia) {
     const url = extractUrl(node);
     if (!url) continue;
 
     // filtering urls to make sure only photography images are being processed
-    if (url.indexOf("photography") !== -1) {
-      const fileName = filenameFromUrl(url);
-      const {
-        fileType,
-        date,
-        index,
-        filmFormat,
-        cameraBody,
-        lens,
-        filmStockBrand,
-        isoNumber,
-        aperture,
-        sanitizedShutterspeed,
-      } = parseMeta(fileName);
+    if (url.indexOf("photography") === -1) continue;
 
-      // adding metadata to metafield for easier processing in hydrogen app
-      const meta = {
-        fileType: fileType,
-        date: date,
-        index: index,
-        filmFormat: filmFormat,
-        cameraBody: cameraBody,
-        lens: lens,
-        filmStockBrand: filmStockBrand,
-        isoNumber: isoNumber,
-        aperture: aperture,
-        shutterspeed: sanitizedShutterspeed,
-      };
+    const fileName = filenameFromUrl(url);
+    const {
+      fileType,
+      date,
+      index,
+      filmFormat,
+      cameraBody,
+      lens,
+      filmStockBrand,
+      isoNumber,
+      aperture,
+      sanitizedShutterspeed,
+    } = parseMeta(fileName);
 
-      node.meta = meta;
+    const meta = {
+      fileType,
+      date,
+      index,
+      filmFormat,
+      cameraBody,
+      lens,
+      filmStockBrand,
+      isoNumber,
+      aperture,
+      shutterspeed: sanitizedShutterspeed,
+    };
 
-      let filmStockBrandAndIso;
+    const photo: PhotographyMediaFileWithMetadata = { ...node, meta };
 
-      if (filmStockBrand === "45mp") {
-        filmStockBrandAndIso = "45mp";
-      } else {
-        filmStockBrandAndIso = filmStockBrand + "-" + isoNumber;
-      }
-
-      // pushing nodes to map by category and subcategory
-      pushToCategory(byCategory, "cameraBody", cameraBody, node);
-      pushToCategory(byCategory, "filmFormat", filmFormat, node);
-      pushToCategory(byCategory, "filmStock", filmStockBrandAndIso, node);
-      pushToCategory(byCategory, "lens", lens, node);
-    }
-
-    // sort media files by date and index per subcategory
-    sortAllCategories(byCategory);
-
-    // write map to file
-    writeMapToIndividualFile(byCategory);
-    writeMapToMasterFile(byCategory);
+    const targetFile = path.join(photosDir, `${date}-${index}.json`);
+    await fs.writeFile(targetFile, JSON.stringify(photo, null, 2), "utf-8");
+    count++;
   }
-  console.log("sorted photography images");
+
+  console.log(`Wrote ${count} photo files to ${photosDir}`);
 }
 
 run().catch((err) => {

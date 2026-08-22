@@ -100,9 +100,9 @@ export type MediaFileWithMetadata = AdminFile & {
 
 export type PhotographyMediaFileWithMetadata = AdminFile & {
   meta: {
-    filetype: string;
-    date: Date;
-    index: number;
+    fileType: string;
+    date: string;
+    index: string;
     filmFormat: string;
     cameraBody: string;
     lens: string;
