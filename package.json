@@ -13,7 +13,9 @@
     "sort-photography": "node --loader ts-node/esm src/sortPhotographyFiles.ts",
     "sync-photo-refs": "node --loader ts-node/esm src/lib/fetchPhotographyReferenceMetaobjects.ts",
     "setup-photo-metaobject": "node --loader ts-node/esm src/setupPhotoMetaobjectDefinition.ts",
-    "migrate-photos": "node --loader ts-node/esm src/migratePhotosToMetaobjects.ts"
+    "migrate-photos": "node --loader ts-node/esm src/migratePhotosToMetaobjects.ts",
+    "add-display-name-fields": "node --loader ts-node/esm src/addDisplayNameFields.ts",
+    "populate-display-names": "node --loader ts-node/esm src/populateDisplayNames.ts"
   },
   "repository": {
     "type": "git",
