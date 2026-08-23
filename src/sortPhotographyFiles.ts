@@ -6,6 +6,14 @@ import path from "path";
 // `photography--YYYY-MM-DD--${index}--${filmFormat}--${cameraBody}--${lens}--${filmStockBrand}--${isoNumber}--${aperture}--${shutterSpeed}.jpg`
 // For example: /photography--2025-11-13--013--full-frame--nikon-d850--35mm-105mm-zoom-ais--45mp--iso-200--f56--1-3s.jpg
 //
+// Aperture format: a whole f-stop is just digits (f11, f16, f22, f8 -> f/11,
+// f/16, f/22, f/8). For a decimal f-stop, use a dash in place of the decimal
+// point (f1-1, f1-8, f5-6 -> f/1.1, f/1.8, f/5.6) - this is required to
+// distinguish e.g. f/1.1 from f/11, which otherwise both encode as "f11".
+// Older files written before this convention (plain digits with no dash,
+// e.g. "f56" for f/5.6) are still supported for display - see
+// formatAperture in the storefront's app/lib/fancyboxOptions.ts.
+//
 // Each photo is written to its own file (product-data/photography/photos/{date}-{index}.json)
 // instead of being duplicated into per-camera/lens/film-stock/film-format
 // category files, since a photo's metadata should live in exactly one place.
